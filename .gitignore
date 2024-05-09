@@ -1,0 +1,4 @@
+/node_modules/
+/.svelte-kit/
+/vite.config.ts.timestamp-*
+/pnpm-lock.yaml
