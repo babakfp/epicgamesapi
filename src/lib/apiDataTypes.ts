@@ -5,6 +5,8 @@ export type Tag = {
     groupName: string
 }
 
+export type Tags = Tag[]
+
 export type Product = {
     id: number
     slug: string
@@ -18,3 +20,5 @@ export type Product = {
     discount: number
     tags: Tag["id"][]
 }
+
+export type Products = Product[]
