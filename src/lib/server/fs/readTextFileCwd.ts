@@ -1,4 +1,4 @@
-import { join } from "path"
+import { join } from "node:path"
 import { readTextFile } from "./readTextFile.js"
 
 export const readTextFileCwd = async (path: string) => {
