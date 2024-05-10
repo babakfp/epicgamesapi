@@ -20,7 +20,7 @@
         ]
     },
     {
-        "id": 1,
+        "id": 2,
         "slug": "mordhau",
         "title": "MORDHAU",
         "description": "MORDHAU is a multiplayer medieval slasher. Create your mercenary and fight in brutal battles where you will experience fast paced combat, castle sieges, cavalry charges, and more.",
@@ -39,7 +39,7 @@
         ]
     },
     {
-        "id": 1,
+        "id": 3,
         "slug": "food-truck-empire",
         "title": "Food Truck Empire",
         "description": "Become the ultimate food truck tycoon. Create your fleet, manage menus, optimize your mobile kitchens and conquer the streets. From cheap burgers to gourmet masterpieces. Find your customers, fill their bellies and build your Food Truck Empire!",
@@ -56,8 +56,8 @@
         ]
     },
     {
-        "id": 2,
-        "slug": "mythbusters---the-game-crazy-experiments-simulator",
+        "id": 4,
+        "slug": "mythbusters-the-game-crazy-experiments-simulator",
         "title": "MythBusters - The Game Crazy Experiments Simulator",
         "description": "Be a MythBuster in front and behind the camera! The game is a first-person sim that adapts the famous Discovery show. Run crazy experiments and manage the production of episodes.",
         "image": {
@@ -75,7 +75,7 @@
         ]
     },
     {
-        "id": 1,
+        "id": 5,
         "slug": "slayers-x",
         "title": "Slayers X",
         "description": "So.... got what it takes to be a X Slayer?!?... 7 weapons, blood and gore, twisted music by Seepage & Psyko Syndikate, and maps where you can blow up everything. its awesome. started making it in 1998 in high school with my friend and now im 37, so i have life experience now.",
@@ -92,7 +92,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 6,
         "slug": "golazo-2",
         "title": "Golazo 2",
         "description": "Golazo 2 boldly recalls the glory days of the arcade soccer games, bringing back memories of cult classics we all know. Street mechanics and fields are added to this sequel to bring more depth to this game.",
@@ -110,7 +110,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 7,
         "slug": "space-haste-2",
         "title": "Space Haste 2",
         "description": "SPACE HASTE II is an adrenaline pumping, futuristic racing game that puts players in the driver’s seat\nof the hottest hovercrafts on the planet.",
@@ -127,7 +127,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 8,
         "slug": "warrior-kings",
         "title": "Warrior Kings",
         "description": "Restoring the power of a kingdom to its former glory using innate cunning, military might and a fearsome will to win.",
@@ -144,7 +144,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 9,
         "slug": "submarine-titans",
         "title": "Submarine Titans",
         "description": "Submarine Titans is a real-time strategy video game that takes place in the year 2115 after a comet has struck Earth, driving two human factions, the militant White Sharks and the scientific Black Octopi, to establish underwater bases and fight for dominance over the oceans.",
@@ -162,7 +162,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 10,
         "slug": "victorian-admirals",
         "title": "Victorian Admirals",
         "description": "A steam-ship period naval combat games focusing on fleet-scale battles in real time. The naval combat game allows you to set up battle squadron groups, their formations and management, with realistic ship models and characteristics, as well as advanced ballistic and weapon models",
@@ -179,7 +179,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 11,
         "slug": "fleet-command",
         "title": "Fleet Command",
         "description": "International waterways become theaters of war when the world's most formidable maritime powers exchange their fatal blows.",
@@ -196,7 +196,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 12,
         "slug": "soccer-story",
         "title": "Soccer Story",
         "description": "The world might as well be over - Soccer Inc. has closed down every local stadium, team and tournament. What kind of world can survive without the beautiful game? Thankfully a magical soccer ball has chosen you, our Savior of Soccer!",
@@ -218,7 +218,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 13,
         "slug": "fire-commander",
         "title": "Fire Commander",
         "description": "See what it means to face the fire. Command a firefighting unit in an exciting tactical RTS. Save lives and care for your team in 30+ missions. Be a real hero!",
@@ -237,7 +237,7 @@
         ]
     },
     {
-        "id": 10,
+        "id": 14,
         "slug": "blossom-tales-ii-the-minotaur-prince",
         "title": "Blossom Tales II The Minotaur Prince",
         "description": "The Minotaur King has returned...and it's all your fault! Lily's back for a new \"classic\" action-adventure set hundreds of years after The Sleeping King!",
@@ -257,7 +257,7 @@
         ]
     },
     {
-        "id": 11,
+        "id": 15,
         "slug": "liberated",
         "title": "Liberated",
         "description": "Liberated is an action-adventure game that unfolds across the pages of a comic book. Seamlessly merging the art of hand-drawn graphic novels with interactivity and side-scrolling action, it’s a revolutionary combination of video games and comics.",
@@ -277,7 +277,7 @@
         ]
     },
     {
-        "id": 12,
+        "id": 16,
         "slug": "bloodrayne-betrayal-fresh-bites",
         "title": "BloodRayne Betrayal Fresh Bites",
         "description": "WayForward has enhanced this 2011 classic with new voice acting -- by Laura Bailey and Troy Baker -- as well as sharpened visuals and rebalanced gameplay. Fight and feed your way through an underground castle to confront Rayne’s father at the behest of the Brimstone Society.",
@@ -294,8 +294,8 @@
         ]
     },
     {
-        "id": 13,
-        "slug": "bloodrayne:-terminal-cut",
+        "id": 17,
+        "slug": "bloodrayne-terminal-cut",
         "title": "BloodRayne: Terminal Cut",
         "description": "Enhanced for modern systems, this definitive edition of the action horror game unleashed the red-headed dhampir on the world. In a story spanning five years, Rayne must stop a madman bent on using occult relics to bring about a new age of domination for the Third Reich.",
         "image": {
@@ -313,8 +313,8 @@
         ]
     },
     {
-        "id": 14,
-        "slug": "bloodrayne-2:-terminal-cut",
+        "id": 18,
+        "slug": "bloodrayne-2-terminal-cut",
         "title": "BloodRayne 2: Terminal Cut",
         "description": "Enhanced for modern systems, this is a definitive edition of Rayne’s second adventure: a blood-soaked rampage of vengeance against the Cult of Kagan, a group led by Rayne's half-siblings that seek to carry out Kagan's legacy by creating a new era of vampire supremacy.",
         "image": {
@@ -332,7 +332,7 @@
         ]
     },
     {
-        "id": 15,
+        "id": 19,
         "slug": "necroworm",
         "title": "NecroWorm",
         "description": "It's MIDNIGHT, you're DEAD, and got a bad case of THE MUNCHIES. Chew your way through 120 levels of addictive puzzle gameplay, where your only goal is to devour everything but your own wormy self. It's quick, tasty, and hard to resist. Just like a late-night snack.",
@@ -350,8 +350,8 @@
         ]
     },
     {
-        "id": 16,
-        "slug": "wanderlust:-travel-stories",
+        "id": 20,
+        "slug": "wanderlust-travel-stories",
         "title": "Wanderlust: Travel Stories",
         "description": "Wanderlust: Travel Stories is a bridge between literature and gaming. Step into the shoes of modern travelers—explore their desires, hopes and fears, and shape how their stories unfold. Make this journey your own.",
         "image": {
@@ -369,7 +369,7 @@
         ]
     },
     {
-        "id": 17,
+        "id": 21,
         "slug": "nira",
         "title": "Nira",
         "description": "Explore procedurally generated islands in this fast-paced, sandbox survival adventure filled with building, crafting, fighting, farming and quests. Build a base, hunt, cook, battle ogres, make friends with a mysterious Totem, ride an alpaca, do whatever you need to survive.",
@@ -391,7 +391,7 @@
         ]
     },
     {
-        "id": 18,
+        "id": 22,
         "slug": "bite-the-bullet",
         "title": "Bite the Bullet",
         "description": "Run, Gun and Eat your way through this roguelite RPG shooter. In a world where every enemy is edible, what you eat and how much you eat drives everything from your waistline to branching skill trees to weapon crafting. Shoot fast. Eat big. Satisfy your appetite for destruction.",
@@ -413,7 +413,7 @@
         ]
     },
     {
-        "id": 19,
+        "id": 23,
         "slug": "cyber-hook",
         "title": "Cyber Hook",
         "description": "Speed through a gorgeous retrowave world using parkour skills and a grappling hook to scale and ride walls in this fast-paced, 3D platformer. Blast enemies, manipulate time and abuse physics to avoid falling to your death.",
@@ -434,24 +434,7 @@
         ]
     },
     {
-        "id": 20,
-        "slug": "shapez",
-        "title": "shapez",
-        "description": "shapez is a game about building factories to automate the creation and processing of increasingly complex shapes across an infinitely expanding map.",
-        "image": {
-            "tall": "https://cdn1.epicgames.com/spt-assets/6aac3071aeae452990a71aac0a1fbc30/shapez-l0klk.png",
-            "wide": "https://cdn1.epicgames.com/spt-assets/6aac3071aeae452990a71aac0a1fbc30/shapez-1iyyz.png"
-        },
-        "price": 999,
-        "discount": 0,
-        "tags": [
-            36,
-            45,
-            56
-        ]
-    },
-    {
-        "id": 21,
+        "id": 24,
         "slug": "the-abbey",
         "title": "The Abbey",
         "description": "Thou shalt not kill!",
@@ -468,7 +451,7 @@
         ]
     },
     {
-        "id": 1,
+        "id": 25,
         "slug": "system-purge",
         "title": "System Purge",
         "description": "Trapped in a buried, forgotten facility, you must reach the core of an ancient machine to rescue your lost lover. System Purge is a challenging, atmospheric 2D platformer.",
@@ -488,27 +471,7 @@
         ]
     },
     {
-        "id": 2,
-        "slug": "garbage-pail-kids:-mad-mike...",
-        "title": "Garbage Pail Kids: Mad Mike...",
-        "description": "Garbage Pail Kids are back in this Long-Lost, All-New platforming adventure. Featuring four playable characters, six secret-filled levels, and a trading-card system, Garbage Pail Kids: Mad Mike and the Quest for Stale Gum is a throwback to the golden era of 80s gaming.",
-        "image": {
-            "tall": "https://cdn1.epicgames.com/spt-assets/8439a9a25ae64a688ac1c3dbd3a553ae/download-garbage-pail-kids-mad-mike-and-the-quest-for-stale-gum-offer-uvup8.png",
-            "wide": "https://cdn1.epicgames.com/spt-assets/8439a9a25ae64a688ac1c3dbd3a553ae/garbage-pail-kids-mad-mike-and-the-quest-for-stale-gum-offer-h9pju.png"
-        },
-        "price": 999,
-        "discount": 0,
-        "tags": [
-            2,
-            45,
-            56,
-            5,
-            12,
-            35
-        ]
-    },
-    {
-        "id": 3,
+        "id": 26,
         "slug": "the-mortuary-assistant",
         "title": "The Mortuary Assistant",
         "description": "Alone with the dead... Embalm corpses, banish demons, save your soul.",
@@ -525,7 +488,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 27,
         "slug": "evoland-legendary-edition",
         "title": "Evoland Legendary Edition",
         "description": "Evoland Legendary Edition brings you two great and unique RPGs, with their graphic style and gameplay changing as you progress through the game!",
@@ -545,7 +508,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 28,
         "slug": "mysterious-misadventures-of-mollie-and-mordecai",
         "title": "Mysterious Misadventures of Mollie and Mordecai",
         "description": "One tragic Halloween, Mordecai is captured by an Evil Wizard and must rely on Mollie's help to exit the Twisted Estate! Transformed by Magic into Dolls, they’ll use their Unique Skills and Level Up while encountering Enemies, Puzzles and More on this Epic Adventure!",
@@ -562,7 +525,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 29,
         "slug": "terror-of-hemasaurus",
         "title": "Terror of Hemasaurus",
         "description": "A retro city smash 'em up with satisfying destruction physics. Play as a Giant Monster unleashing terror upon mankind in this modern arcade experience with the action turned up to eleven.",
@@ -579,7 +542,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 30,
         "slug": "trifox",
         "title": "Trifox",
         "description": "Use magic, might, and marvelous gadgets to outfox foes across four danger-filled worlds as you fight your way to a final showdown at Villain HQ!",
@@ -598,8 +561,8 @@
         ]
     },
     {
-        "id": 8,
-        "slug": "suchart:-genius-artist-simulator",
+        "id": 31,
+        "slug": "suchart-genius-artist-simulator",
         "title": "SuchArt: Genius Artist Simulator",
         "description": "A unique artist sim game with realistic paint mixing, physics and numerous painting tools. Upgrade and customize your studio, complete tasks, sell and expose art, buy instruments and get famous!",
         "image": {
@@ -616,7 +579,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 32,
         "slug": "faraday-protocol",
         "title": "Faraday Protocol",
         "description": "Faraday Protocol is a first person puzzle game that will test your wits and intelligence.",
@@ -636,25 +599,7 @@
         ]
     },
     {
-        "id": 10,
-        "slug": "toejam-&-earl:-back-in-the-groove!",
-        "title": "ToeJam & Earl: Back in the Groove!",
-        "description": "ToeJam & Earl: Back in the Groove is a mash-up of the best features from the classic console games with a ton of funky fresh improvements.\n\nRelive the original roguelike game with new 4 player online and local co-op, crazy Earthlings, weird presents and aliens from Funkotron!",
-        "image": {
-            "tall": "https://cdn1.epicgames.com/spt-assets/428b51d4cd29482889841fa188b362b4/download-toejam-and-earl-back-in-the-groove-offer-2qpeb.png",
-            "wide": "https://cdn1.epicgames.com/spt-assets/428b51d4cd29482889841fa188b362b4/toejam-and-earl-back-in-the-groove-offer-15w7f.png"
-        },
-        "price": 1499,
-        "discount": 0,
-        "tags": [
-            9,
-            6,
-            56,
-            27
-        ]
-    },
-    {
-        "id": 11,
+        "id": 33,
         "slug": "the-darkest-tales",
         "title": "The Darkest Tales",
         "description": "When a nightmare creeps into reality, the only ones that can help are those whose magical powers we’ve believed in since childhood. A brave teddy bear heads to the far side of “happily ever after” to rescue his owner, Alicia.",
@@ -674,8 +619,8 @@
         ]
     },
     {
-        "id": 12,
-        "slug": "werewolf:-the-apocalypse-—-heart-of-the-forest",
+        "id": 34,
+        "slug": "werewolf-the-apocalypse-heart-of-the-forest",
         "title": "Werewolf: The Apocalypse — Heart of the Forest",
         "description": "Explore the myths and monsters of Europe’s last primeval wilderness. Play as Maia, who arrives at the ancient Białowieża Forest looking to explore her family history. Discover Rage in an adventure game inspired by the experience of the legendary RPG.",
         "image": {
@@ -693,7 +638,7 @@
         ]
     },
     {
-        "id": 13,
+        "id": 35,
         "slug": "source-of-madness",
         "title": "Source of Madness",
         "description": "Source of Madness is a side-scrolling dark action roguelite set in a twisted Lovecraftian inspired world powered by procedural generation and AI machine learning. Take on the role of a new Acolyte as they embark on a nightmarish odyssey.",
@@ -712,25 +657,7 @@
         ]
     },
     {
-        "id": 14,
-        "slug": "firegirl:-hack-'n-splash-rescue-dx",
-        "title": "Firegirl: Hack 'n Splash Rescue DX",
-        "description": "Take on the role of a young rescue officer starting her career. Armed with a trusty axe and high-pressure fire hose that also acts like a jetpack, Firegirl responds to emergency calls across the city. Can Firegirl save all the trapped civilians caught in each blaze?",
-        "image": {
-            "tall": "https://cdn1.epicgames.com/spt-assets/46bb84ce838b4dc083ae0b1f3a6992e0/download-firegirl-hack-n-splash-rescue-dx-offer-19rmz.png",
-            "wide": "https://cdn1.epicgames.com/spt-assets/46bb84ce838b4dc083ae0b1f3a6992e0/firegirl-hack-n-splash-rescue-dx-offer-v3mzn.png"
-        },
-        "price": 1799,
-        "discount": 0,
-        "tags": [
-            1,
-            45,
-            56,
-            12
-        ]
-    },
-    {
-        "id": 15,
+        "id": 36,
         "slug": "bibots",
         "title": "Bibots",
         "description": "Bibots is a top-down shooter rogue lite set in a futuristic world. Play as Tayar, an explorer in control of a nervy robot and clear rooms filled with monsters, powers and secrets to unveil. Die, try and repeat until you face your world’s final threat.",
@@ -748,7 +675,7 @@
         ]
     },
     {
-        "id": 16,
+        "id": 37,
         "slug": "broken-pieces",
         "title": "Broken Pieces",
         "description": "Broken Pieces is a psychological thriller taking place in a french coastal village somehow outside the flow of time. Solve the mysteries by putting the pieces of the story back together by figuring out the enigma behind this mystical place.",
@@ -767,7 +694,7 @@
         ]
     },
     {
-        "id": 17,
+        "id": 38,
         "slug": "undetected",
         "title": "Undetected",
         "description": "Stealth your way through the shadows and uncover a corporate conspiracy. Become a cyber-augmented agent in this gameplay-focused stealth game that brings classic sneaking to the modern era.",
@@ -785,7 +712,7 @@
         ]
     },
     {
-        "id": 18,
+        "id": 39,
         "slug": "funtasia",
         "title": "Funtasia",
         "description": "Funtasia, a colorful paradise polluted by airborne garbage. Only a handful of heroes & their goofy wheel machinations can help fend off the trash. Push pedal to metal, drive fast & survive the Furry Road in a physics-based, side-scrolling race for single & co-op shenanigans!",
@@ -807,7 +734,7 @@
         ]
     },
     {
-        "id": 19,
+        "id": 40,
         "slug": "runbow",
         "title": "Runbow",
         "description": "Runbow, and all its 9-player madness, is now on Epic!\nWith tons of competitive modes for up to 9 players--locally and online--and a massive Single Player Adventure, Runbow is the crazy, colour-based platformer you've been waiting for.",
@@ -830,7 +757,7 @@
         ]
     },
     {
-        "id": 20,
+        "id": 41,
         "slug": "call-of-cthulhu",
         "title": "Call of Cthulhu",
         "description": "1924. Private Investigator Pierce is sent to look into the tragic death of the Hawkins'. Plunge into a world of creeping madness and cosmic horror. Cryptic clues, shadowy figures, and pure terror bar your way as you fight to retain your sanity and solve an otherworldly mystery.",
@@ -848,7 +775,7 @@
         ]
     },
     {
-        "id": 21,
+        "id": 42,
         "slug": "anno-mutationem",
         "title": "ANNO Mutationem",
         "description": "ANNO: Mutationem is an action-adventure game with RPG elements set in a cyberpunk world, featuring a unique mix of pixelated 2D & 3D graphic style with a rich, dark and bizarre plot.",
@@ -868,7 +795,7 @@
         ]
     },
     {
-        "id": 22,
+        "id": 43,
         "slug": "avernum-escape-from-the-pit",
         "title": "Avernum Escape From the Pit",
         "description": "Avernum is a land underground, a subterranean nation full of rogues, misfits, and brigands, struggling for survival in the monster-infested darkness. Hunt for glory and justice in the underworld. Fight for survival, freedom, and even vengeance in the epic indie cult-classic.",
@@ -887,7 +814,7 @@
         ]
     },
     {
-        "id": 23,
+        "id": 44,
         "slug": "absolute-tactics",
         "title": "Absolute Tactics",
         "description": "Absolute Tactics is a turn-based, tactical RPG adventure with a compelling storyline and strategic battles, puzzles and quests. Evoke your heroes’ unique, class-based abilities and attack patterns and customize your playstyle to defeat an array of enemies and giant boss monsters.",
@@ -906,8 +833,8 @@
         ]
     },
     {
-        "id": 24,
-        "slug": "blind-fate:-edo-no-yami",
+        "id": 45,
+        "slug": "blind-fate-edo-no-yami",
         "title": "Blind Fate: Edo no Yami",
         "description": "Dive into a world that mixes Sci-Fi and ancient tradition. Slash through robots with a trusty katana, use hi-tech implants to navigate the surroundings, dodge enemy attacks, and land devastating finishers. Reclaim the past following the way of the Japanese samurai in the fantasti",
         "image": {
@@ -924,7 +851,7 @@
         ]
     },
     {
-        "id": 1,
+        "id": 46,
         "slug": "foretales",
         "title": "Foretales",
         "description": "Decide the fate of the world in this ingenious story-driven card game.\n\nForetales offers a unique take on the adventure genre, with a multitude of playstyles and story paths through which you can save the world… or bring about its end.",
@@ -943,7 +870,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 47,
         "slug": "tour-de-france-2022",
         "title": "Tour de France 2022",
         "description": "Fight for the yellow jersey in the official game of the Tour de France 2022. Experience the new online mode with weekly challenges and leaderboards. In Solo mode, you can now deal with incidents (injuries, illnesses) during the 92 stages available.",
@@ -960,7 +887,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 48,
         "slug": "space-empires-iii",
         "title": "Space Empires III",
         "description": "The third game within the Space Empires series brings the dawn of a new age of exploration. Your race keeps running through the fabric of space and moves to other solar systems beyond your own.",
@@ -979,7 +906,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 49,
         "slug": "space-empires-ii",
         "title": "Space Empires II",
         "description": "Explore the galaxy, discover and colonize new planets to acquire enough resources. Design your ships, choosing from different hulls, weapons, shields, and several devices. Once you advance with technologies, new systems will be available, and you will have to update your designs",
@@ -998,7 +925,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 50,
         "slug": "space-empires-i",
         "title": "Space Empires I",
         "description": "Space Empires I is the first chapter of the Space Empires series. A classic galactic conquest and turn-based strategy video game where you are the leader of a race of intelligent beings building large spaceships for interplanetary and interstellar travel through warp points...",
@@ -1017,7 +944,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 51,
         "slug": "king-of-retail",
         "title": "King of Retail",
         "description": "The store is your kingdom! Expand your humble boutique into a thriving business: hire the right staff, decorate your displays, and lure in customers. Even your wildest ideas can turn a profit. Why not start a business that sells only white T-shirts and ketchup? PCs and beans? You",
@@ -1036,7 +963,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 52,
         "slug": "disciples-sacred-lands-gold",
         "title": "Disciples Sacred Lands Gold",
         "description": "Disciples GOLD takes the phenomenal gameplay, stunning graphics, over 100 spells and a powerful scenario editor of Disciples and adds new scenarios and gameplay features that set the new standard in Turn-Based Strategy.",
@@ -1053,8 +980,8 @@
         ]
     },
     {
-        "id": 8,
-        "slug": "disciples-ii---galleans-return",
+        "id": 53,
+        "slug": "disciples-ii-galleans-return",
         "title": "Disciples II - Galleans Return",
         "description": "Disciples II: Gallean's Return is a compilation edition that includes the base game, Disciples II: Dark Prophecy, plus the two standalone expansions Disciples II: Guardians of the Light and Disciples II: Servants of the Dark.",
         "image": {
@@ -1070,7 +997,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 54,
         "slug": "vegas-make-it-big",
         "title": "Vegas Make It Big",
         "description": "Develop a state-of-the art Las Vegas resort complex, using all the money and management skill you can. Customers on the living, breathing Las Vegas boulevard are Notoriously hard to satisfy - can you win the hearts and wallets of Vegas? Amazing real-time 3D graphics...",
@@ -1087,7 +1014,7 @@
         ]
     },
     {
-        "id": 10,
+        "id": 55,
         "slug": "descent-ii",
         "title": "Descent II",
         "description": "You're going down...again.",
@@ -1107,7 +1034,7 @@
         ]
     },
     {
-        "id": 11,
+        "id": 56,
         "slug": "descent",
         "title": "Descent",
         "description": "Prepare To Start Your Descent.",
@@ -1127,8 +1054,8 @@
         ]
     },
     {
-        "id": 12,
-        "slug": "justice-sucks:-tactical-vacuum-action",
+        "id": 57,
+        "slug": "justice-sucks-tactical-vacuum-action",
         "title": "JUSTICE SUCKS: Tactical Vacuum Action",
         "description": "JUSTICE SUCKS is a stealth/action game about a killer robot vacuum cleaner on a quest for vengeance through a 90s TV universe. Stalk your prey, hack smart devices, turn them into deadly traps and consume the blood of your enemies to unleash devastating powers.",
         "image": {
@@ -1145,7 +1072,7 @@
         ]
     },
     {
-        "id": 13,
+        "id": 58,
         "slug": "nine-noir-lives",
         "title": "Nine Noir Lives",
         "description": "Stretch your legs, clean your whiskers, and dive into a \"point-and-lick\" comedy-noir adventure, full of humour, crazy characters, and intriguing locations. Solve challenging puzzles and answer the question: how many things need to be licked to solve a murder in this town?",
@@ -1163,7 +1090,7 @@
         ]
     },
     {
-        "id": 14,
+        "id": 59,
         "slug": "conquest-of-the-new-world",
         "title": "Conquest of the New World",
         "description": "Exploration, Deception, Conquest & Victory. Do you have what it takes to build the ultimate nation?",
@@ -1182,26 +1109,7 @@
         ]
     },
     {
-        "id": 15,
-        "slug": "m.a.x.---mechanized-assault-and-exploration",
-        "title": "M.A.X. - Mechanized Assault and Exploration",
-        "description": "Create.\nControl.\nCrush.\n\nStrategic Warfare to the MAX!",
-        "image": {
-            "tall": "https://cdn1.epicgames.com/spt-assets/fe96abc7bccd4c019d0db4b5f758d9e4/download-max--mechanized-assault-and-exploration-offer-b06al.jpg",
-            "wide": "https://cdn1.epicgames.com/spt-assets/fe96abc7bccd4c019d0db4b5f758d9e4/max--mechanized-assault-and-exploration-offer-11gvz.jpg"
-        },
-        "price": 999,
-        "discount": 0,
-        "tags": [
-            1,
-            45,
-            49,
-            56,
-            27
-        ]
-    },
-    {
-        "id": 16,
+        "id": 60,
         "slug": "onsen-master",
         "title": "Onsen Master",
         "description": "Onsen Master is a hot spring customer management game where players create ingredients to match various customer ailments, across the fantasy island of Izajima!",
@@ -1218,7 +1126,7 @@
         ]
     },
     {
-        "id": 17,
+        "id": 61,
         "slug": "restless-soul",
         "title": "Restless Soul",
         "description": "Laugh in the face of death in this hauntingly humorous comedy adventure about a wayward soul trying to make it back to the land of the living. Engage in bullet-hell lite battles, solve puzzles, and communicate with the dead as you navigate this “colorful” world.",
@@ -1240,7 +1148,7 @@
         ]
     },
     {
-        "id": 18,
+        "id": 62,
         "slug": "banished",
         "title": "Banished",
         "description": "Control a group of exiled travelers restarting their lives in the wilderness. Guide them on their journey from humble beginnings to living in a thriving village.",
@@ -1259,7 +1167,7 @@
         ]
     },
     {
-        "id": 19,
+        "id": 63,
         "slug": "tinykin",
         "title": "Tinykin",
         "description": "Catch hundreds of tinykin and use their unique powers to bring Milo back to his home planet and back to normal size!",
@@ -1278,7 +1186,7 @@
         ]
     },
     {
-        "id": 20,
+        "id": 64,
         "slug": "chasing-static",
         "title": "Chasing Static",
         "description": "A psychological horror short story. Explore the untouched wilderness of rural Wales as you uncover the forgotten remains of a mysterious facility and find the truth behind the missing villagers of Hearth.",
@@ -1298,8 +1206,8 @@
         ]
     },
     {
-        "id": 21,
-        "slug": "ankh-3:-battle-of-the-gods",
+        "id": 65,
+        "slug": "ankh-3-battle-of-the-gods",
         "title": "Ankh 3: Battle of the Gods",
         "description": "The omens of the Battle of the Gods have been many, signaling the impending fight for supremacy over all other gods of Egypt. And of course, Assil will be caught in the middle of it all again. Together with his girlfriend Thara, he will have to prevent the sinister Seth...",
         "image": {
@@ -1315,8 +1223,8 @@
         ]
     },
     {
-        "id": 22,
-        "slug": "ankh-2:-heart-of-osiris",
+        "id": 66,
+        "slug": "ankh-2-heart-of-osiris",
         "title": "Ankh 2: Heart of Osiris",
         "description": "This time he will not fail. This time Osiris will show the world of humans what he's made of. But the ankh alone is not enough - not as long as he hasn't found the most important part of his body: his heart. Life has not been kind to Assil.",
         "image": {
@@ -1332,8 +1240,8 @@
         ]
     },
     {
-        "id": 23,
-        "slug": "castles-ii---siege-and-conquest",
+        "id": 67,
+        "slug": "castles-ii-siege-and-conquest",
         "title": "Castles II - Siege and Conquest",
         "description": "Immerse yourself in all of the glory and honor of being a medieval Baron struggling for the throne!",
         "image": {
@@ -1350,7 +1258,7 @@
         ]
     },
     {
-        "id": 24,
+        "id": 68,
         "slug": "castles",
         "title": "Castles",
         "description": "Design and Build Authentic Medieval Castles!",
@@ -1368,7 +1276,7 @@
         ]
     },
     {
-        "id": 25,
+        "id": 69,
         "slug": "double-cross",
         "title": "Double Cross",
         "description": "Explore alternate dimensions, fight interdimensional criminals, and solve crimes in this thrilling action platformer!",
@@ -1389,7 +1297,7 @@
         ]
     },
     {
-        "id": 26,
+        "id": 70,
         "slug": "rez-plz",
         "title": "REZ PLZ",
         "description": "A puzzle platformer with a new twist on co-op and single player gameplay. Solve puzzles, platforming challenges, and encounter dangerous monsters and traps that require you to KILL and resurrect your brother to advance! Death is just part of the adventure.",
@@ -1411,8 +1319,8 @@
         ]
     },
     {
-        "id": 27,
-        "slug": "mable-&-the-wood",
+        "id": 71,
+        "slug": "mable-and-the-wood",
         "title": "Mable & The Wood",
         "description": "Hunt down massive beasts and, upon destroying them, shapeshift into their forms in order to use their powers to save or destroy the world. Players with less violent intent can find secret paths to complete Mable without killing anything, including bosses.",
         "image": {
@@ -1432,7 +1340,7 @@
         ]
     },
     {
-        "id": 28,
+        "id": 72,
         "slug": "i-was-a-teenage-exocolonist",
         "title": "I Was a Teenage Exocolonist",
         "description": "Spend your teenage years on an alien planet in this narrative RPG with card-based battles. Explore, grow up, and fall in love. The choices you make and skills you master over ten years will determine the course of your life and the survival of your colony.",
@@ -1453,8 +1361,8 @@
         ]
     },
     {
-        "id": 29,
-        "slug": "queen's-wish-2:-the-tormentor",
+        "id": 73,
+        "slug": "queens-wish-2-the-tormentor",
         "title": "Queen's Wish 2: The Tormentor",
         "description": "You are in a barbarian land. They are trying to kill you. The Queen demands you tame them. What now? Escape into an exciting, open-ended story and cunning tactical combat. Epic, indie fantasy adventure. Freely explore a huge world, fight for fame and power, and reshape the world.",
         "image": {
@@ -1471,8 +1379,8 @@
         ]
     },
     {
-        "id": 30,
-        "slug": "fallen-legion:-rise-to-glory",
+        "id": 74,
+        "slug": "fallen-legion-rise-to-glory",
         "title": "Fallen Legion: Rise to Glory",
         "description": "Fallen Legion is an intense action RPG where every battle is a heart-pounding fight and each gut-wrenching choice impacts the realm.",
         "image": {
@@ -1491,7 +1399,7 @@
         ]
     },
     {
-        "id": 31,
+        "id": 75,
         "slug": "fallen-legion-revenants",
         "title": "Fallen Legion Revenants",
         "description": "Your choices will decide the fates of many! Manipulate the castle above and lead heroes into battle in the world below in this real-time action RPG!",
@@ -1511,7 +1419,7 @@
         ]
     },
     {
-        "id": 32,
+        "id": 76,
         "slug": "pray-for-death",
         "title": "Pray for Death",
         "description": "The Ultimate Combat Challenge!",
@@ -1531,8 +1439,8 @@
         ]
     },
     {
-        "id": 33,
-        "slug": "a-tale-of-paper:-refolded",
+        "id": 77,
+        "slug": "a-tale-of-paper-refolded",
         "title": "A Tale of Paper: Refolded",
         "description": "A Tale of Paper is a puzzle-platformer that tells the story of Line, a magical character made of paper who can use origami to change its shape. Transform into a frog, a rocket, a bird and more as Line embarks on an emotional journey to fulfill the dream of its creator.",
         "image": {
@@ -1551,7 +1459,7 @@
         ]
     },
     {
-        "id": 34,
+        "id": 78,
         "slug": "shattered-steel",
         "title": "Shattered Steel",
         "description": "Strike First\nStrike Fast\nStrike Hard",
@@ -1571,7 +1479,7 @@
         ]
     },
     {
-        "id": 35,
+        "id": 79,
         "slug": "vr-soccer-96",
         "title": "VR Soccer 96",
         "description": "Feel the soccer once again",
@@ -1591,7 +1499,7 @@
         ]
     },
     {
-        "id": 36,
+        "id": 80,
         "slug": "slaycation-paradise",
         "title": "Slaycation Paradise",
         "description": "Are you tired of the same boring old vacations? Then boy have we got the tonic for you! Slaycation Paradise offers the ultimate in multi-dimensional apocalyptic tours. Slay away your worries with Twin-Stick action mixed with Tower Defence.",
@@ -1608,7 +1516,7 @@
         ]
     },
     {
-        "id": 37,
+        "id": 81,
         "slug": "the-surge-2",
         "title": "The Surge 2",
         "description": "On the way to Jericho City, your plane is shot down by a mysterious storm and crash-lands in the outskirts. Armor-clad soldiers enforce Martial Law, robots are on a rampage, and a dark, expanding nanostorm looms over the cityscape...",
@@ -1626,7 +1534,7 @@
         ]
     },
     {
-        "id": 38,
+        "id": 82,
         "slug": "space-empires-v",
         "title": "Space Empires V",
         "description": "Space Empires V is the latest edition in the Space Empires series. This new chapter completely updates the UI and takes the player into a real-time rendered 3D universe.",
@@ -1645,7 +1553,7 @@
         ]
     },
     {
-        "id": 39,
+        "id": 83,
         "slug": "cyberia",
         "title": "Cyberia",
         "description": "Take control of outlaw computer hacker Zak as you infiltrate a secret terrorist base to steal the ultimate doomsday device",
@@ -1664,8 +1572,8 @@
         ]
     },
     {
-        "id": 40,
-        "slug": "cyberia-2---resurrection",
+        "id": 84,
+        "slug": "cyberia-2-resurrection",
         "title": "Cyberia 2 - Resurrection",
         "description": "Zak's back, resurrected from a living death to put his cyberhero skills to the ultimate test.",
         "image": {
@@ -1683,29 +1591,7 @@
         ]
     },
     {
-        "id": 41,
-        "slug": "cook,-serve,-delicious!-3?!",
-        "title": "Cook, Serve, Delicious! 3?!",
-        "description": "Cook, serve and manage your food truck as you dish out hundreds of different foods across war-torn America in this massive sequel to the million-selling series!",
-        "image": {
-            "tall": "https://cdn1.epicgames.com/spt-assets/28430738e6554ff0a67d9a93402c4348/download-cook-serve-delicious-3-offer-1y5ir.jpg",
-            "wide": "https://cdn1.epicgames.com/spt-assets/28430738e6554ff0a67d9a93402c4348/cook-serve-delicious-3-offer-11zbq.jpg"
-        },
-        "price": 1999,
-        "discount": 0,
-        "tags": [
-            1,
-            56,
-            12,
-            9,
-            44,
-            45,
-            49,
-            27
-        ]
-    },
-    {
-        "id": 42,
+        "id": 85,
         "slug": "locks-quest",
         "title": "Locks Quest",
         "description": "Build Defenses and Battle against the Clockwork horde in this 2D Action RPG / Tower Defense hybrid. Experience a gripping story, which unfolds as you progress through 75 Days of warfare, aided by a collection of turrets, traps and special attacks.",
@@ -1723,7 +1609,7 @@
         ]
     },
     {
-        "id": 43,
+        "id": 86,
         "slug": "project-highrise",
         "title": "Project Highrise",
         "description": "Project Highrise is a skyscraper construction and management sim",
@@ -1740,7 +1626,7 @@
         ]
     },
     {
-        "id": 44,
+        "id": 87,
         "slug": "filament",
         "title": "Filament",
         "description": "Solve challenging cable-based puzzles and uncover what really happened to the crew of The Alabaster. Now with Hint System (for those ultra tricky puzzles).",
@@ -1759,7 +1645,7 @@
         ]
     },
     {
-        "id": 45,
+        "id": 88,
         "slug": "recipe-for-disaster",
         "title": "Recipe for Disaster",
         "description": "Recipe for Disaster is a management sim that captures the fast-paced, drama-filled environment of a professional kitchen and dining room. Build your dream restaurant, create recipes, design menus and manage your staff, all while contending with disastrous situations!",
@@ -1777,7 +1663,7 @@
         ]
     },
     {
-        "id": 46,
+        "id": 89,
         "slug": "toonstruck",
         "title": "Toonstruck",
         "description": "A Word to the wise: BETTER PACK AN ANVIL",
@@ -1797,7 +1683,7 @@
         ]
     },
     {
-        "id": 47,
+        "id": 90,
         "slug": "lost-eden",
         "title": "Lost Eden",
         "description": "An adventure-strategy game in a world never before imagined",
@@ -1816,8 +1702,8 @@
         ]
     },
     {
-        "id": 1,
-        "slug": "kingdom---the-far-reaches",
+        "id": 91,
+        "slug": "kingdom-the-far-reaches",
         "title": "Kingdom - The Far Reaches",
         "description": "An Epic, Interactive Adventure The Whole Family Will Enjoy",
         "image": {
@@ -1834,7 +1720,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 92,
         "slug": "redneck-rampage-rides-again",
         "title": "Redneck Rampage Rides Again",
         "description": "Includes 14 new single player levels new enemies, weapons, and vehicles, including motorcycles and swamp boats!",
@@ -1854,7 +1740,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 93,
         "slug": "redneck-rampage",
         "title": "Redneck Rampage",
         "description": "A Butt-Kickin' Gun-Totin', Romp Through Hickston, U.S.A.",
@@ -1875,7 +1761,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 94,
         "slug": "redneck-deer-huntin",
         "title": "Redneck Deer Huntin",
         "description": "Deer hunting, redneck style! Join Leonard, a redneck native, and do your hunting four different animals (deer, duck, razorback, and wild turkey) in 8 acres of wilderness with different weapons in Redneck country. This is hunting with attitude!",
@@ -1895,7 +1781,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 95,
         "slug": "sine-mora-ex",
         "title": "Sine Mora Ex",
         "description": "Sine Mora EX is a side-scrolling shoot'em up that provides a unique challenge, where time is the ultimate factor. Sine Mora EX is a gorgeous shoot'em up offering both a Story Mode that weaves an over-the-top tale and an Arcade Mode that provides deep, satisfying gameplay.",
@@ -1912,7 +1798,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 96,
         "slug": "curse-of-the-deadwood",
         "title": "Curse of the Deadwood",
         "description": "A unique couch co-op evolution of the twin-stick genre that will have you taking simultaneous control of two unlikely friends as they fight their way through hordes of wooden zombies. Balance a varied arsenal of long-ranged weapons with devastating melee and magic attacks.",
@@ -1932,7 +1818,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 97,
         "slug": "lawn-mowing-simulator",
         "title": "Lawn Mowing Simulator",
         "description": "Experience the beauty and detail of mowing the Great British countryside in Lawn Mowing Simulator, the only simulator that allows you to ride an authentic and expansive roster of real-world licensed lawn mowers from prestigious manufacturers as you manage your business.",
@@ -1950,7 +1836,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 98,
         "slug": "dragon-wars",
         "title": "Dragon Wars",
         "description": "The designers of the Bard's Tale series, Wasteland and Battle Chess pooled their talents to create the ultimate role-playing fantasy. The result was Dragon Wars.",
@@ -1969,7 +1855,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 99,
         "slug": "stonekeep",
         "title": "Stonekeep",
         "description": "Interplay brings its most electrifying epic from the computer screen into your mind, body, and soul.",
@@ -1988,7 +1874,7 @@
         ]
     },
     {
-        "id": 10,
+        "id": 100,
         "slug": "hell-pie",
         "title": "Hell Pie",
         "description": "Hell Pie is an obscene 3D platformer that takes bad taste to the next level! Hell Pie sees you grab the horns of Nate, the ‘Demon of Bad Taste’. He is given the honorable task of gathering the disgusting ingredients for Satan’s infamous birthday pie!",
@@ -2007,7 +1893,7 @@
         ]
     },
     {
-        "id": 11,
+        "id": 101,
         "slug": "silence",
         "title": "Silence",
         "description": "Can you save Silence, the grim, but also serene world between life and death? Can you help Noah find his little sister Renie in this suffering world? Can you bring her home? Explore Silence and join the siblings on their adventurous journey.",
@@ -2027,8 +1913,8 @@
         ]
     },
     {
-        "id": 12,
-        "slug": "true-fear:-forsaken-souls-part-2",
+        "id": 102,
+        "slug": "true-fear-forsaken-souls-part-2",
         "title": "True Fear: Forsaken Souls Part 2",
         "description": "The sequel to one of the most captivating horror escape games.",
         "image": {
@@ -2046,8 +1932,8 @@
         ]
     },
     {
-        "id": 13,
-        "slug": "baldur's-gate-dark-alliance-ii",
+        "id": 103,
+        "slug": "baldurs-gate-dark-alliance-ii",
         "title": "Baldur's Gate Dark Alliance II",
         "description": "Unspeakable evil has returned to the legendary city of Baldur's Gate. A call for adventurers echoes through the embattled land. Cunning warriors and bold magic users are desperately needed to reclaim Baldur's Gate from a dark sorcery that threatens all in its path.",
         "image": {
@@ -2067,7 +1953,7 @@
         ]
     },
     {
-        "id": 14,
+        "id": 104,
         "slug": "hazel-sky",
         "title": "Hazel Sky",
         "description": "Hazel Sky is a heartfelt adventure about a young engineer facing his destiny and his desires. Fix ramshackle flying machines and jump, climb, swing, and slide through a beautiful, mysterious world.",
@@ -2084,8 +1970,8 @@
         ]
     },
     {
-        "id": 15,
-        "slug": "mari-and-bayu---the-road-home",
+        "id": 105,
+        "slug": "mari-and-bayu-the-road-home",
         "title": "Mari and Bayu - The Road Home",
         "description": "Go on a grand voyage in this co-op platform-adventure game. Play as Mari the ant and Bayu the firefly to solve puzzles, surf the wind on a feather or even ride a friendly grasshopper!",
         "image": {
@@ -2101,7 +1987,7 @@
         ]
     },
     {
-        "id": 16,
+        "id": 106,
         "slug": "dead-age",
         "title": "Dead Age",
         "description": "Survive the zombie apocalypse with a “Final Fantasy” turn-based combat and permanent death! Manage survivors, craft materials, and make difficult decisions. Defend your camp against hordes of the undead to prevail in this non-linear rogue-lite (comparable to FTL).",
@@ -2121,8 +2007,8 @@
         ]
     },
     {
-        "id": 17,
-        "slug": "hardspace:-shipbreaker",
+        "id": 107,
+        "slug": "hardspace-shipbreaker",
         "title": "Hardspace: Shipbreaker",
         "description": "Equipped with cutting-edge salvaging tech, carve & slice spaceships to recover valuable materials. Upgrade your gear to take on more lucrative contracts and pay your billion credits debt to LYNX Corp!",
         "image": {
@@ -2140,7 +2026,7 @@
         ]
     },
     {
-        "id": 18,
+        "id": 108,
         "slug": "cook-serve-delicious-2",
         "title": "Cook Serve Delicious 2",
         "description": "Deceptively easy to learn but incredibly difficult to master, Cook, Serve, Delicious! 2!! is your journey of being the best chef in the world with your small but humble restaurant on the 50th floor of the Teragon Supertower.",
@@ -2162,7 +2048,7 @@
         ]
     },
     {
-        "id": 19,
+        "id": 109,
         "slug": "glover",
         "title": "Glover",
         "description": "Glover is a puzzle-intensive adventure game made up of 6 worlds with 30 different levels. You control a charismatic glove that walks on two fingers, slaps harder than Steve Austin, dribbles faster than Scottie Pippen, and plays with a bouncy rubber ball.",
@@ -2181,7 +2067,7 @@
         ]
     },
     {
-        "id": 20,
+        "id": 110,
         "slug": "screamer-2",
         "title": "Screamer 2",
         "description": "Take a ride on the wild side with the rapid-fire racing sequel to the internationally best-selling game, Screamer",
@@ -2199,7 +2085,7 @@
         ]
     },
     {
-        "id": 21,
+        "id": 111,
         "slug": "screamer",
         "title": "Screamer",
         "description": "In Screamer you get to drive the fastest, flashiest cars in the history of arcade racing around six of the toughest, tightest tracks.",
@@ -2217,7 +2103,7 @@
         ]
     },
     {
-        "id": 22,
+        "id": 112,
         "slug": "ignition",
         "title": "Ignition",
         "description": "Welcome to Ignition, the foremost action racing game on the PC. Shortly you'll get to race a wide variety of vehicles, ranging from buses to sports cars around race tracks in places as diverse as Snake Island and Moosejaw Falls.",
@@ -2236,8 +2122,8 @@
         ]
     },
     {
-        "id": 23,
-        "slug": "rad-rodgers---radical-edition",
+        "id": 113,
+        "slug": "rad-rodgers-radical-edition",
         "title": "Rad Rodgers - Radical Edition",
         "description": "Bringing back the 90's-era PC platformer with a game inspired by classics like Commander Keen, Conker, Ruff'n'Tumble & Jazz Jackrabbit.",
         "image": {
@@ -2254,8 +2140,8 @@
         ]
     },
     {
-        "id": 24,
-        "slug": "nexagon--deathmatch",
+        "id": 114,
+        "slug": "nexagon-deathmatch",
         "title": "Nexagon- Deathmatch",
         "description": "Unfolding in the fourth millennium, this is a real-time, 3D, action-packed game of mortal arena combat that emphasizes tactics and features advancement and fortress building in a high stakes blood sport.",
         "image": {
@@ -2273,7 +2159,7 @@
         ]
     },
     {
-        "id": 25,
+        "id": 115,
         "slug": "cursed-treasure-2-ultimate-edition",
         "title": "Cursed Treasure 2 Ultimate Edition",
         "description": "Why be good when you can be... bad? Cursed Treasure 2 is a classic tower-defense game, remastered and carefully re-balanced. Build towers of powerful orcs, demons, and undead, and master powerful spells, to protect your precious hoard from all manner of no-good do-gooders.",
@@ -2293,7 +2179,7 @@
         ]
     },
     {
-        "id": 26,
+        "id": 116,
         "slug": "undergrave",
         "title": "Undergrave",
         "description": "Undergrave is a tactical roguelike which moving, jumping, dashing and 𝘁𝗵𝗿𝗼𝘄𝗶𝗻𝗴 𝘆𝗼𝘂𝗿 𝘀𝘄𝗼𝗿𝗱 𝗮𝘄𝗮𝘆 strategically is vital for success.",
@@ -2312,8 +2198,8 @@
         ]
     },
     {
-        "id": 27,
-        "slug": "titus-the-fox:-to-marrakech-and-back",
+        "id": 117,
+        "slug": "titus-the-fox-to-marrakech-and-back",
         "title": "Titus the Fox: To Marrakech and Back",
         "description": "By foot, skateboard and flying carpet, join Titus on his journey to save his captured love - Foxy!",
         "image": {
@@ -2332,7 +2218,7 @@
         ]
     },
     {
-        "id": 28,
+        "id": 118,
         "slug": "prehistorik-2",
         "title": "Prehistorik 2",
         "description": "Back to hungerland!",
@@ -2353,7 +2239,7 @@
         ]
     },
     {
-        "id": 29,
+        "id": 119,
         "slug": "prehistorik",
         "title": "Prehistorik",
         "description": "Eat and beat your way through 150 scenes of awesome nourishing fun and relive the \"Prehistorik\" epic in this incredible platform game.",
@@ -2374,25 +2260,7 @@
         ]
     },
     {
-        "id": 30,
-        "slug": "tank-warfare----tunisia-1943",
-        "title": "Tank Warfare -  Tunisia 1943",
-        "description": "Tank Warfare: Tunisia 1943 - tactical battalion level combat simulation. During the Tunisian Campaign in winter 1943 German Panzer battlegroups launch a counteroffensive against the Allied forces to drive them out of Eastern Dorsal.",
-        "image": {
-            "tall": "https://cdn1.epicgames.com/spt-assets/dbf29bb615374cad8cb1e3cf07866df3/download-tank-warfare-tunisia-1943-offer-17077.png",
-            "wide": "https://cdn1.epicgames.com/spt-assets/dbf29bb615374cad8cb1e3cf07866df3/tank-warfare-tunisia-1943-offer-1k2zg.png"
-        },
-        "price": 2999,
-        "discount": 0,
-        "tags": [
-            44,
-            45,
-            49,
-            56
-        ]
-    },
-    {
-        "id": 31,
+        "id": 120,
         "slug": "orb",
         "title": "ORB",
         "description": "An epic struggle for control!",
@@ -2409,7 +2277,7 @@
         ]
     },
     {
-        "id": 32,
+        "id": 121,
         "slug": "flatout",
         "title": "Flatout",
         "description": "FlatOut is adrenaline-filled muscle car racing game packed with explosive physics, spectacular effects and graphics, innovative game play mechanics and good old fun!",
@@ -2426,7 +2294,7 @@
         ]
     },
     {
-        "id": 33,
+        "id": 122,
         "slug": "ghost-master",
         "title": "Ghost Master",
         "description": "Grim spectres, howling banshees, and sly gremlins are yours to command as you unleash ghastly spirits on the town of Gravenville and scare the wits out of its citizens.",
@@ -2443,7 +2311,7 @@
         ]
     },
     {
-        "id": 34,
+        "id": 123,
         "slug": "space-empires-iv",
         "title": "Space Empires IV",
         "description": "The award-winning Space Empires IV is the latest edition in the Space Empires series. A grand strategy title in the space 4X (explore, expand, exploit, and exterminate) genre, Space Empires has already found a place in the heart of strategy gamers everywhere.",
@@ -2462,7 +2330,7 @@
         ]
     },
     {
-        "id": 35,
+        "id": 124,
         "slug": "pipe-mania",
         "title": "Pipe Mania",
         "description": "Pipe Mania is a fast-paced puzzle game in which players lay down a set of pipes on a tiled grid in order to keep the Flooze - a constant flowing substance that speeds up with progression - moving through the pipes as long as possible without overflowing.",
@@ -2480,7 +2348,7 @@
         ]
     },
     {
-        "id": 36,
+        "id": 125,
         "slug": "sub-command",
         "title": "Sub Command",
         "description": "Take charge of the most deadly modern-day submarines in the world - three distinct submarines across two unique and challenging campaigns. Utilize cutting-edge sensor and weapon technology to locate, track and destroy the enemy - even deliver Tomahawk missiles to inland targets.",
@@ -2497,7 +2365,7 @@
         ]
     },
     {
-        "id": 37,
+        "id": 126,
         "slug": "flatout-2",
         "title": "Flatout 2",
         "description": "DRIVING THIS RECKLESS IS NO ACCIDENT! But you might want to cause a few. In these high-speed races, the more damage you inflict, the better. The ultimate in turbo-charged cars and the craziest competitor drivers are waiting to test your best destructive streak.",
@@ -2514,7 +2382,7 @@
         ]
     },
     {
-        "id": 38,
+        "id": 127,
         "slug": "disciples-rise-of-the-elves-gold",
         "title": "Disciples Rise of the Elves Gold",
         "description": "The award-winning series Disciples introduced a milestone in the game's very successful history; the introduction of a new race: The Elves. The Elven Race added a new dimension to the game and added countless hours of gameplay.Now that series has expanded further with Disciples 2",
@@ -2532,7 +2400,7 @@
         ]
     },
     {
-        "id": 39,
+        "id": 128,
         "slug": "arcadegeddon",
         "title": "Arcadegeddon",
         "description": "Rise up and play with up to three friends in this ever-evolving cooperative multiplayer shooter. Explore multiple biomes, mini games, find hidden chests, and defeat numerous enemies and bosses. ",
@@ -2552,24 +2420,7 @@
         ]
     },
     {
-        "id": 40,
-        "slug": "688(i)-hunter/killer",
-        "title": "688(I) Hunter/Killer",
-        "description": "688(I) Hunter/Killer, the most realistic submarine simulation ever developed for PC. Master the sonar and weapons control systems, learn to develop real target situations and outfit your boat with the latest advanced weaponry.",
-        "image": {
-            "tall": "https://cdn1.epicgames.com/spt-assets/b2631591ee0a40809ad5b512cd2e7ce4/download-combat-naval-package-hunter-killer-offer-p57zj.png",
-            "wide": "https://cdn1.epicgames.com/spt-assets/b2631591ee0a40809ad5b512cd2e7ce4/combat-naval-package-hunter-killer-offer-155ag.png"
-        },
-        "price": 999,
-        "discount": 0,
-        "tags": [
-            45,
-            49,
-            56
-        ]
-    },
-    {
-        "id": 41,
+        "id": 129,
         "slug": "big-mutha-truckers-2",
         "title": "Big Mutha Truckers 2",
         "description": "Ma Jackson, Hick State County's most infamous trucker, has been incarcerated on charges of tax evasion, 7,973 parking tickets, and six counts of being a comedy stereotype! Imprisoned, Ma's only hope lies with her kids.",
@@ -2587,7 +2438,7 @@
         ]
     },
     {
-        "id": 42,
+        "id": 130,
         "slug": "doodle-devil",
         "title": "Doodle Devil",
         "description": "Discover the seven deadly sins and watch as the world crumbles at your fingertips as you create thousands of dastardly deeds. Combine fire, earth, wind & air to create demons, beasts, zombies... and much more. Being bad has never been so much fun!",
@@ -2604,8 +2455,8 @@
         ]
     },
     {
-        "id": 43,
-        "slug": "battle-chess-ii:-chinese-chess",
+        "id": 131,
+        "slug": "battle-chess-ii-chinese-chess",
         "title": "Battle Chess II: Chinese Chess",
         "description": "Battle Chess II brings new life into Chinese Chess. A game of strategy with animated battles to bring the game to life!",
         "image": {
@@ -2624,7 +2475,7 @@
         ]
     },
     {
-        "id": 44,
+        "id": 132,
         "slug": "battle-chess-4000",
         "title": "Battle Chess 4000",
         "description": "Welcome to the Chess Game of Tomorrow!",
@@ -2644,7 +2495,7 @@
         ]
     },
     {
-        "id": 45,
+        "id": 133,
         "slug": "battle-chess",
         "title": "Battle Chess",
         "description": "It took 2000 years for someone to make chess better!",
@@ -2664,8 +2515,8 @@
         ]
     },
     {
-        "id": 46,
-        "slug": "giana-sisters-–-twisted-dreams",
+        "id": 134,
+        "slug": "giana-sisters-twisted-dreams",
         "title": "Giana Sisters – Twisted Dreams",
         "description": "Giana Sisters: Twisted Dreams is a blistering hardcore platformer with contrasting worlds.",
         "image": {
@@ -2684,7 +2535,7 @@
         ]
     },
     {
-        "id": 47,
+        "id": 135,
         "slug": "ruggnar",
         "title": "Ruggnar",
         "description": "Ruggnar is a platformer without enemies, but many traps are hidden in the darkness. Help Ruggnar explore gloomy places with his bag and a few candles as his sole equipment.",
@@ -2701,7 +2552,7 @@
         ]
     },
     {
-        "id": 48,
+        "id": 136,
         "slug": "the-caligula-effect-2",
         "title": "The Caligula Effect 2",
         "description": "Redo is a world without sorrow built by the virtuadoll Regret.\nVirtuadoll songs give Redo citizens respite from their struggles. Our heroes discover the truth and form the Go-Home Club to return to reality.\nReturn home with companions full of regrets in this school-themed RPG.",
@@ -2718,8 +2569,8 @@
         ]
     },
     {
-        "id": 49,
-        "slug": "the-king's-bird",
+        "id": 137,
+        "slug": "the-kings-bird",
         "title": "The King's Bird",
         "description": "Escape into a world kept secret by a tyrant, and discover the truth about your freedom. Run, jump, and fly through forgotten lost kingdoms with a uniquely momentum-based flying mechanic.",
         "image": {
@@ -2739,7 +2590,7 @@
         ]
     },
     {
-        "id": 50,
+        "id": 138,
         "slug": "adventures-of-chris",
         "title": "Adventures of Chris",
         "description": "Embark on a global adventure in this ‘90s-inspired adventure platformer. Help a chubby underdog kid with wacky superpowers battle bizarre villains, unlock and customize special moves and spells, and save the world!",
@@ -2761,7 +2612,7 @@
         ]
     },
     {
-        "id": 51,
+        "id": 139,
         "slug": "joggernauts",
         "title": "Joggernauts",
         "description": "Jog! Jump! Switch! Coordinate the crazy conga line of alien athletes in this autorunner / puzzle platformer for 1-4 players.",
@@ -2783,7 +2634,7 @@
         ]
     },
     {
-        "id": 52,
+        "id": 140,
         "slug": "supraland-six-inches-under",
         "title": "Supraland Six Inches Under",
         "description": "A mix between Portal, Zelda and Metroid. Exploration, puzzles, combat! A first-person-metroidvania taking place six inches under Supraland.",
@@ -2802,7 +2653,7 @@
         ]
     },
     {
-        "id": 53,
+        "id": 141,
         "slug": "earthworm-jim-2",
         "title": "Earthworm Jim 2",
         "description": "Two times the fun! Two times the excitement!",
@@ -2822,7 +2673,7 @@
         ]
     },
     {
-        "id": 54,
+        "id": 142,
         "slug": "project-warlock-ii",
         "title": "Project Warlock II",
         "description": "Adrenaline-pumping gore retro funhouse that’s full of guns, magic, demons, vertical arenas, 3D visuals, 2D sprites, and heavy metal music. Inspired by FPS classics like Quake and Doom 64, Project Warlock II is the explosive boomer shooter sequel you were too shy to ask for.",
@@ -2842,7 +2693,7 @@
         ]
     },
     {
-        "id": 55,
+        "id": 143,
         "slug": "earthworm-jim",
         "title": "Earthworm Jim",
         "description": "EAT DIRT!",
@@ -2862,7 +2713,7 @@
         ]
     },
     {
-        "id": 56,
+        "id": 144,
         "slug": "very-very-valet",
         "title": "Very Very Valet",
         "description": "1 to 4 players control an \"elite\" team of puppet valets, working together to overcome any and all valet-related challenges.",
@@ -2882,7 +2733,7 @@
         ]
     },
     {
-        "id": 1,
+        "id": 145,
         "slug": "super-impossible-road",
         "title": "Super Impossible Road",
         "description": "In the future, you’ve got to play a little dirty if you want to win races. The spiritual sequel to the award-winning Impossible Road is back and more ferocious than ever!  jump into the fastest, craziest, most spectacular racer you've ever played.",
@@ -2899,7 +2750,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 146,
         "slug": "card-shark",
         "title": "Card Shark",
         "description": "Card Shark is an adventure game full of cunning, intrigue, and delectable deceit. Enter a world where you’ll need to play your opponents better than you play your cards.",
@@ -2918,7 +2769,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 147,
         "slug": "deathrun-tv",
         "title": "DEATHRUN TV",
         "description": "DEATHRUN TV is a fast hardcore rogue-lite twin-stick shooter set in the world's biggest and craziest game show. You'll experience real-time blistering speed and bullet-dodging action as you compete for glory...assuming you're able to survive the deadly challenges that await you.",
@@ -2935,8 +2786,8 @@
         ]
     },
     {
-        "id": 4,
-        "slug": "queens-wish:-the-conqueror",
+        "id": 148,
+        "slug": "queens-wish-the-conqueror",
         "title": "Queens Wish: The Conqueror",
         "description": "The full version of Queen's Wish: The Conqueror.",
         "image": {
@@ -2953,7 +2804,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 149,
         "slug": "silt",
         "title": "Silt",
         "description": "Dive into Silt’s harrowing ocean abyss and unravel long-forgotten mysteries. Explore the dangerous waters, possess sea creatures, and solve puzzles to travel deeper into the darkness...",
@@ -2971,8 +2822,8 @@
         ]
     },
     {
-        "id": 6,
-        "slug": "true-fear:-forsaken-souls-part-1",
+        "id": 150,
+        "slug": "true-fear-forsaken-souls-part-1",
         "title": "True Fear: Forsaken Souls Part 1",
         "description": "One of the most acclaimed horror escape game.",
         "image": {
@@ -2991,7 +2842,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 151,
         "slug": "ikaruga",
         "title": "Ikaruga",
         "description": "The “shooter fan’s shooter,” Ikaruga is a cult classic with unique polarity-switching gameplay. By changing the color of your ship to match the enemy, you can absorb their bullets instead of taking damage. Max out and chain your attacks to earn bonuses and get higher scores!",
@@ -3009,7 +2860,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 152,
         "slug": "out-there-oceans-of-time",
         "title": "Out There Oceans of Time",
         "description": "Out There: Oceans of Time is a space exploration game that puts you at the helm of an interstellar mission of discovery spanning a vast and vibrant cosmos.",
@@ -3028,7 +2879,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 153,
         "slug": "my-memory-of-us",
         "title": "My Memory of Us",
         "description": "Discover the story of a friendship that survived the toughest of times in our history and fully immerse yourself in a hand-drawn world where everything is very much what is seems… simply presented from a slightly different perspective.",
@@ -3046,7 +2897,7 @@
         ]
     },
     {
-        "id": 10,
+        "id": 154,
         "slug": "symmetry",
         "title": "SYMMETRY",
         "description": "A research spaceship reaches an abandoned planet. Nothing is what it seems here and the situation quickly slips out of control. Can the crew manage to survive and get back home?",
@@ -3064,8 +2915,8 @@
         ]
     },
     {
-        "id": 11,
-        "slug": "seven---enhanced-edition",
+        "id": 155,
+        "slug": "seven-enhanced-edition",
         "title": "Seven - Enhanced Edition",
         "description": "Seven: Enhanced Edition is an open-world, isometric stealth and action role-playing game, in which you play as Teriel, a master thief sent on a mission that will shake the foundations of the Vetrall Empire. Includes the Drowned Past expansion.",
         "image": {
@@ -3081,7 +2932,7 @@
         ]
     },
     {
-        "id": 12,
+        "id": 156,
         "slug": "hellslave",
         "title": "Hellslave",
         "description": "Prevent demon’s horde from unleashing hell on this world in this dark fantasy Dungeon Crawler. Fight fire with fire, make a deal with the Devil and choose which demon to worship.",
@@ -3100,7 +2951,7 @@
         ]
     },
     {
-        "id": 13,
+        "id": 157,
         "slug": "empire-of-ember",
         "title": "Empire of Ember",
         "description": "Empire of Ember is a first-person epic fantasy action-RPG with real-time strategy and management elements, set in the fantastical world of its spiritual predecessor Ember.",
@@ -3120,7 +2971,7 @@
         ]
     },
     {
-        "id": 14,
+        "id": 158,
         "slug": "the-suicide-of-rachel-foster",
         "title": "The Suicide of Rachel Foster",
         "description": "Coming back to the family hotel after years, a young woman finds herself trapped with the ghosts from her past and an old cellular telephone as the only way to unveil a terrible truth.",
@@ -3139,7 +2990,7 @@
         ]
     },
     {
-        "id": 15,
+        "id": 159,
         "slug": "goetia-2",
         "title": "Goetia 2",
         "description": "Explore a dark & unknown Venice in this point-and-click adventure. Your goal? Find a way to reunite your soul & body. Gather information & solve puzzles in your spectral form to make your way into this world despite the shenanigans of a troublesome demon!",
@@ -3156,7 +3007,7 @@
         ]
     },
     {
-        "id": 16,
+        "id": 160,
         "slug": "curious-expedition-2",
         "title": "Curious Expedition 2",
         "description": "Curious Expedition 2 is a turn-based narrative roguelike set in a reimagined version of the late 19th century that uses procedural gameplay and story elements to create completely unique and epic adventures every time you play.",
@@ -3175,7 +3026,7 @@
         ]
     },
     {
-        "id": 17,
+        "id": 161,
         "slug": "recursive-ruin",
         "title": "Recursive Ruin",
         "description": "A kaleidoscopic narrative puzzle game in which an artist comes to terms with their grief. Explore an infinitely recursive world of strange fractal beauty and solve mind-bending puzzles. Confront the ineffable and chat with your cat in a search for meaning and hope.",
@@ -3194,8 +3045,8 @@
         ]
     },
     {
-        "id": 18,
-        "slug": "another-world---20th-anniversary",
+        "id": 162,
+        "slug": "another-world-20th-anniversary",
         "title": "Another World - 20th Anniversary",
         "description": "Also known as Out Of This World™, Another World is a pioneer action/platformer that released across more than a dozen platforms since its debut in 1991. Along the years, Another World™ has attained cult status among critics and sophisticated gamers alike.",
         "image": {
@@ -3211,7 +3062,7 @@
         ]
     },
     {
-        "id": 19,
+        "id": 163,
         "slug": "star-vikings-forever",
         "title": "Star Vikings Forever",
         "description": "Star Vikings Forever is a humorous Puzzle/RPG developed by the award-winning creators of Chroma Squad, Dungeonland, and Relic Hunters Zero.",
@@ -3230,7 +3081,7 @@
         ]
     },
     {
-        "id": 20,
+        "id": 164,
         "slug": "steel-rats",
         "title": "Steel Rats",
         "description": "Wreck and ride in a visceral and ground-breaking evolution of the action arcade genre, fusing destructive, octane-fuelled, motorbike combat and death-defying stunt gameplay, set in a visually stylised retro future world. Switch between four unique characters as you wreak havoc!",
@@ -3248,8 +3099,8 @@
         ]
     },
     {
-        "id": 21,
-        "slug": "kao-the-kangaroo---round-2",
+        "id": 165,
+        "slug": "kao-the-kangaroo-round-2",
         "title": "Kao the Kangaroo - Round 2",
         "description": "Let’s bring back all the good memories of the incredible, brave and lovely Kao the Kangaroo. Immerse yourself in a classic 3D action-adventure platformer where Kao runs, jumps, and fights lots of enemies.",
         "image": {
@@ -3268,7 +3119,7 @@
         ]
     },
     {
-        "id": 22,
+        "id": 166,
         "slug": "urban-trial-tricky-deluxe-edition",
         "title": "Urban Trial Tricky Deluxe Edition",
         "description": "Grab your seat and pull off the most savage tricks and combos on your motorbike. Ride freely, spin around in the air, go back and forth and let yourself be carried away by the fun, fast-paced gameplay, colorful visuals, and smooth controls.",
@@ -3287,7 +3138,7 @@
         ]
     },
     {
-        "id": 23,
+        "id": 167,
         "slug": "urban-trial-playground",
         "title": "Urban Trial Playground",
         "description": "This new instalment of the stunt bike racing series is moving the action from city streets, straight to the sunny and colorful beaches of California, mixing in even crazier tricks, flips and combos than ever before. It’s a game of speed, balance and style!",
@@ -3306,7 +3157,7 @@
         ]
     },
     {
-        "id": 24,
+        "id": 168,
         "slug": "urban-trial-freestyle",
         "title": "Urban Trial Freestyle",
         "description": "The city is your playground! Nothing will stop you on your freestyle trials bike. Use the urban landscape to pull spectacular tricks. Customize your bike to boost your performance. Choose between speed and style, developing your own unique riding style.",
@@ -3325,7 +3176,7 @@
         ]
     },
     {
-        "id": 25,
+        "id": 169,
         "slug": "lamentum",
         "title": "Lamentum",
         "description": "Lamentum is a cosmic survival horror inspired by Resident Evil, the Cthulhu Mythos, and our deepest nightmares.",
@@ -3345,7 +3196,7 @@
         ]
     },
     {
-        "id": 26,
+        "id": 170,
         "slug": "tangle-tower",
         "title": "Tangle Tower",
         "description": "Unravel a thrilling mystery by exploring a strange and twisted mansion, discovering curious clues, interrogating peculiar suspects and solving unique puzzles. Will you be able to uncover the secrets of Tangle Tower?",
@@ -3365,7 +3216,7 @@
         ]
     },
     {
-        "id": 27,
+        "id": 171,
         "slug": "spookware",
         "title": "Spookware",
         "description": "Play through loads of hand-crafted fast-paced microgames based on horror tropes, explore the world of the afterlife and help the skelebros live their death to the fullest.",
@@ -3385,7 +3236,7 @@
         ]
     },
     {
-        "id": 28,
+        "id": 172,
         "slug": "dread-x-collection-the-hunt",
         "title": "Dread X Collection The Hunt",
         "description": "A horror anthology shooter in the Dread X Collection series. Co-produced by DUSK creator David Szymanski. Featuring 7 new short games, a robust launcher world set in an abandoned arctic base.",
@@ -3404,7 +3255,7 @@
         ]
     },
     {
-        "id": 29,
+        "id": 173,
         "slug": "dread-x-collection-2",
         "title": "Dread X Collection 2",
         "description": "Explore 12 horror games made in 10 days connected by a meta narrative experience you didn't expect. Step into a world of darkness and discover the secrets you didn't know were right beneath the surface. Find the tapes and unlock the mystery inside the Dread X Collection 2.",
@@ -3423,7 +3274,7 @@
         ]
     },
     {
-        "id": 30,
+        "id": 174,
         "slug": "dread-x-collection",
         "title": "Dread X Collection",
         "description": "10 Tales of Terror from 10 Twisted Minds. Made in only 7 Sleepless Nights. The Dread X Collection is a series of small games created by some of the most talented indie devs around, all with the same mission: create the P.T. for the horror project of their dreams.",
@@ -3441,7 +3292,7 @@
         ]
     },
     {
-        "id": 31,
+        "id": 175,
         "slug": "sucker-for-love",
         "title": "Sucker for Love",
         "description": "Put the 'love' in 'Lovecraftian horror'! Perform terrifying rituals to win the affections of eldritch horrors and smooch 'em... at any cost!",
@@ -3460,7 +3311,7 @@
         ]
     },
     {
-        "id": 32,
+        "id": 176,
         "slug": "dread-x-collection-3",
         "title": "Dread X Collection 3",
         "description": "Experience 12 all-new spoopy games made exclusively for this unique horror anthology. Explore a mysterious castle that changes as you play. Keep your wits about you as the line between cute and creepy begins to blur. Uncover the next chapter in the ongoing Dread X Collection stor",
@@ -3479,7 +3330,7 @@
         ]
     },
     {
-        "id": 33,
+        "id": 177,
         "slug": "spinch",
         "title": "Spinch",
         "description": "Transcend the material realm and assume your true form as Spinch, a hyper-agile organism consumed by the quest to rescue a litter of its missing offspring, in this side-scrolling, psychedelic platformer from the mind of award-winning Canadian cartoonist, Jesse Jacobs.",
@@ -3497,7 +3348,7 @@
         ]
     },
     {
-        "id": 34,
+        "id": 178,
         "slug": "whispering-willows",
         "title": "Whispering Willows",
         "description": "Interact with the spirits of the dead, solve the puzzles of the mysterious mansion, and help Elena find her missing father.",
@@ -3516,8 +3367,8 @@
         ]
     },
     {
-        "id": 35,
-        "slug": "crowns-and-pawns:-kingdom-of-deceit",
+        "id": 179,
+        "slug": "crowns-and-pawns-kingdom-of-deceit",
         "title": "Crowns and Pawns: Kingdom of Deceit",
         "description": "Legends of the past come back to life in this charming point-and-click adventure. Pack your bags and journey with Crowns and Pawns: Kingdom of Deceit through modern day Europe to uncover the secrets of the king who was never crowned.",
         "image": {
@@ -3535,7 +3386,7 @@
         ]
     },
     {
-        "id": 36,
+        "id": 180,
         "slug": "skydrift-infinity",
         "title": "SkyDrift Infinity",
         "description": "Skydrift Infinity is an action-packed arcade game focusing on the experience of flying alone, and with others, in a light, quick, fast-paced style.",
@@ -3553,7 +3404,7 @@
         ]
     },
     {
-        "id": 37,
+        "id": 181,
         "slug": "keep-in-mind-remastered",
         "title": "Keep in Mind Remastered",
         "description": "Keep in Mind follows Jonas, a tormented alcoholic whose life is falling apart. He awakens to a shadowy mirror world where beasts lurk and the stars don't shine. Jonas must face twisted beasts if he ever wishes to return home and learn the truth, about truth about his darkness.",
@@ -3572,7 +3423,7 @@
         ]
     },
     {
-        "id": 38,
+        "id": 182,
         "slug": "chicken-assassin-reloaded",
         "title": "Chicken Assassin Reloaded",
         "description": "Fight your way as Mean Mcallister, the baddest chicken in town, through multiple hordes of enemies to save your girlfriend in this hilarious, strategic button-mashing, action-RPG.",
@@ -3590,7 +3441,7 @@
         ]
     },
     {
-        "id": 39,
+        "id": 183,
         "slug": "trek-to-yomi",
         "title": "Trek to Yomi",
         "description": "As a vow to his dying Master, the young swordsman Hiroki is sworn to protect his town and the people he loves against all threats. Faced with tragedy and bound to duty, the lone samurai must voyage beyond life and death to confront himself and decide his path forward.",
@@ -3609,7 +3460,7 @@
         ]
     },
     {
-        "id": 40,
+        "id": 184,
         "slug": "wildcat-gun-machine",
         "title": "Wildcat Gun Machine",
         "description": "Wildcat Gun Machine is a bullet hell dungeon crawler where you take on hordes of disgusting flesh beasts with a wide variety of guns, giant mech robots, and cute kittens.",
@@ -3629,7 +3480,7 @@
         ]
     },
     {
-        "id": 41,
+        "id": 185,
         "slug": "m1-tank-platoon",
         "title": "M1 Tank Platoon",
         "description": "US Tank Platoons have four M1s. Four soldiers operate each. That's four tanks, sixteen men. And you control the whole shooting match.",
@@ -3649,7 +3500,7 @@
         ]
     },
     {
-        "id": 42,
+        "id": 186,
         "slug": "m1-tank-platoon-ii",
         "title": "M1 Tank Platoon II",
         "description": "The definitive simulation of modern ground warfare!",
@@ -3668,7 +3519,7 @@
         ]
     },
     {
-        "id": 43,
+        "id": 187,
         "slug": "dog-duty",
         "title": "Dog Duty",
         "description": "As some evil bigwig Octopus Commander and his army are threatening world-peace, it’s up to you and your squad of misfits to eliminate that octo-scum. Liberate outposts, defeat bosses and wreck these wicked squids up, but beware, they’re well-armed.",
@@ -3685,7 +3536,7 @@
         ]
     },
     {
-        "id": 44,
+        "id": 188,
         "slug": "desert-child",
         "title": "Desert Child",
         "description": "You are a hungry, young hoverbike racer who needs to get off Earth before it E-X-P-L-O-D-E-S. Hunt bounties, throw races, and do whatever you can to get to Mars and win the Grand Prix.",
@@ -3704,7 +3555,7 @@
         ]
     },
     {
-        "id": 45,
+        "id": 189,
         "slug": "etherborn",
         "title": "Etherborn",
         "description": "Delve into an environmental puzzle platformer built on exploring and understanding gravity-shifting structures. You are a voiceless being that has just been born into a world where a bodiless voice awaits your arrival. Go forth and seek your purpose.",
@@ -3723,7 +3574,7 @@
         ]
     },
     {
-        "id": 1,
+        "id": 190,
         "slug": "paradigm",
         "title": "Paradigm",
         "description": "Paradigm is a surreal adventure game set in the strange and post apocalyptic Eastern European country of Krusz. Play as the handsome mutant, Paradigm, whose past comes back to haunt him in the form of a genetically engineered sloth that vomits candy.",
@@ -3740,7 +3591,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 191,
         "slug": "ravens-hike",
         "title": "Ravens Hike",
         "description": "No jumping, no walking. Raven's Hike is an unique 2d platformer in which all movement is based on her Grappling Hook.",
@@ -3760,8 +3611,8 @@
         ]
     },
     {
-        "id": 3,
-        "slug": "trigon:-space-story",
+        "id": 192,
+        "slug": "trigon-space-story",
         "title": "Trigon: Space Story",
         "description": "You’re the captain in Trigon: Space Story. Upgrade your spaceship, fight tactical battles and defend yourself against space pirates. During your adventure, you’ll uncover the galaxy’s biggest secret.",
         "image": {
@@ -3780,7 +3631,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 193,
         "slug": "gone-viral",
         "title": "Gone Viral",
         "description": "Step right up - you’re the next contestant! Create KILLTACULAR Carnage like your life depends on it! EXECUTE not just your enemies, but death-defying combos to woo ALL-IMPORTANT fans! Satisfy your Fans’ THIRST for BLOOD and reap the rewards. Do WHATEVER it takes to gain freedom.",
@@ -3799,7 +3650,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 194,
         "slug": "smelter",
         "title": "Smelter",
         "description": "Smelter is a strategy, action-platformer combo. Lead Smelter and his faithful Zirm forces by expanding his territory across the Rumbly Lands in top-down strategy levels, then dive into thrilling side-scrolling action stages after annexing key locations.",
@@ -3818,26 +3669,7 @@
         ]
     },
     {
-        "id": 6,
-        "slug": "trolley-problem,-inc.",
-        "title": "Trolley Problem, Inc.",
-        "description": "Trolley Problem, Inc. is a darkly comedic narrative game based on real-world philosophical papers, in which you are asked to make a series of impossible choices from two awful answers.",
-        "image": {
-            "tall": "https://cdn1.epicgames.com/spt-assets/6a91a2118a41416eaaf785fab5a154eb/download-trolley-problem-inc-offer-hq3ft.png",
-            "wide": "https://cdn1.epicgames.com/spt-assets/6a91a2118a41416eaaf785fab5a154eb/trolley-problem-inc-offer-n36ls.jpg"
-        },
-        "price": 1099,
-        "discount": 0,
-        "tags": [
-            6,
-            44,
-            45,
-            56,
-            23
-        ]
-    },
-    {
-        "id": 7,
+        "id": 195,
         "slug": "godlike-burger",
         "title": "Godlike Burger",
         "description": "In Godlike Burger you run the craziest restaurant of the galaxy! Stun, poison and kill customers in many devious ways… and turn them into burger meat! And don’t worry: Alien customers will keep coming if you are smart about it, because cannibalism is just too damn tasty.",
@@ -3857,7 +3689,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 196,
         "slug": "velone",
         "title": "VELONE",
         "description": "VELONE is a creative automation game in which you assemble and program mechanisms to solve logic puzzles. Both relaxing and highly replayable, you save the planet VELONE by creating automated constructs that move and assemble according to your masterplan.",
@@ -3875,7 +3707,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 197,
         "slug": "warpips",
         "title": "Warpips",
         "description": "Warpips is the ultimate quick to learn but amazingly deep tug-of-war strategy game. Deploy the right composition of soldiers, tanks, helicopters and planes in this tight, streamlined strategy-focused war game. Compose the best army, research the right tech; overwhelm your enemy!",
@@ -3894,7 +3726,7 @@
         ]
     },
     {
-        "id": 10,
+        "id": 198,
         "slug": "riverbond",
         "title": "Riverbond",
         "description": "Riverbond is a fun and frantic couch co-op adventure game for 1 to 4 players set in a stunning voxel world. Embark on a heroic journey to complete missions, battle adorable enemies, and smash everything into tiny cubes!",
@@ -3915,7 +3747,7 @@
         ]
     },
     {
-        "id": 11,
+        "id": 199,
         "slug": "super-mega-zero",
         "title": "Super Mega Zero",
         "description": "Super Mega Zero is a fast-paced precision platformer and shoot 'em up hybrid.",
@@ -3934,7 +3766,7 @@
         ]
     },
     {
-        "id": 12,
+        "id": 200,
         "slug": "the-crows-eye",
         "title": "The Crows Eye",
         "description": "In an abandoned medical university, test your intellectual might as you unravel a 20-year-old mystery in this depraved first-person puzzle adventure, doing what it takes to escape your fate as a macabre scientist's human experiment. The ends justify the means in The Crow’s Eye.",
@@ -3954,8 +3786,8 @@
         ]
     },
     {
-        "id": 13,
-        "slug": "blast-brigade-vs.-the-evil-legion-of-dr.-cread",
+        "id": 201,
+        "slug": "blast-brigade-vs-the-evil-legion-of-dr-cread",
         "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
         "description": "Blast Brigade is a 2D metroidvania adventure bursting with platforming thrills, deep exploration, and explosive action. Assemble a crack team of heroes to blast your way through an island paradise and save the world!",
         "image": {
@@ -3973,8 +3805,8 @@
         ]
     },
     {
-        "id": 14,
-        "slug": "opus:-echo-of-starsong---full-bloom-edition",
+        "id": 202,
+        "slug": "opus-echo-of-starsong-full-bloom-edition",
         "title": "OPUS: Echo of Starsong - Full Bloom Edition",
         "description": "OPUS: Echo of Starsong - Full Bloom Edition is the definitive edition of the visual novel-style adventure game, now with all-new voice acting. Dive in and enjoy an intergalactic journey that transcends time through love.",
         "image": {
@@ -3993,7 +3825,7 @@
         ]
     },
     {
-        "id": 15,
+        "id": 203,
         "slug": "lost-ruins",
         "title": "Lost Ruins",
         "description": "Lost Ruins is a 2D side-scrolling survival action game. You play as a young girl who has awoken in a strange place without her memories. With the aid of weapons, spells, and the guidance of the mysterious Beatrice, you will explore a dangerous world and topple incredible bosses.",
@@ -4013,8 +3845,8 @@
         ]
     },
     {
-        "id": 16,
-        "slug": "xcom®-2",
+        "id": 204,
+        "slug": "xcom-2",
         "title": "XCOM® 2",
         "description": "Aliens rule Earth, but secretly hiding a sinister agenda. As the leader of a guerrilla force, you must ignite a global resistance to eliminate the alien threat and save the human race.",
         "image": {
@@ -4032,7 +3864,7 @@
         ]
     },
     {
-        "id": 17,
+        "id": 205,
         "slug": "othercide",
         "title": "Othercide",
         "description": "As Humanity’s last hope, lead your army to combat in an intricate dance of spectacular actions and counters, using an original Dynamic Timeline System, and face fearsome bosses in epic battles.",
@@ -4052,7 +3884,7 @@
         ]
     },
     {
-        "id": 18,
+        "id": 206,
         "slug": "white-shadows",
         "title": "White Shadows",
         "description": "White Shadows is a cinematic puzzle-platformer where you play as a little Ravengirl trying to escape a brutal dystopia founded on oppression and violence  that puts her at the bottom of its hierarchical social ladder.",
@@ -4069,8 +3901,8 @@
         ]
     },
     {
-        "id": 19,
-        "slug": "aces-of-the-luftwaffe---squadron-extended-edition",
+        "id": 207,
+        "slug": "aces-of-the-luftwaffe-squadron-extended-edition",
         "title": "Aces of the Luftwaffe - Squadron Extended Edition",
         "description": "The Aces of the Luftwaffe have returned! Dodge a hail of bullets and face their fearsome war machines in bombastic air battles and boss fights!",
         "image": {
@@ -4086,26 +3918,7 @@
         ]
     },
     {
-        "id": 20,
-        "slug": "bug-fables--the-everlasting-sapling-",
-        "title": "Bug Fables -The Everlasting Sapling-",
-        "description": "Follow Vi, Kabbu, and Leif as they uncover the secrets of the Land of Bugaria! Explore a lush world and combine your team's abilities to solve puzzles, defeat powerful enemies, and discover ancient treasures!",
-        "image": {
-            "tall": "https://cdn1.epicgames.com/spt-assets/33edf3770439471e8d1fb649c95094ab/download-bug-fables-the-everlasting-sapling-offer-sesv9.jpg",
-            "wide": "https://cdn1.epicgames.com/spt-assets/33edf3770439471e8d1fb649c95094ab/bug-fables-the-everlasting-sapling-offer-1v7w1.jpg"
-        },
-        "price": 1999,
-        "discount": 0,
-        "tags": [
-            37,
-            45,
-            56,
-            3,
-            23
-        ]
-    },
-    {
-        "id": 21,
+        "id": 208,
         "slug": "janitor-bleeds",
         "title": "JANITOR BLEEDS",
         "description": "Enter the abandoned arcade after your car has crashed, and the shelter you were looking for is trying to eat you alive in this dark mystery-horror adventure. Solve mysteries, keep JANITOR satisfied, and always be aware of what's behind your back. This is a game of your life.",
@@ -4125,44 +3938,7 @@
         ]
     },
     {
-        "id": 22,
-        "slug": "112th-seed",
-        "title": "112th Seed",
-        "description": "In a future where Earth has become uninhabitable and food is so scarce that most of humanity has perished, take the role of a seed that could restore hope! Make your way through the last labs constructed to cultivate a plant species capable of surviving any environment.",
-        "image": {
-            "tall": "https://cdn1.epicgames.com/spt-assets/3b6e5e4bf86e4e49aaf738bf8562315a/download-112th-seed-offer-19rm4.jpg",
-            "wide": "https://cdn1.epicgames.com/spt-assets/3b6e5e4bf86e4e49aaf738bf8562315a/112th-seed-offer-o98q1.jpg"
-        },
-        "price": 499,
-        "discount": 0,
-        "tags": [
-            36,
-            45,
-            56
-        ]
-    },
-    {
-        "id": 23,
-        "slug": "astalon--tears-of-the-earth-",
-        "title": "Astalon -Tears of the Earth-",
-        "description": "Uphold your pact with the Titan of Death, Epimetheus! Fight, climb and solve your way through a twisted tower as three unique adventurers, on a mission to save their village from impending doom!",
-        "image": {
-            "tall": "https://cdn1.epicgames.com/spt-assets/50947c834e41464b84a9fd8a60c68793/download-astalon-tears-of-the-earth-offer-vgroh.png",
-            "wide": "https://cdn1.epicgames.com/spt-assets/50947c834e41464b84a9fd8a60c68793/astalon-tears-of-the-earth-offer-1647u.jpg"
-        },
-        "price": 1999,
-        "discount": 0,
-        "tags": [
-            17,
-            45,
-            56,
-            27,
-            35,
-            23
-        ]
-    },
-    {
-        "id": 24,
+        "id": 209,
         "slug": "pile-up",
         "title": "Pile Up",
         "description": "Pile Up! is a 1-to-4 player couch coop 3D platforming adventure for friends and families! Jump on each other, explore the cardboard world together and use items you find along the way to build the wackiest piles!",
@@ -4179,7 +3955,7 @@
         ]
     },
     {
-        "id": 25,
+        "id": 210,
         "slug": "expedition-zero",
         "title": "Expedition Zero",
         "description": "Expedition Zero — survival horror set in the anomaly zone of the northern forest. Face the dreadful monster and find a way to defeat it. Reveal the secrets of the lost expedition and your mysterious enemy. It’s either hunt or be hunted.",
@@ -4198,7 +3974,7 @@
         ]
     },
     {
-        "id": 26,
+        "id": 211,
         "slug": "blue-fire",
         "title": "Blue Fire",
         "description": "Embark on an extraordinary adventure through the perished world of Penumbra to explore unique temples filled with increasingly difficult 3D platforming challenges, diverse enemies, quests, collectibles, and more.",
@@ -4219,7 +3995,7 @@
         ]
     },
     {
-        "id": 27,
+        "id": 212,
         "slug": "turnip-boy-commits-tax-evasion",
         "title": "Turnip Boy Commits Tax Evasion",
         "description": "Play as an adorable yet trouble-making turnip. Avoid paying taxes, solve plantastic puzzles, harvest crops and battle massive beasts all in a journey to tear down a corrupt vegetable government!",
@@ -4240,7 +4016,7 @@
         ]
     },
     {
-        "id": 28,
+        "id": 213,
         "slug": "nibiru",
         "title": "Nibiru",
         "description": "Journey to Nibiru, an uncharted planet & discover why humanity's latest colony has gone dark. Nibiru: Uncharted Planet follows 7 astronauts who’ve crashed on the planet - can they survive the dangers lurking within uncharted corners of Nibiru long enough to solve the mystery?",
@@ -4260,7 +4036,7 @@
         ]
     },
     {
-        "id": 29,
+        "id": 214,
         "slug": "red-ronin",
         "title": "Red Ronin",
         "description": "Red Ronin is a Tactical Turn-based but fast paced dash 'n slash game where a bloodthirsty ronin and her companion bot searches for revenge.",
@@ -4279,7 +4055,7 @@
         ]
     },
     {
-        "id": 30,
+        "id": 215,
         "slug": "harlow",
         "title": "Harlow",
         "description": "Two clumsy robots plan a surprise party for the frozen colonists they stranded in this atmospheric platformer.",
@@ -4299,7 +4075,7 @@
         ]
     },
     {
-        "id": 31,
+        "id": 216,
         "slug": "ascendantsrising",
         "title": "AscendantsRising",
         "description": "ASCENDANTS Rising is a CO-OP Action RPG that lets you create your own unique playstyle and team to explore an ever-changing Multiverse teeming with deadly enemies, formidable Boss fights, and amazing loot.",
@@ -4317,7 +4093,7 @@
         ]
     },
     {
-        "id": 32,
+        "id": 217,
         "slug": "doodle-god",
         "title": "Doodle God",
         "description": "Doodle God is an addicting puzzle & world building game where players use logic and ingenuity to create the entire universe. Starting with the basic elements of earth, wind, fire and air players can build a world filled with locomotives, Dragons, skyscrapers, Aliens and more.",
@@ -4337,7 +4113,7 @@
         ]
     },
     {
-        "id": 33,
+        "id": 218,
         "slug": "family-man",
         "title": "Family Man",
         "description": "You owe us money, Joe, and we plan to collect. We don't care where it comes from, but you'd better not skip town on us. Otherwise your family will be searching the river for your body.",
@@ -4355,7 +4131,7 @@
         ]
     },
     {
-        "id": 34,
+        "id": 219,
         "slug": "submerged",
         "title": "Submerged",
         "description": "Submerged is a third-person combat-free game in which you explore a mysterious flooded city and discover the beauty of desolation in vast outdoor environments. You take on the role of Miku, a young girl who has brought her wounded brother to the city in their small fishing boat.",
@@ -4373,7 +4149,7 @@
         ]
     },
     {
-        "id": 35,
+        "id": 220,
         "slug": "song-of-horror-complete-edition",
         "title": "Song of Horror Complete Edition",
         "description": "A 3rd person, fixed-camera survival horror adventure. Fear the Presence, a mysterious entity you cannot fight: stay alert, hide, breathe slowly... Explore cursed places where unseen spirits and lost souls linger in a true horror story for the ages.",
@@ -4393,8 +4169,8 @@
         ]
     },
     {
-        "id": 36,
-        "slug": "submerged:-hidden-depths",
+        "id": 221,
+        "slug": "submerged-hidden-depths",
         "title": "Submerged: Hidden Depths",
         "description": "Boat, climb, interact and explore in the beautiful ruins of a sunken world.",
         "image": {
@@ -4411,7 +4187,7 @@
         ]
     },
     {
-        "id": 1,
+        "id": 222,
         "slug": "nowhere-prophet",
         "title": "Nowhere Prophet",
         "description": "Prepare your decks and go on a pilgrimage through the wasteland! Nowhere Prophet is a unique single-player card game. Travel across randomly generated maps and lead your followers in deep tactical combat. Discover new cards and build your deck as you explore this strange world",
@@ -4429,7 +4205,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 223,
         "slug": "what-lies-in-the-multiverse",
         "title": "What Lies in the Multiverse",
         "description": "Welcome to What Lies in the Multiverse – a dimension-shifting, comedic adventure about worlds turned inside out through the powers of one gifted young boy and the misguided lessons of an eccentric scientist.",
@@ -4449,8 +4225,8 @@
         ]
     },
     {
-        "id": 3,
-        "slug": "zombie-rollerz:-pinball-heroes",
+        "id": 224,
+        "slug": "zombie-rollerz-pinball-heroes",
         "title": "Zombie Rollerz: Pinball Heroes",
         "description": "Zombie Rollerz is the ultimate mashup of classic pinball, zombie defense and rogue-like! Shoot, slam and smash your way through hordes of zombies and epic boss fights. Select your hero, it’s time to become a pinball wizard!",
         "image": {
@@ -4469,7 +4245,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 225,
         "slug": "defunct",
         "title": "Defunct",
         "description": "Defunct is an indie adventure game with a focus on flow, speed and an engaging world. You are a broken robot that accidentally falls out of a giant cargo ship onto a post-human Earth, now inhabited by robots. You have to get back to your ship before it’s to late.",
@@ -4486,7 +4262,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 226,
         "slug": "cryofall",
         "title": "CryoFall",
         "description": "CryoFall is a sci-fi colony simulation survival game set on a forgotten planet in a distant future. Master technology, agriculture, trading, industry, cybernetics, exploration, and more!",
@@ -4505,8 +4281,8 @@
         ]
     },
     {
-        "id": 6,
-        "slug": "nairi:-tower-of-shirin",
+        "id": 227,
+        "slug": "nairi-tower-of-shirin",
         "title": "NAIRI: Tower of Shirin",
         "description": "Embark on a charming graphic adventure with adorable characters in a troubled world...",
         "image": {
@@ -4524,7 +4300,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 228,
         "slug": "rising-hell",
         "title": "Rising Hell",
         "description": "Rising Hell is a vertical platformer rogue-lite filled with adrenaline-pumping action and tons of heavy gothic metal shreds. Climb out from the ever-changing hell while you fight hordes of blood-lusting demons.",
@@ -4541,7 +4317,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 229,
         "slug": "rise-of-the-third-power",
         "title": "Rise of the Third Power",
         "description": "Rise of the Third Power is a retro-themed, console-style RPG, loosely based on the political climate of Europe in the late 1930's. The story takes place in the land of Rin during the height of the Age of Sail, following the events that would lead to the greatest war in history.",
@@ -4562,7 +4338,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 230,
         "slug": "kardboard-kings",
         "title": "Kardboard Kings",
         "description": "Open your own Card shop by the seaside! Buy, trade and sell Cards, OR keep them for your own collection! Earn reputation with customers, beat your shop goals, unlock new decorations, and host exciting events to bring everyone to the best Card shop in town!",
@@ -4579,8 +4355,8 @@
         ]
     },
     {
-        "id": 10,
-        "slug": "strategic-mind:-spectre-of-communism",
+        "id": 231,
+        "slug": "strategic-mind-spectre-of-communism",
         "title": "Strategic Mind: Spectre of Communism",
         "description": "Strategic Mind: Spectre of Communism is a (hi)story-driven turn-based strategy set in the WW2 period. It offers refined wargame mechanics, story-rich gameplay, and modern 3D graphics. Lead the USSR Armed forces staging the world Communist revolution.",
         "image": {
@@ -4597,8 +4373,8 @@
         ]
     },
     {
-        "id": 11,
-        "slug": "strategic-mind:-blitzkrieg",
+        "id": 232,
+        "slug": "strategic-mind-blitzkrieg",
         "title": "Strategic Mind: Blitzkrieg",
         "description": "Strategic Mind: Blitzkrieg is a turn-based strategy set in the period of WW2. It brings a modern look and new features to a good old wargame genre. You are to lead the German Armed forces overcoming unthinkable odds and claiming the ultimate bittersweet victory in Europe.",
         "image": {
@@ -4615,7 +4391,7 @@
         ]
     },
     {
-        "id": 12,
+        "id": 233,
         "slug": "legend-of-bum-bo",
         "title": "Legend of Bum bo",
         "description": "The Legend of Bum-bo is a puzzle-based \"deckbuilding roguelike.\" Collect items that can be modified, upgraded and combined with others in many interesting ways. Smash through cardboard monstrosities, giant bosses and dark, personal urges. It’s the prequel to The Binding of Isaac!",
@@ -4635,7 +4411,7 @@
         ]
     },
     {
-        "id": 13,
+        "id": 234,
         "slug": "blood-and-zombies",
         "title": "Blood and Zombies",
         "description": "Blood, guts, meat. Humanity's waging war against a zombie apocalypse. Lead one of 4 of humanity's deadliest survivors against the horde in this first person, wave defense shooter. Load up guns, set up turrets, sharpen your skills, and maybe you'll make it through the night.",
@@ -4653,8 +4429,8 @@
         ]
     },
     {
-        "id": 14,
-        "slug": "strategic-mind:-the-pacific",
+        "id": 235,
+        "slug": "strategic-mind-the-pacific",
         "title": "Strategic Mind: The Pacific",
         "description": "Strategic Mind: The Pacific is a turn-based strategy set in the WW2 period depicting the war between the USA and the Empire of Japan waged in the Pacific Ocean with mindblowing historical accuracy and attention to detail. Two Sides. Two Commanders. Two Destinies.",
         "image": {
@@ -4671,8 +4447,8 @@
         ]
     },
     {
-        "id": 15,
-        "slug": "strategic-mind:-fight-for-freedom",
+        "id": 236,
+        "slug": "strategic-mind-fight-for-freedom",
         "title": "Strategic Mind: Fight for Freedom",
         "description": "Strategic Mind: Fight for Freedom is a history-driven turn-based strategy set in WW2. Take command of the Allied forces and protect your homeland and the whole of Europe from totalitarian madness. Form armies. Win battles. Change history.",
         "image": {
@@ -4689,7 +4465,7 @@
         ]
     },
     {
-        "id": 16,
+        "id": 237,
         "slug": "iron-danger",
         "title": "Iron Danger",
         "description": "Iron Danger is a tactical combat game with a unique time manipulation mechanic. A never before seen combination that blends the tactical depth of turn-based games with the exciting action of real-time games.",
@@ -4708,7 +4484,7 @@
         ]
     },
     {
-        "id": 17,
+        "id": 238,
         "slug": "adams-venture-origins",
         "title": "Adams Venture Origins",
         "description": "Together with your companion Evelyn, you explore ancient ruins and solve ingenious puzzles to find mysterious locales. As you travel to unique locations, you’re opposed by the evil Clairvaux company, who’s intentions for exploring artifacts could unleash chaos around the world.",
@@ -4727,7 +4503,7 @@
         ]
     },
     {
-        "id": 18,
+        "id": 239,
         "slug": "car-tuning-simulator",
         "title": "Car Tuning Simulator",
         "description": "In Car Tuning Simulator, you can create, modify and paint your own luxury car, and then go to the atmospheric night city highway to test it in action!",
@@ -4746,7 +4522,7 @@
         ]
     },
     {
-        "id": 19,
+        "id": 240,
         "slug": "aspire-inas-tale",
         "title": "Aspire Inas Tale",
         "description": "Set out on a fantastical adventure as Ina and take a journey of self-discovery against the backdrop of dazzling landscapes in The Tower. Experience fear turn to conviction as she unravels her purpose in this world and embarks on her path to freedom.",
@@ -4763,8 +4539,8 @@
         ]
     },
     {
-        "id": 1,
-        "slug": "baldur's-gate:-dark-alliance",
+        "id": 241,
+        "slug": "baldurs-gate-dark-alliance",
         "title": "Baldur's Gate: Dark Alliance",
         "description": "Experience the massively popular world of Baldur's Gate as never before. Baldur's Gate: Dark Alliance thrusts you into an epic Dungeons & Dragons adventure filled with intense action, intricate puzzles and sinister intrigue.",
         "image": {
@@ -4784,7 +4560,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 242,
         "slug": "trash-sailors",
         "title": "Trash Sailors",
         "description": "Trash Sailors is a hand-drawn sailing simulator with co-op up to 4 players. Create the trashiest sailing team in history, fight with monsters and trash your friendship!",
@@ -4806,7 +4582,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 243,
         "slug": "firework",
         "title": "Firework",
         "description": "An accidental fire at a funeral forces the police to re-investigate a closed case of massacre. Lin Lixun participates the re-investigation by chances. As the investigation goes deeper, the past of the victims gradually emerges. However, the case becomes more bewildering.",
@@ -4825,7 +4601,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 244,
         "slug": "helheim-hassle",
         "title": "Helheim Hassle",
         "description": "Helheim Hassle is a narrative adventure platformer. Play as Bjørn, a pacifist Viking that can detach and combine limbs to solve challenging puzzles and get out of uncomfortable situations.",
@@ -4844,7 +4620,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 245,
         "slug": "ecosystem",
         "title": "Ecosystem",
         "description": "Grow and modify an ecosystem, with simulated evolution by natural selection creating the lifeforms that inhabit it. All the creatures in the trailer evolved on their own in the game. None were hand-edited!",
@@ -4861,8 +4637,8 @@
         ]
     },
     {
-        "id": 6,
-        "slug": "shadow-tactics---aiko's-choice",
+        "id": 246,
+        "slug": "shadow-tactics-aikos-choice",
         "title": "Shadow Tactics - Aiko's Choice",
         "description": "Aiko's Choice is a brand-new standalone addon to the beloved stealth tactics game Shadow Tactics. Set in Japan around the Edo period, you take control of kunoichi adept Aiko and her deadly assassin friends to hunt down the ghosts of her past.",
         "image": {
@@ -4881,8 +4657,8 @@
         ]
     },
     {
-        "id": 7,
-        "slug": "happy's-humble-burger-farm",
+        "id": 247,
+        "slug": "happys-humble-burger-farm",
         "title": "Happy's Humble Burger Farm",
         "description": "Congrats, you're hired! Serve customers and maintain the Happy's Humble Burger Farm restaurant alone on the overnight. But be careful; things fall apart if you mess up! After work, head home and keep your eyes open for a way to escape the Barnyard Buds and their fast food dream.",
         "image": {
@@ -4900,7 +4676,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 248,
         "slug": "mechajammer",
         "title": "Mechajammer",
         "description": "A tactical cyberpunk turn-based RPG set on an off-world grindhouse jungle colony. Skulk through the shadows or charge in guns blazing. Recruit a unique party for large squad-based assaults as your adventure plunges you deep into the city’s secrets.",
@@ -4920,7 +4696,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 249,
         "slug": "undungeon",
         "title": "Undungeon",
         "description": "Undungeon is a gorgeous Action/RPG driven by intense real-time combat and an immensely rich science fiction story. Travel between dimensions and change the world around you in an attempt to reconstruct the shattered Multiverse.",
@@ -4940,8 +4716,8 @@
         ]
     },
     {
-        "id": 10,
-        "slug": "redrawn---the-painted-tower-collectors-edition",
+        "id": 250,
+        "slug": "redrawn-the-painted-tower-collectors-edition",
         "title": "ReDrawn - The Painted Tower Collectors Edition",
         "description": "A mysterious tower holds the secrets to untold power and the little girl who wields it. Can you explore the realms of paintings brought to life and save Iris in time?",
         "image": {
@@ -4957,7 +4733,7 @@
         ]
     },
     {
-        "id": 11,
+        "id": 251,
         "slug": "giants-uprising",
         "title": "Giants Uprising",
         "description": "Giants Uprising is a medieval fantasy action adventure game full of Giants and unlimited destruction! Take on the role of a powerful Giant who finally breaks free from enslavement to seek revenge on the ruthless human race.",
@@ -4976,7 +4752,7 @@
         ]
     },
     {
-        "id": 12,
+        "id": 252,
         "slug": "dark-deception",
         "title": "Dark Deception",
         "description": "Dark Deception is a spoopy horror maze adventure game. Fight your way through nightmarish mazes as you seek to change your fate. Run or die. The choice is yours.  Dark Deception consists of 5 chapters. Chapter 5 is still unreleased & will be added later.",
@@ -4994,7 +4770,7 @@
         ]
     },
     {
-        "id": 13,
+        "id": 253,
         "slug": "dollhouse",
         "title": "Dollhouse",
         "description": "Dollhouse is a frightening film noir horror story sure to send shivers down your spine. Survive a horrifying trip into the mind of detective Marie. Piece your past together, but watch your back, as something gravely dangerous is hunting you down.",
@@ -5012,7 +4788,7 @@
         ]
     },
     {
-        "id": 14,
+        "id": 254,
         "slug": "basingstoke",
         "title": "Basingstoke",
         "description": "Basingstoke is a tense rogue-like that mixes stealth and arcade action. Explore the smouldering ruins of Basingstoke, a world of reanimated undead and ferocious alien monsters. Scavenge as you go, crafting equipment to help you in your mission: escape Basingstoke!",
@@ -5032,7 +4808,7 @@
         ]
     },
     {
-        "id": 15,
+        "id": 255,
         "slug": "subway-midnight",
         "title": "Subway Midnight",
         "description": "Board the train! Run away from a weirdo! Solve some puzzles! Make friends with some ghosts! Try not to become a ghost yourself!",
@@ -5052,8 +4828,8 @@
         ]
     },
     {
-        "id": 16,
-        "slug": "black-widow:-recharged",
+        "id": 256,
+        "slug": "black-widow-recharged",
         "title": "Black Widow: Recharged",
         "description": "Defend your spider web from an onslaught of bugs in this frenetic revival of the cult classic twin-stick shooter, all while jamming to an infectious score by Megan McDuffee. Play solo or tag in a friend for local co-op across 30 challenges or the arcade mode.",
         "image": {
@@ -5071,7 +4847,7 @@
         ]
     },
     {
-        "id": 1,
+        "id": 257,
         "slug": "jars",
         "title": "JARS",
         "description": "JARS is a strategy game featuring puzzles and elements of tower defense. Join Victor in his spooky yet endearing world and prepare for a quest to uncover the secrets of his family’s basement. Will you save the world or get grounded by mother?",
@@ -5092,7 +4868,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 258,
         "slug": "unicorns-on-unicycles",
         "title": "Unicorns on Unicycles",
         "description": "Turn your horns into swords in this wacky and sweet physics-driven rainbowcore fighting game featuring jousting unicorns… on unicycles.",
@@ -5111,7 +4887,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 259,
         "slug": "inscryption",
         "title": "Inscryption",
         "description": "From the creator of Pony Island and The Hex comes the latest mind melting, self-destructing love letter to video games. Inscryption is an inky black card-based odyssey that blends the deckbuilding roguelike, escape-room style puzzles, and psychological horror into a blood-laced s",
@@ -5132,7 +4908,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 260,
         "slug": "ruin-raiders",
         "title": "Ruin Raiders",
         "description": "Ruin Raiders is a turn-based tactical roguelike where you command customizable squads on a one-way journey into the ruins of an ancient civilization. Master turn-based combat, craft new technologies, and dive into ever-changing ruins to unveil the past!",
@@ -5150,8 +4926,8 @@
         ]
     },
     {
-        "id": 5,
-        "slug": "back-4-blood:-standard-edition",
+        "id": 261,
+        "slug": "back-4-blood-standard-edition",
         "title": "Back 4 Blood: Standard Edition",
         "description": "Back 4 Blood is a thrilling cooperative first-person shooter with an intense 4 player co-op narrative campaign, competitive multiplayer as human or Ridden, and frenetic gameplay that keeps you in the action.",
         "image": {
@@ -5172,7 +4948,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 262,
         "slug": "blazing-beaks",
         "title": "Blazing Beaks",
         "description": "Roguelite - where too much greediness can be fatal. A colorful world with armed birds blazing their way through piles of mutants, monsters and creepy creatures. Lots of mysteries to unravel, secrets to discover and levels to explore.",
@@ -5193,7 +4969,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 263,
         "slug": "alan-wake-remastered",
         "title": "Alan Wake Remastered",
         "description": "In this award-winning cinematic action-thriller, troubled author Alan Wake embarks on a desperate search for his missing wife, Alice. Alan Wake Remastered offers the complete experience, with the main game and its two story expansions - The Signal and The Writer - with stunning new 4K visuals.",
@@ -5212,7 +4988,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 264,
         "slug": "bonfire-peaks",
         "title": "Bonfire Peaks",
         "description": "Set your belongings on fire on a beautiful voxel art puzzle island.\n\nMove onwards, move upwards, and leave nothing behind.\nBonfire Peaks is a puzzle game about closure.",
@@ -5232,7 +5008,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 265,
         "slug": "cruel-bands-career",
         "title": "Cruel Bands Career",
         "description": "The Glass Heart Band face challenges brought on by a cruel world! They are on a secret mission and must face varied audiences and bosses to complete their quest.",
@@ -5253,7 +5029,7 @@
         ]
     },
     {
-        "id": 10,
+        "id": 266,
         "slug": "rogue-lords",
         "title": "Rogue Lords",
         "description": "A dark fantasy roguelike where you play as the Devil! Lead famous evil geniuses through events and turn-based fights to spread terror and corruption, and use your evil powers to change the game's rules to your advantage.",
@@ -5270,8 +5046,8 @@
         ]
     },
     {
-        "id": 11,
-        "slug": "centipede:-recharged",
+        "id": 267,
+        "slug": "centipede-recharged",
         "title": "Centipede: Recharged",
         "description": "Blast bugs and chase high scores in this glorious revival of an old-school classic, all while jamming to a heart-pounding original score by Megan McDuffee. Play solo or tag in a friend for local co-op across 30 unique challenges or the endless arcade mode.",
         "image": {
@@ -5290,8 +5066,8 @@
         ]
     },
     {
-        "id": 12,
-        "slug": "baldur's-gate-ii:-enhanced-edition",
+        "id": 268,
+        "slug": "baldurs-gate-ii-enhanced-edition",
         "title": "Baldur's Gate II: Enhanced Edition",
         "description": "Rediscover the beloved RPG classic— now enhanced for modern adventurers! Gather your party of heroes and continue the legendary adventure in this story-rich fantasy epic where every choice matters.",
         "image": {
@@ -5310,25 +5086,7 @@
         ]
     },
     {
-        "id": 13,
-        "slug": "2064:-read-only-memories",
-        "title": "2064: Read Only Memories",
-        "description": "Dive into a cyberpunk thriller and explore the social challenges of tomorrow through classic adventure gaming. Team up with Turing, the world’s first sapient machine, to unmask a conspiracy that will shake the foundations of Neo-San Francisco. ",
-        "image": {
-            "tall": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_2064ReadOnlyMemories_MidBossLLC_S2_1200x1600-5c445844937c1dddee737615d72b3de1",
-            "wide": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_2064ReadOnlyMemories_MidBossLLC_S1_2560x1440-a8a1b19176ad977989801a9dd4d9a782"
-        },
-        "price": 1999,
-        "discount": 0,
-        "tags": [
-            45,
-            56,
-            3,
-            27
-        ]
-    },
-    {
-        "id": 14,
+        "id": 269,
         "slug": "sky-racket",
         "title": "Sky Racket",
         "description": "Sky Racket is a game that mixes two classic genres from the Arcade era: Shoot’em up and Brick Breakers. In a world where you are unable to attack, using your racket to strike enemy bullets back at them is your only option! Bounce bullets back at your foes and save the galaxy!",
@@ -5348,8 +5106,8 @@
         ]
     },
     {
-        "id": 15,
-        "slug": "gamedec---definitive-edition",
+        "id": 270,
+        "slug": "gamedec-definitive-edition",
         "title": "Gamedec - Definitive Edition",
         "description": "Gamedec is a single-player cyberpunk isometric RPG. You are a game detective, who solves crimes inside virtual worlds. Use your wits to gather info from your witnesses and suspects, getting to the bottom of deceptive schemes. You are the sum of your choices.",
         "image": {
@@ -5366,7 +5124,7 @@
         ]
     },
     {
-        "id": 16,
+        "id": 271,
         "slug": "tharsis",
         "title": "Tharsis",
         "description": "Tharsis is a turn-based space strategy game. With dice. And cannibalism. It puts you in control of humanity’s first mission to Mars, just as it’s struck by a micrometeorite storm. ",
@@ -5384,7 +5142,7 @@
         ]
     },
     {
-        "id": 17,
+        "id": 272,
         "slug": "flat-heroes",
         "title": "Flat Heroes",
         "description": "Dodge, jump, and dash your way through hundreds of terrifying geometric levels and epic bosses. Too tough? Bring your friends!",
@@ -5406,8 +5164,8 @@
         ]
     },
     {
-        "id": 18,
-        "slug": "niche---a-genetics-survival-game",
+        "id": 273,
+        "slug": "niche-a-genetics-survival-game",
         "title": "Niche - a genetics survival game",
         "description": "Niche - a genetics survival game is a turn-based strategy game combined with simulation and roguelike elements. Shape your species of animals based on real genetics. Keep them alive against all odds, such as predators, climate change and spreading sickness.",
         "image": {
@@ -5426,8 +5184,8 @@
         ]
     },
     {
-        "id": 19,
-        "slug": "bud-spencer-and-terence-hill---slaps-and-beans",
+        "id": 274,
+        "slug": "bud-spencer-and-terence-hill-slaps-and-beans",
         "title": "Bud Spencer and Terence Hill - Slaps and Beans",
         "description": "Bud Spencer and Terence Hill in their first virtual adventure. Slaps And Beans is a co-operative or single player scrolling beat’ em up game with the addition of platform elements and mini-games in which you'll interpret the characters of Bud Spencer and Terence Hill",
         "image": {
@@ -5446,7 +5204,7 @@
         ]
     },
     {
-        "id": 20,
+        "id": 275,
         "slug": "hamsterdam",
         "title": "Hamsterdam",
         "description": "An arcade brawler where you become the Hamster-fu master to save the town of Hamsterdam. Will you be the hero your town needs? Will you defeat the whisker twister in chief, the vile Chinchilla Marlo? You bet your bushy tail!",
@@ -5465,7 +5223,7 @@
         ]
     },
     {
-        "id": 1,
+        "id": 276,
         "slug": "wrc-10-fia-world-rally-championship",
         "title": "WRC 10 FIA World Rally Championship",
         "description": "Hailed by the community, the standard-setting off-road racing simulation has been reinvented! Reach the 2021 season podium, and to celebrate the 50th anniversary of the WRC, relive the highlights at the wheel of legendary cars. Rise to the challenge!",
@@ -5483,7 +5241,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 277,
         "slug": "pato-box",
         "title": "Pato Box",
         "description": "A surreal boxing quest with a duck!\n\nUncover their deepest secrets by exploring thrilling 3d environments with a graphic novel/comic book art style.",
@@ -5500,7 +5258,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 278,
         "slug": "myst",
         "title": "Myst",
         "description": "Cyan, the indie studio that created beloved classics Myst and Riven, has reimagined Myst, built from the ground up to play in 2D/VR! Journey to the Ages, unravel puzzles, and be a part of the surrealistic adventure that will become your own.",
@@ -5518,26 +5276,8 @@
         ]
     },
     {
-        "id": 4,
-        "slug": "8doors:-arum's-afterlife-adventure",
-        "title": "8Doors: Arum's Afterlife Adventure",
-        "description": "8Doors is a story-driven Metroidvania-style platformer influenced by Korean folktales. Play as ‘Arum’, a brave girl who entered the afterlife to find her father’s soul. Guide her through the '8 Doors of Purgatory' to solve the mysteries that lie within.",
-        "image": {
-            "tall": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_8DoorsArumsAfterlifeAdventure_RootlessStudio_S2_1200x1600-30dd2956fc0bf1d752d584eef71bf63b",
-            "wide": "https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_8DoorsArumsAfterlifeAdventure_RootlessStudio_S1_2560x1440-87d535a0d198f3ad6d3c72f86075ccd0"
-        },
-        "price": 1999,
-        "discount": 0,
-        "tags": [
-            1,
-            45,
-            56,
-            3
-        ]
-    },
-    {
-        "id": 5,
-        "slug": "druidstone:-the-secret-of-the-menhir-forest",
+        "id": 279,
+        "slug": "druidstone-the-secret-of-the-menhir-forest",
         "title": "Druidstone: The Secret of the Menhir Forest",
         "description": "A turn-based, tactical RPG from the makers of Legend of Grimrock games. Every action, every turn counts as you control your party of heroes through challenging, handcrafted missions in the ancient, mist-clad Menhir Forest.",
         "image": {
@@ -5555,7 +5295,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 280,
         "slug": "fort-triumph",
         "title": "Fort Triumph",
         "description": "A strategy game combining the turn-based combat of XCOM with the world exploration of HOMM. Build towns, collect artifacts, improve your heroes, and influence your tactical surroundings using physics!",
@@ -5575,7 +5315,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 281,
         "slug": "voidtrain",
         "title": "Voidtrain",
         "description": "Become a crew member of an interdimensional express! Discover a mysterious world inhabited by deadly creatures, treasures, and much more. Gather materials, upgrade your train, and create better weapons. Play solo or in 4 player co-op!",
@@ -5593,7 +5333,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 282,
         "slug": "foreclosed",
         "title": "FORECLOSED",
         "description": "FORECLOSED is a narrative-driven action-adventure set in a Cyberpunk world filled with action, suspense and experimental augmentations. Follow the story of Evan Kapnos in this comic book styled game as he unravels the conspiracy behind his identity foreclosure",
@@ -5612,7 +5352,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 283,
         "slug": "garden-story",
         "title": "Garden Story",
         "description": "Unify a broken community as the newly-appointed Guardian of The Grove. Traverse a vibrant island to combat invasive Rot, inspire its inhabitants, and rebuild your home. You won't have to do this alone: fruity friends await, ready to lend a hand!",
@@ -5632,7 +5372,7 @@
         ]
     },
     {
-        "id": 10,
+        "id": 284,
         "slug": "black-book",
         "title": "Black Book",
         "description": "“Black Book” is a dark RPG Adventure, based on Slavic myths, in which you play as a young sorceress. Fight evil forces in card-based battles and explore the world, where humans live alongside mythological creatures.",
@@ -5652,7 +5392,7 @@
         ]
     },
     {
-        "id": 11,
+        "id": 285,
         "slug": "house-flipper",
         "title": "House Flipper",
         "description": "House Flipper is a unique chance to become a one-man renovation crew. Buy, repair and remodel devastated houses. Give them a second life and sell them at a profit!",
@@ -5672,7 +5412,7 @@
         ]
     },
     {
-        "id": 12,
+        "id": 286,
         "slug": "horror-tales-the-wine",
         "title": "HORROR TALES The Wine",
         "description": "Explore a post-pandemic fictional Mediterranean island and confront your fears! Immerse yourself in a seemingly abandoned city and struggle to find a precious Banydebosc red wine bottle to cure your loved ones. But be aware; your Nemesis is watching you.",
@@ -5692,7 +5432,7 @@
         ]
     },
     {
-        "id": 13,
+        "id": 287,
         "slug": "omno",
         "title": "OMNO",
         "description": "Omno is a single-player journey of discovery through an ancient world of wonders. Full of puzzles, secrets and obstacles to overcome, where the power of a lost civilisation will carry you through forests, deserts and tundras - even to the clouds.",
@@ -5711,7 +5451,7 @@
         ]
     },
     {
-        "id": 14,
+        "id": 288,
         "slug": "chernobylite",
         "title": "Chernobylite",
         "description": "Chernobylite is a sci-fi survival horror RPG with challenging combat and a unique crafting mechanic. Set in the hyper-realistic, 3D-scanned wasteland of Chernobyl’s Exclusion Zone, explore a non-linear storyline in your search to uncover the truth.",
@@ -5730,8 +5470,8 @@
         ]
     },
     {
-        "id": 15,
-        "slug": "death's-door",
+        "id": 289,
+        "slug": "deaths-door",
         "title": "Death's Door",
         "description": "Reaping souls of the dead and punching a clock might get monotonous but it's honest work for a Crow. The job gets lively when your assigned soul is stolen and you must track down a desperate thief to a realm untouched by death...",
         "image": {
@@ -5749,7 +5489,7 @@
         ]
     },
     {
-        "id": 16,
+        "id": 290,
         "slug": "darksiders-genesis",
         "title": "Darksiders Genesis",
         "description": "DARKSIDERS: GENESIS gives players their first look at the world of DARKSIDERS before the events of the original game. Furthermore, it introduces the fourth and last horseman STRIFE, as well as Co-op gameplay for the first time in the history of the franchise.",
@@ -5770,8 +5510,8 @@
         ]
     },
     {
-        "id": 17,
-        "slug": "spellforce-3:-soul-harvest",
+        "id": 291,
+        "slug": "spellforce-3-soul-harvest",
         "title": "SpellForce 3: Soul Harvest",
         "description": "Three years after the Purity Wars, Nortander is on the cusp of a new era.  While a hatemonger threatens to tear apart the Dwarven realm, an enigmatic cult of Dark Elves harvests the souls of people for reasons unknown.",
         "image": {
@@ -5789,7 +5529,7 @@
         ]
     },
     {
-        "id": 18,
+        "id": 292,
         "slug": "obduction",
         "title": "Obduction",
         "description": "A sci-fi adventure from Cyan, the creators of Myst. Abducted far across the universe, you find yourself on a broken alien landscape with odd pieces of Earth. Explore, uncover, solve, and find a way to make it home.",
@@ -5809,8 +5549,8 @@
         ]
     },
     {
-        "id": 19,
-        "slug": "dream-engines:-nomad-cities",
+        "id": 293,
+        "slug": "dream-engines-nomad-cities",
         "title": "Dream Engines: Nomad Cities",
         "description": "A survival city-building game with flying cities. Build, automate, and defend a flying city to survive in a wacky, nightmare-infested, post-apocalyptic world full of strange science and dreams.",
         "image": {
@@ -5827,7 +5567,7 @@
         ]
     },
     {
-        "id": 20,
+        "id": 294,
         "slug": "the-chameleon",
         "title": "The Chameleon",
         "description": "A tense stealth game with super-powers, filled with glorious fat pixels. Transform into your enemies, dash, teleport, slow time and super-punch your way through this moody retro stealth game.",
@@ -5847,7 +5587,7 @@
         ]
     },
     {
-        "id": 21,
+        "id": 295,
         "slug": "ironcast",
         "title": "Ironcast",
         "description": "Ironcast is inspired by Victorian-era science fiction, set in an exciting alternative history; a time when refined men and women in top hats and bonnets commanded gigantic walking war machines, laying waste to the enemies of the British Empire.",
@@ -5867,8 +5607,8 @@
         ]
     },
     {
-        "id": 22,
-        "slug": "songs-for-a-hero---definitive-edition",
+        "id": 296,
+        "slug": "songs-for-a-hero-definitive-edition",
         "title": "Songs for a Hero - Definitive Edition",
         "description": "A classic platform with a twist: A dynamic soundtrack and funny lyrics that sings the player's actions and responds to what is happening during the adventure.",
         "image": {
@@ -5886,7 +5626,7 @@
         ]
     },
     {
-        "id": 23,
+        "id": 297,
         "slug": "koral",
         "title": "KORAL",
         "description": "Koral, a love letter to the ocean. Dive into the beautiful underwater world as a sea current. Solve puzzles to bring back to life coral reefs and spread the beauty of the oceans in different sea ecosystems.",
@@ -5906,7 +5646,7 @@
         ]
     },
     {
-        "id": 1,
+        "id": 298,
         "slug": "horizon-chase-turbo",
         "title": "Horizon Chase Turbo",
         "description": "Horizon Chase Turbo is a racing game inspired by the great hits of the 80's and 90's. It recreates the classic arcade gameplay with unbound speed limits of fun. Full throttle on and enjoy!",
@@ -5924,8 +5664,8 @@
         ]
     },
     {
-        "id": 2,
-        "slug": "real-farm---gold-edition",
+        "id": 299,
+        "slug": "real-farm-gold-edition",
         "title": "Real Farm - Gold Edition",
         "description": "Grow your way to success in Real Farm - Gold Edition. Work your way up from nothing in career mode or start with an established farm in free mode. Complete jobs and manage land, crops and animals as you strive to become a respected farmer in the community.",
         "image": {
@@ -5943,7 +5683,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 300,
         "slug": "hell-is-other-demons",
         "title": "Hell is other demons",
         "description": "Hell is Other Demons is an action-platform shooter, with Roguelite elements. Explore a sprawling, hand-crafted world full of demons, insanely over-the-top boss fights, and a heavy synthwave soundtrack.",
@@ -5963,8 +5703,8 @@
         ]
     },
     {
-        "id": 4,
-        "slug": "luna's-fishing-garden",
+        "id": 301,
+        "slug": "lunas-fishing-garden",
         "title": "Luna's Fishing Garden",
         "description": "Luna's Fishing Garden is a cozy fishing and building game. Catch fish, trade it in and create the garden of your dreams by planting new trees, placing water objects and bringing animals to the archipelago.",
         "image": {
@@ -5982,7 +5722,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 302,
         "slug": "we-are-football",
         "title": "WE ARE FOOTBALL",
         "description": "Lead your football club through national championships and to international stardom. Take over an established men’s or women’s team of your choice as its manager or bring a small team into the big league.",
@@ -5999,7 +5739,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 303,
         "slug": "little-big-workshop",
         "title": "Little Big Workshop",
         "description": "Imagine a magical factory, appearing right in your living room. Manage your workers, stations, machines and create awesome stuff as your little big workshop grows into your dream factory!",
@@ -6018,7 +5758,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 304,
         "slug": "stonefly",
         "title": "Stonefly",
         "description": "Harness the wind and soar through the wilderness of Stonefly, a chill and tranquil action-adventure game about self-discovery, legacy, and belonging.",
@@ -6037,7 +5777,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 305,
         "slug": "truck-driver",
         "title": "Truck Driver",
         "description": "Build your career as a Truck Driver! Haul a wide range of cargo and make a name for yourself amongst the local community. Start from the bottom, take on jobs, buy new trucks & parts and become a respected Truck Driver!",
@@ -6057,7 +5797,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 306,
         "slug": "a-good-snowman-is-hard-to-build",
         "title": "A Good Snowman is Hard to Build",
         "description": "A Good Snowman Is Hard To Build is an adorable puzzle game about being a monster and making snowmen.  Featuring lovingly-crafted puzzle design from Alan Hazelden, one of the creators of Sokobond, Cosmic Express, and A Monster's Expedition!",
@@ -6077,7 +5817,7 @@
         ]
     },
     {
-        "id": 10,
+        "id": 307,
         "slug": "cosmic-express",
         "title": "Cosmic Express",
         "description": "Cosmic Express is a puzzle game about planning the train route for the world's most awkward space colony, from the minds behind A Good Snowman Is Hard To Build and the art of Tyu from Klondike.",
@@ -6096,8 +5836,8 @@
         ]
     },
     {
-        "id": 11,
-        "slug": "a-monster's-expedition",
+        "id": 308,
+        "slug": "a-monsters-expedition",
         "title": "A Monster's Expedition",
         "description": "From some of the best puzzle designers in the world comes A Monster's Expedition, an adorable and relaxing open world puzzle adventure for monsters who love to learn about humans.",
         "image": {
@@ -6116,7 +5856,7 @@
         ]
     },
     {
-        "id": 12,
+        "id": 309,
         "slug": "sokobond",
         "title": "Sokobond",
         "description": "Sokobond is an elegantly designed puzzle game about chemistry. It's logical, minimalist, and beautiful - crafted with love and science by a team of expert puzzle designers.",
@@ -6136,8 +5876,8 @@
         ]
     },
     {
-        "id": 13,
-        "slug": "deponia:-the-complete-journey",
+        "id": 310,
+        "slug": "deponia-the-complete-journey",
         "title": "Deponia: The Complete Journey",
         "description": "Join Rufus on his thrilling journeys, for the first time in a complete edition with many new features, that will not only be a blast for hardcore adventure fans, but also those new to the genre.",
         "image": {
@@ -6154,7 +5894,7 @@
         ]
     },
     {
-        "id": 14,
+        "id": 311,
         "slug": "splinter-cell-chaos-theory",
         "title": "Splinter Cell Chaos Theory",
         "description": "The year is 2008. Citywide blackouts ... stock exchange sabotage ... electronic hijacking of national defense systems ... this is information warfare.",
@@ -6172,7 +5912,7 @@
         ]
     },
     {
-        "id": 1,
+        "id": 312,
         "slug": "scrapnaut",
         "title": "Scrapnaut",
         "description": "Scrapnaut is a top-down, base building survival game with steampunk elements. Explore an open world with different biomes, take care of oxygen, manage your farms, generate electricity, build your home and much more!",
@@ -6192,8 +5932,8 @@
         ]
     },
     {
-        "id": 1,
-        "slug": "bridge-constructor:-the-walking-dead",
+        "id": 313,
+        "slug": "bridge-constructor-the-walking-dead",
         "title": "Bridge Constructor: The Walking Dead",
         "description": "Prepare for the ultimate mashup experience! Bridge Constructor: The Walking Dead combines the legendary and challenging puzzle gameplay of Bridge Constructor™ with the post-apocalyptic zombie universe of AMC’s The Walking Dead.",
         "image": {
@@ -6212,7 +5952,7 @@
         ]
     },
     {
-        "id": 1,
+        "id": 314,
         "slug": "old-world",
         "title": "Old World",
         "description": "Old World is a revolutionary historical strategy game where you lead your dynasty over generations against rival kingdoms. Wage massive wars, manage your court, and build a dynasty — or watch your empire crumble to dust. What legacy will you leave behind?",
@@ -6230,7 +5970,7 @@
         ]
     },
     {
-        "id": 1,
+        "id": 315,
         "slug": "hades",
         "title": "Hades",
         "description": "Defy the god of the dead as you hack and slash your way out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion and Transistor.",
@@ -6251,7 +5991,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 316,
         "slug": "speed-brawl",
         "title": "Speed Brawl",
         "description": "Speed Brawl is a 2D combat-racer about moving fast and hitting hard! Maintain your momentum, build combos, and unleash powerful moves. Find your own fighting style, and assemble the best team of brawlers ever seen. Then do it all again faster. Faster. FASTER!",
@@ -6273,7 +6013,7 @@
         ]
     },
     {
-        "id": 1,
+        "id": 317,
         "slug": "metro-2033-redux",
         "title": "Metro 2033 Redux",
         "description": "In 2013, the world was devastated by an apocalyptic event, annihilating almost all mankind and turning the earth’s surface into a poisonous wasteland. A handful of survivors took refuge in the depths of the Moscow underground, and human civilization entered a new Dark Age.  Th...",
@@ -6292,7 +6032,7 @@
         ]
     },
     {
-        "id": 1,
+        "id": 318,
         "slug": "devour",
         "title": "DEVOUR",
         "description": "DEVOUR is a co-op horror survival game for 1-4 players. Stop possessed cultists before they drag you to hell. Run. Scream. Hide. Just don't get caught.",

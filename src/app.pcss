@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --border-btn: 2px;
+    }
+    * {
+        @apply select-none drag-none;
+    }
+}
+
+@layer utilities {
+    .container {
+        @apply max-w-screen-md;
+    }
+    .join > :where(*:not(:first-child)) {
+        margin-inline-start: calc(var(--border-btn) * -1);
+    }
+}
