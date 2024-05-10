@@ -39,7 +39,14 @@
 
             <ul class="flex flex-wrap gap-2">
                 {#each data.tags as tag}
-                    <span class="badge badge-neutral text-xs">{tag.name}</span>
+                    <li>
+                        <a
+                            class="badge badge-neutral text-xs link"
+                            href="/products?tagIds={tag.id}"
+                        >
+                            {tag.name}
+                        </a>
+                    </li>
                 {/each}
             </ul>
         {/if}
