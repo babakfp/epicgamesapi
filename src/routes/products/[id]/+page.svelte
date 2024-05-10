@@ -7,14 +7,14 @@
 
 <div class="grid gap-4 self-start">
     <CardImage
-        className="sm:hidden"
+        className="xs:hidden"
         src={data.product.image.tall}
         alt={data.product.title}
         lazy={false}
     />
 
     <CardImage
-        className="hidden sm:block"
+        className="hidden xs:block"
         src={data.product.image.wide}
         alt={data.product.title}
         lazy={false}
@@ -22,7 +22,7 @@
     />
 
     <div class="grid gap-4">
-        <h3 class="font-semibold text-3xl">
+        <h3 class="font-semibold text-3xl text-white">
             {data.product.title}
         </h3>
 
@@ -31,12 +31,12 @@
             discount={data.product.discount}
         />
 
-        <h2 class="font-semibold text-xl mt-4">Description</h2>
+        <h2 class="font-semibold text-xl mt-4 text-white">Description</h2>
 
         <p class="text-sm leading-7">{data.product.description}</p>
 
         {#if data.tags.length}
-            <h2 class="font-semibold text-xl mt-4">Tags</h2>
+            <h2 class="font-semibold text-xl mt-4 text-white">Tags</h2>
 
             <ul class="flex flex-wrap gap-2">
                 {#each data.tags as tag}

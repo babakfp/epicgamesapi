@@ -13,7 +13,7 @@
         alt={product.title}
     />
 
-    <h3 class="text-sm font-semibold">
+    <h3 class="text-sm font-semibold text-white">
         {product.title}
     </h3>
 

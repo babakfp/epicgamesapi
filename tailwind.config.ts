@@ -9,6 +9,9 @@ export default {
     content: ["./src/**/*.{html,svelte}"],
     theme: {
         extend: {
+            screens: {
+                xs: "540px",
+            },
             colors: {
                 gray: colors.zinc,
             },
