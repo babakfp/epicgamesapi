@@ -1,5 +1,4 @@
 <script lang="ts">
-    import { page } from "$app/stores"
     import Card from "./Card.svelte"
 
     export let data
@@ -28,8 +27,7 @@
         class="join-item btn text-white
                 {!canGoBack ? 'btn-disabled' : ''}
             "
-        href="{$page.url.pathname}?start={data.pagination.start -
-            data.pagination.limit}"
+        href="/products?start={data.pagination.start - data.pagination.limit}"
     >
         Previous
     </a>
@@ -40,8 +38,7 @@
         class="join-item btn text-white
                 {!canGoForward ? 'btn-disabled' : ''}
             "
-        href="{$page.url.pathname}?start={data.pagination.start +
-            data.pagination.limit}"
+        href="/products?start={data.pagination.start + data.pagination.limit}"
     >
         Next
     </a>
