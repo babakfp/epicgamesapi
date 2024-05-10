@@ -5,7 +5,7 @@
     export let data
 </script>
 
-<div class="grid gap-4 self-start">
+<div class="grid gap-4">
     <CardImage
         className="xs:hidden"
         aspectRatio="tall"
