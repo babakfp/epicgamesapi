@@ -25,7 +25,7 @@
 
 <div class="join sticky bottom-4 mt-16 bg-base-100">
     <a
-        class="join-item btn btn-outline
+        class="join-item btn text-white
                 {!canGoBack ? 'btn-disabled' : ''}
             "
         href="{$page.url.pathname}?start={data.pagination.start -
@@ -33,11 +33,11 @@
     >
         Previous
     </a>
-    <div class="join-item btn btn-outline pointer-events-none">
+    <div class="join-item btn btn-disabled">
         {currentPageNumber}/{totalPages}
     </div>
     <a
-        class="join-item btn btn-outline
+        class="join-item btn text-white
                 {!canGoForward ? 'btn-disabled' : ''}
             "
         href="{$page.url.pathname}?start={data.pagination.start +
