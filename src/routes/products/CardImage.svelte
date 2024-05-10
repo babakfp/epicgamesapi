@@ -1,29 +1,36 @@
 <script lang="ts">
-    import { onMount } from "svelte"
-
     export let src: string
     export let alt: string
-    export let lazy = true
+    export let loading: HTMLImageElement["loading"] = "eager"
     export let className = ""
     export let placeholder = false
-    export let aspectType: "tall" | "wide" = "tall"
+    export let aspectRatio: "tall" | "wide"
 
     let isLoaded = false
-
-    onMount(() => (isLoaded = true))
+    let isFailedToLoad = false
 </script>
 
-{#if placeholder}
-    <div class="rounded aspect-[3/4] bg-gray-700 {className}" />
-{:else}
-    <img
-        class="rounded w-full bg-gray-700 {className}
-            {aspectType === 'tall' ? 'aspect-[3/4]' : 'aspect-video'}
-            {!isLoaded ? 'animate-pulse' : ''}
-        "
-        loading={lazy ? "lazy" : undefined}
-        {src}
-        {alt}
-        on:load={() => (isLoaded = true)}
+<div class="relative rounded overflow-hidden will-change-transform {className}">
+    <div
+        class="bg-gray-700 {aspectRatio === 'tall'
+            ? 'aspect-[3/4]'
+            : 'aspect-video'} {!placeholder && !isLoaded && !isFailedToLoad
+            ? 'animate-pulse'
+            : ''}"
     />
-{/if}
+
+    {#if !placeholder}
+        {#if isFailedToLoad}
+            <div class="absolute inset-center text-center text-xs">Failed!</div>
+        {/if}
+
+        <img
+            class="absolute inset-0"
+            {src}
+            {alt}
+            {loading}
+            on:load={() => (isLoaded = true)}
+            on:error={() => (isFailedToLoad = true)}
+        />
+    {/if}
+</div>

@@ -8,17 +8,16 @@
 <div class="grid gap-4 self-start">
     <CardImage
         className="xs:hidden"
+        aspectRatio="tall"
         src={data.product.image.tall}
         alt={data.product.title}
-        lazy={false}
     />
 
     <CardImage
         className="hidden xs:block"
+        aspectRatio="wide"
         src={data.product.image.wide}
         alt={data.product.title}
-        lazy={false}
-        aspectType="wide"
     />
 
     <div class="grid gap-4">
