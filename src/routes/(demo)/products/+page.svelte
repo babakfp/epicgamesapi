@@ -22,11 +22,9 @@
     {/each}
 </ul>
 
-<div class="join sticky bottom-4 mt-16 bg-base-100">
+<nav class="join sticky bottom-4 mt-16 bg-base-100">
     <a
-        class="join-item btn text-white
-                {!canGoBack ? 'btn-disabled' : ''}
-            "
+        class="join-item btn text-white {!canGoBack ? 'btn-disabled' : ''}"
         href="/products?start={data.pagination.start - data.pagination.limit}"
     >
         Previous
@@ -35,11 +33,9 @@
         {currentPageNumber}/{totalPages}
     </div>
     <a
-        class="join-item btn text-white
-                {!canGoForward ? 'btn-disabled' : ''}
-            "
+        class="join-item btn text-white {!canGoForward ? 'btn-disabled' : ''}"
         href="/products?start={data.pagination.start + data.pagination.limit}"
     >
         Next
     </a>
-</div>
+</nav>
