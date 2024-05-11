@@ -1,5 +1,5 @@
 {
     "files.readonlyInclude": {
-        "**/data/**": true
+        "data/*": true
     }
 }
