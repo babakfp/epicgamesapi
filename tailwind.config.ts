@@ -3,6 +3,7 @@ import colors from "tailwindcss/colors"
 import daisyui from "daisyui"
 import tailwindcssAddons from "tailwindcss-addons"
 import plugin from "tailwindcss/plugin"
+import defaultTheme from "tailwindcss/defaultTheme"
 
 /** @type {import("tailwindcss").Config} */
 export default {
@@ -16,7 +17,7 @@ export default {
                 gray: colors.zinc,
             },
             fontFamily: {
-                sans: ["Recursive"],
+                sans: ["Recursive", ...defaultTheme.fontFamily.sans],
             },
         },
         container: {
