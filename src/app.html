@@ -3,26 +3,28 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <title>Epic Games API (Unofficial)</title>
-        <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+        <link rel="icon" href="/favicon.png" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
-            rel="stylesheet"
+            rel="preload"
+            as="font"
+            type="font/woff2"
+            href="/fonts/Recursive/Recursive-VariableFont_CASL,CRSV,MONO,slnt,wght.woff2"
+            crossorigin="anonymous"
         />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-            rel="preconnect"
-            href="https://fonts.gstatic.com"
-            crossorigin=""
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&amp;family=Recursive:slnt,wght,CASL,CRSV,MONO@-15..0,300..1000,0..1,0..1,0..1&amp;display=swap"
-            rel="stylesheet"
-        />
+        <style>
+            @font-face {
+                font-family: "Recursive";
+                font-style: normal;
+                font-display: swap;
+                font-weight: 300 1000;
+                src: url("/fonts/Recursive/Recursive-VariableFont_CASL,CRSV,MONO,slnt,wght.woff2")
+                    format("woff2-variations");
+            }
+        </style>
 
         %sveltekit.head%
     </head>
