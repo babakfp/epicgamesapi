@@ -3,18 +3,47 @@ import { readJsonFileCwd } from "@/lib/server/fs/readJsonFileCwd.js"
 import type { Products } from "@/lib/apiDataTypes.js"
 import lunr from "lunr"
 
+const stringOfCommaSeparatedNumbersRegex = /^(\d+,)*\d+$/
+
 const SearchParamsSchema = v.object(
     {
         search: v.optional(v.string()),
-        minPrice: v.optional(v.coerce(v.number(), Number)),
-        maxPrice: v.optional(v.coerce(v.number(), Number)),
-        minDiscount: v.optional(v.coerce(v.number(), Number)),
-        maxDiscount: v.optional(v.coerce(v.number(), Number)),
-        tagIds: v.optional(
-            v.transform(v.string(), (input) => input.split(",").map(Number))
+        minPrice: v.optional(
+            v.coerce(v.number([v.integer(), v.minValue(0)]), Number)
         ),
-        start: v.optional(v.coerce(v.number(), Number), 0),
-        limit: v.optional(v.coerce(v.number([v.maxValue(100)]), Number), 10),
+        maxPrice: v.optional(
+            v.coerce(v.number([v.integer(), v.minValue(0)]), Number)
+        ),
+        minDiscount: v.optional(
+            v.coerce(v.number([v.integer(), v.minValue(0)]), Number)
+        ),
+        maxDiscount: v.optional(
+            v.coerce(v.number([v.integer(), v.minValue(0)]), Number)
+        ),
+        tagIds: v.optional(
+            v.transform(
+                v.string([v.regex(stringOfCommaSeparatedNumbersRegex)]),
+                (input) => {
+                    const ids = input.split(",").map(Number)
+                    const Schema = v.array(
+                        v.number([v.integer(), v.minValue(0)])
+                    )
+                    const parsedIds = v.parse(Schema, ids)
+                    return parsedIds
+                }
+            )
+        ),
+        start: v.optional(
+            v.coerce(v.number([v.integer(), v.minValue(0)]), Number),
+            0
+        ),
+        limit: v.optional(
+            v.coerce(
+                v.number([v.integer(), v.minValue(1), v.maxValue(100)]),
+                Number
+            ),
+            10
+        ),
     },
     v.never()
 )
