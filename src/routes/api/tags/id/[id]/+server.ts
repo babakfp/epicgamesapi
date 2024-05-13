@@ -9,10 +9,19 @@ export const GET = async ({ params }) => {
         const { id } = v.parse(ParamsSchema, params)
         const tags: Tags = await readJsonFileCwd("/data/tags.json")
         const tag = tags.find((t) => t.id === id)
+        if (!tag) {
+            return new Response(undefined, {
+                status: 404,
+                statusText: "Not Found",
+            })
+        }
         return new Response(JSON.stringify(tag))
     } catch (error) {
         if (error instanceof v.ValiError) {
-            return new Response(error.message, { status: 400 })
+            return new Response(error.message, {
+                status: 400,
+                statusText: "Bad Request",
+            })
         }
         throw error
     }

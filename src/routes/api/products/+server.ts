@@ -121,7 +121,10 @@ export const GET = async ({ url }) => {
         return new Response(JSON.stringify(returnValue))
     } catch (error) {
         if (error instanceof v.ValiError) {
-            return new Response(error.message, { status: 400 })
+            return new Response(error.message, {
+                status: 400,
+                statusText: "Bad Request",
+            })
         }
         throw error
     }
