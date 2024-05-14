@@ -1,5 +1,6 @@
 {
     "files.readonlyInclude": {
-        "data/*": true
+        "data/*": true,
+        "**/bearded-theme-arc-eolstorm.json": true
     }
 }
