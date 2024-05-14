@@ -27,6 +27,12 @@
                     >
                         Explore the Demo
                     </a>
+                    <a
+                        href="/docs"
+                        class="px-3.5 py-2.5 text-sm font-semibold text-white rounded focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+                    >
+                        Documentation
+                    </a>
                 </div>
             </div>
         </div>
