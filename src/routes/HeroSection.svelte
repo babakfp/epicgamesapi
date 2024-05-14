@@ -18,7 +18,7 @@
                 </h1>
                 <p class="mt-6 text-lg leading-8 text-gray-400">
                     A simple and unofficial API for Epic Games. This is a
-                    work-in-progress and not all endpoints are implemented yet.
+                    work-in-progress and only some endpoints are implemented.
                 </p>
                 <div class="mt-10 flex items-center justify-center gap-x-6">
                     <a
