@@ -89,7 +89,7 @@ Limit the number of results to be returned.
 
 ##### Response
 
--   Body: `Products`
+-   Body: `Product[]`
 -   Status: `200`
 
 ###### Example
@@ -238,7 +238,7 @@ Search for Tags by a spesific group name. Example: `"genre"`, `"platform"`.
 
 ##### Response
 
--   Body: `Tags`
+-   Body: `Tag[]`
 -   Status: `200`
 
 ###### Example
@@ -357,7 +357,7 @@ Get a single Tag by Slug.
 ### `Tag`
 
 ```ts
-type Tag = {
+{
     id: number
     name: string
     slug: string
@@ -365,16 +365,10 @@ type Tag = {
 }
 ```
 
-### `Tags`
-
-```ts
-type Tags = Tag[]
-```
-
 ### `Product`
 
 ```ts
-type Product = {
+{
     id: number
     slug: string
     title: string
@@ -387,10 +381,4 @@ type Product = {
     discount: number
     tags: Tag["id"][]
 }
-```
-
-### `Products`
-
-```ts
-type Products = Product[]
 ```
