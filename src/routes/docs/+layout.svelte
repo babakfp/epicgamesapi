@@ -41,7 +41,7 @@
     }
 
     :global(::selection) {
-        @apply bg-gray-700;
+        @apply bg-white/10;
     }
     :global(pre) {
         @apply p-8 overflow-y-auto outline-none font-semibold;
