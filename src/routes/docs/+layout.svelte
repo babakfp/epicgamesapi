@@ -44,7 +44,7 @@
         @apply bg-gray-700;
     }
     :global(pre) {
-        @apply p-8 overflow-y-auto outline-none;
+        @apply p-8 overflow-y-auto outline-none font-semibold;
     }
     :global(pre),
     :global(pre *) {
@@ -58,6 +58,6 @@
     :global(code .line::before) {
         content: counter(step);
         counter-increment: step;
-        @apply w-8 inline-block mr-4 leading-8 text-right text-gray-800 text-sm;
+        @apply w-8 inline-block mr-4 leading-8 text-right text-white/5 text-sm;
     }
 </style>
