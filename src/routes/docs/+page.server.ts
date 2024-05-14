@@ -9,7 +9,7 @@ export const load = async () => {
     )
 
     const highlighter = await getHighlighter({
-        themes: [beardedThemeArcEolstorm],
+        themes: [...Object.keys(bundledThemes), beardedThemeArcEolstorm],
         langs: Object.keys(bundledLanguages),
     })
 
