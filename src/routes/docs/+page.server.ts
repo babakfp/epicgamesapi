@@ -3,9 +3,9 @@ import { readTextFileCwd } from "@/lib/server/fs/readTextFileCwd"
 import { readJsonFileCwd } from "@/lib/server/fs/readJsonFileCwd"
 
 export const load = async () => {
-    const content = await readTextFileCwd("/src/routes/docs/content.md")
+    const content = await readTextFileCwd("/src/lib/docs/content.md")
     const beardedThemeArcEolstorm = await readJsonFileCwd(
-        "/src/routes/docs/bearded-theme-arc-eolstorm.json"
+        "/src/lib/docs/bearded-theme-arc-eolstorm.json"
     )
 
     const highlighter = await getHighlighter({
