@@ -4,7 +4,7 @@ import type { Product, Tag } from "@/lib/apiDataTypes.js"
 export const load = async ({ fetch, params }) => {
     const res = await fetch(`/api/products/id/${params.id}`)
 
-    if (!res.ok) return error(res.status, res.statusText)
+    if (!res.ok) return error(res.status, await res.text())
 
     const product: Product = await res.json()
 

@@ -10,7 +10,7 @@ export const GET = async ({ params }) => {
         const products: Products = await readJsonFileCwd("/data/products.json")
         const product = products.find((p) => p.id === id)
         if (!product) {
-            return new Response(undefined, {
+            return new Response("Product Not Found", {
                 status: 404,
                 statusText: "Not Found",
             })

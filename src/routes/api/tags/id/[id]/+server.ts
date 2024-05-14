@@ -10,7 +10,7 @@ export const GET = async ({ params }) => {
         const tags: Tags = await readJsonFileCwd("/data/tags.json")
         const tag = tags.find((t) => t.id === id)
         if (!tag) {
-            return new Response(undefined, {
+            return new Response("Tag Not Found", {
                 status: 404,
                 statusText: "Not Found",
             })
