@@ -6,9 +6,23 @@ A simple and unofficial API for Epic Games. This is a work-in-progress and only 
 > **Note:** This API is not intended to be used for spamming or scraping.
 > **Note:** This API is not intended to be used for commercial purposes or real-world applications.
 
-Base URL: `https://epicgamesapi.vercel.app/api`.
+## Rate Limiting
+
+Rate limiting is currently set to **2** requests per **500ms**.
+
+If you go over the rate limit you will receive a **429** response with the [`Retry-After`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Retry-After) header.
+
+The `Retry-After` header will tell you (in seconds) how long you should wait before making another request. For example, if you receive a `Retry-After` header of `"2"` then you should wait **2** seconds before making another request.
+
+-   Body: `"Rate Limited"`
+-   Status: `429`
+-   Status Text: `"Too Many Requests"`
+-   Headers
+    -   `"Retry-After"`
 
 ## Endpoints
+
+Base URL: `https://epicgamesapi.vercel.app/api`.
 
 ### Products
 
