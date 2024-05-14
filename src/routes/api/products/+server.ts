@@ -1,7 +1,6 @@
 import * as v from "valibot"
 import lunr from "lunr"
-import type { Products } from "@/lib/apiDataTypes.js"
-import productsRaw from "@/lib/data/products.json?raw"
+import products from "@/lib/data/products.json"
 
 const stringOfCommaSeparatedNumbersRegex = /^(\d+,)*\d+$/
 
@@ -62,9 +61,7 @@ export const GET = async ({ url }) => {
             limit,
         } = v.parse(SearchParamsSchema, searchParams)
 
-        const products: Products = JSON.parse(productsRaw)
-
-        let results: Products = []
+        let results: typeof products = []
 
         if (search) {
             const idx = lunr(function () {

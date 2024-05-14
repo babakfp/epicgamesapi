@@ -1,7 +1,6 @@
 import * as v from "valibot"
 import lunr from "lunr"
-import type { Tags } from "@/lib/apiDataTypes.js"
-import tagsRaw from "@/lib/data/tags.json?raw"
+import tags from "@/lib/data/tags.json"
 
 const stringOfCommaSeparatedLowercaseWordsRegex = /^([a-z]+,)*[a-z]+$/
 
@@ -28,9 +27,7 @@ export const GET = async ({ url }) => {
         const searchParams = Object.fromEntries(Array.from(url.searchParams))
         const { search, groupNames } = v.parse(SearchParamsSchema, searchParams)
 
-        const tags: Tags = JSON.parse(tagsRaw)
-
-        let results: Tags = []
+        let results: typeof tags = []
 
         const idx = lunr(function () {
             this.ref("id")

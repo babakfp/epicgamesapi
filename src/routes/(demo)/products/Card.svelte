@@ -1,9 +1,9 @@
 <script lang="ts">
-    import type { Product } from "@/lib/apiDataTypes"
+    import type Products from "@/lib/data/products.json"
     import CardImage from "./CardImage.svelte"
     import CardPrice from "./CardPrice.svelte"
 
-    export let product: Product
+    export let product: (typeof Products)[number]
 </script>
 
 <a class="group grid gap-2" href="/products/{product.id}">

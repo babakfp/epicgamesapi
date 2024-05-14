@@ -1,13 +1,11 @@
 import * as v from "valibot"
-import type { Tags } from "@/lib/apiDataTypes.js"
-import tagsRaw from "@/lib/data/tags.json?raw"
+import tags from "@/lib/data/tags.json"
 
 const ParamsSchema = v.object({ slug: v.string() }, v.never())
 
 export const GET = async ({ params }) => {
     try {
         const { slug } = v.parse(ParamsSchema, params)
-        const tags: Tags = JSON.parse(tagsRaw)
         const tag = tags.find((t) => t.slug === slug)
         if (!tag) {
             return new Response("Tag Not Found", {

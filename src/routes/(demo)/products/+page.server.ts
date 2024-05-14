@@ -1,7 +1,7 @@
-import type { Products } from "@/lib/apiDataTypes.js"
+import type Products from "@/lib/data/products.json"
 
 type Data = {
-    data: Products
+    data: typeof Products
     pagination: {
         start: number
         limit: number
