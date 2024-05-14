@@ -2,6 +2,10 @@
 
 A simple and unofficial API for Epic Games. This is a work-in-progress and only some endpoints are implemented.
 
+> **Note:** This API is not affiliated with Epic Games.
+> **Note:** This API is not intended to be used for spamming or scraping.
+> **Note:** This API is not intended to be used for commercial purposes or real-world applications.
+
 Base URL: `https://epicgamesapi.vercel.app/api`.
 
 ## Endpoints
