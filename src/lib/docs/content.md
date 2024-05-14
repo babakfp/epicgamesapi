@@ -16,7 +16,7 @@ Get a list of all Products.
 
 ##### 🔶 `search`
 
-Filter products by using a search query to search for Products by their Title or Description.
+Search products by using a search query to filter them by Title or Description.
 
 -   Optional: `true`
 -   Type: `string`
@@ -24,7 +24,7 @@ Filter products by using a search query to search for Products by their Title or
 
 ##### 🔶 `minPrice`
 
-Filter products by using a minimum price to search for Products by their Price.
+Filter products by using a minimum price.
 
 -   Optional: `true`
 -   Type: `number`
@@ -33,7 +33,7 @@ Filter products by using a minimum price to search for Products by their Price.
 
 ##### 🔶 `maxPrice`
 
-Filter products by using a maximum price to search for Products by their Price.
+Filter products by using a maximum price.
 
 -   Optional: `true`
 -   Type: `number`
@@ -42,7 +42,7 @@ Filter products by using a maximum price to search for Products by their Price.
 
 ##### 🔶 `minDiscount`
 
-Filter products by using a minimum discount to search for Products by their Discount.
+Filter products by using a minimum discount.
 
 -   Optional: `true`
 -   Type: `number`
@@ -51,7 +51,7 @@ Filter products by using a minimum discount to search for Products by their Disc
 
 ##### 🔶 `maxDiscount`
 
-Filter products by using a maximum discount to search for Products by their Discount.
+Filter products by using a maximum discount.
 
 -   Optional: `true`
 -   Type: `number`
@@ -60,7 +60,7 @@ Filter products by using a maximum discount to search for Products by their Disc
 
 ##### 🔶 `tagIds`
 
-Filter products by using a comma-separated list of Tag IDs to search for Products by their Tags.
+Filter products by using a comma-separated list of Tag IDs.
 
 -   Optional: `true`
 -   Type: `string`. Comma-separated list of Tag IDs (IDs with minimum value of `1`).
@@ -222,7 +222,7 @@ Get a list of all Tags.
 
 ##### 🔶 `search`
 
-Filter tags by using a search query to search for Tags by their Name.
+Search tags by using a search query to filter them by Name.
 
 -   Optional: `true`
 -   Type: `string`
