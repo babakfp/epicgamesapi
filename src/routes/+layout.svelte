@@ -27,9 +27,13 @@
             <a class="py-2 px-2 inline-block hover:text-white pl-4" href="/">
                 Home
             </a>
+        </li>
+        <li>
             <a class="py-2 px-2 inline-block hover:text-white" href="/docs">
                 Documentation
             </a>
+        </li>
+        <li>
             <a
                 class="py-2 px-2 inline-block hover:text-white pr-4"
                 href="/products"
