@@ -1,7 +1,7 @@
 import * as v from "valibot"
-import { readJsonFileCwd } from "@/lib/server/fs/readJsonFileCwd.js"
-import type { Products } from "@/lib/apiDataTypes.js"
 import lunr from "lunr"
+import type { Products } from "@/lib/apiDataTypes.js"
+import productsRaw from "@/lib/data/products.json?raw"
 
 const stringOfCommaSeparatedNumbersRegex = /^(\d+,)*\d+$/
 
@@ -62,7 +62,7 @@ export const GET = async ({ url }) => {
             limit,
         } = v.parse(SearchParamsSchema, searchParams)
 
-        const products: Products = await readJsonFileCwd("/data/products.json")
+        const products: Products = JSON.parse(productsRaw)
 
         let results: Products = []
 

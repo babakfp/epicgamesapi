@@ -1,7 +1,7 @@
 import * as v from "valibot"
-import { readJsonFileCwd } from "@/lib/server/fs/readJsonFileCwd.js"
-import type { Tags } from "@/lib/apiDataTypes.js"
 import lunr from "lunr"
+import type { Tags } from "@/lib/apiDataTypes.js"
+import tagsRaw from "@/lib/data/tags.json?raw"
 
 const stringOfCommaSeparatedLowercaseWordsRegex = /^([a-z]+,)*[a-z]+$/
 
@@ -28,7 +28,7 @@ export const GET = async ({ url }) => {
         const searchParams = Object.fromEntries(Array.from(url.searchParams))
         const { search, groupNames } = v.parse(SearchParamsSchema, searchParams)
 
-        const tags: Tags = await readJsonFileCwd("/data/tags.json")
+        const tags: Tags = JSON.parse(tagsRaw)
 
         let results: Tags = []
 

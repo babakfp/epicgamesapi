@@ -1,13 +1,13 @@
 import * as v from "valibot"
-import { readJsonFileCwd } from "@/lib/server/fs/readJsonFileCwd.js"
 import type { Products } from "@/lib/apiDataTypes.js"
+import productsRaw from "@/lib/data/products.json?raw"
 
 const ParamsSchema = v.object({ id: v.coerce(v.number(), Number) }, v.never())
 
 export const GET = async ({ params }) => {
     try {
         const { id } = v.parse(ParamsSchema, params)
-        const products: Products = await readJsonFileCwd("/data/products.json")
+        const products: Products = JSON.parse(productsRaw)
         const product = products.find((p) => p.id === id)
         if (!product) {
             return new Response("Product Not Found", {
