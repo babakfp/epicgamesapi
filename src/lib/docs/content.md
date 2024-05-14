@@ -16,57 +16,59 @@ Get a list of all Products.
 
 ##### 🔶 `search`
 
+Filter products by using a search query to search for Products by their Title or Description.
+
 -   Optional: `true`
 -   Type: `string`
 -   Example: `https://epicgamesapi.vercel.app/api/products?search=Gun`
 
-Filter products by using a search query to search for Products by their Title or Description.
-
 ##### 🔶 `minPrice`
+
+Filter products by using a minimum price to search for Products by their Price.
 
 -   Optional: `true`
 -   Type: `number`
 -   Minimum: `0`
 -   Example: `https://epicgamesapi.vercel.app/api/products?minPrice=100`
 
-Filter products by using a minimum price to search for Products by their Price.
-
 ##### 🔶 `maxPrice`
+
+Filter products by using a maximum price to search for Products by their Price.
 
 -   Optional: `true`
 -   Type: `number`
 -   Minimum: `0`
 -   Example: `https://epicgamesapi.vercel.app/api/products?maxPrice=100`
 
-Filter products by using a maximum price to search for Products by their Price.
-
 ##### 🔶 `minDiscount`
+
+Filter products by using a minimum discount to search for Products by their Discount.
 
 -   Optional: `true`
 -   Type: `number`
 -   Minimum: `0`
 -   Example: `https://epicgamesapi.vercel.app/api/products?minDiscount=100`
 
-Filter products by using a minimum discount to search for Products by their Discount.
-
 ##### 🔶 `maxDiscount`
+
+Filter products by using a maximum discount to search for Products by their Discount.
 
 -   Optional: `true`
 -   Type: `number`
 -   Minimum: `0`
 -   Example: `https://epicgamesapi.vercel.app/api/products?maxDiscount=100`
 
-Filter products by using a maximum discount to search for Products by their Discount.
-
 ##### 🔶 `tagIds`
+
+Filter products by using a comma-separated list of Tag IDs to search for Products by their Tags.
 
 -   Optional: `true`
 -   Type: `string`. Comma-separated list of Tag IDs (IDs with minimum value of `1`).
 -   Example: `https://epicgamesapi.vercel.app/api/products?tagIds=1,2,3`
 
-Filter products by using a comma-separated list of Tag IDs to search for Products by their Tags.
-
 ##### 🔶 `start`
+
+Start the search at a specific index.
 
 -   Optional: `true`
 -   Type: `number`
@@ -74,9 +76,9 @@ Filter products by using a comma-separated list of Tag IDs to search for Product
 -   Minimum: `0`
 -   Example: `https://epicgamesapi.vercel.app/api/products?start=10`
 
-Start the search at a specific index.
-
 ##### 🔶 `limit`
+
+Limit the number of results to be returned.
 
 -   Optional: `true`
 -   Type: `number`
@@ -84,8 +86,6 @@ Start the search at a specific index.
 -   Minimum: `1`
 -   Maximum: `100`
 -   Example: `https://epicgamesapi.vercel.app/api/products?limit=10`
-
-Limit the number of results to be returned.
 
 ##### Response
 
@@ -222,19 +222,19 @@ Get a list of all Tags.
 
 ##### 🔶 `search`
 
+Filter tags by using a search query to search for Tags by their Name.
+
 -   Optional: `true`
 -   Type: `string`
 -   Example: `https://epicgamesapi.vercel.app/api/tags?search=Action`
 
-Filter tags by using a search query to search for Tags by their Name.
-
 ##### 🔶 `groupNames`
+
+Search for Tags by a spesific group name. Example: `"genre"`, `"platform"`.
 
 -   Optional: `true`
 -   Type: `string`
 -   Example: `https://epicgamesapi.vercel.app/api/tags?groupNames=genre,feature,platform`
-
-Search for Tags by a spesific group name. Example: `"genre"`, `"platform"`.
 
 ##### Response
 
@@ -354,17 +354,6 @@ Get a single Tag by Slug.
 
 ## Types
 
-### `Tag`
-
-```ts
-{
-    id: number
-    name: string
-    slug: string
-    groupName: string
-}
-```
-
 ### `Product`
 
 ```ts
@@ -380,5 +369,16 @@ Get a single Tag by Slug.
     price: number
     discount: number
     tags: Tag["id"][]
+}
+```
+
+### `Tag`
+
+```ts
+{
+    id: number
+    name: string
+    slug: string
+    groupName: string
 }
 ```
