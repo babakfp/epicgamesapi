@@ -26,7 +26,7 @@ const SearchParamsSchema = v.object(
                 (input) => {
                     const ids = input.split(",").map(Number)
                     const Schema = v.array(
-                        v.number([v.integer(), v.minValue(0)])
+                        v.number([v.integer(), v.minValue(1)])
                     )
                     const parsedIds = v.parse(Schema, ids)
                     return parsedIds
