@@ -2,15 +2,15 @@
     <link
         rel="preload"
         as="font"
-        type="font/ttf"
-        href="/fonts/JetBrainsMono/JetBrainsMono[wght].ttf"
+        type="font/woff2"
+        href="/fonts/JetBrainsMono/JetBrainsMono[wght].woff2"
         crossorigin="anonymous"
     />
     <link
         rel="preload"
         as="font"
-        type="font/ttf"
-        href="/fonts/JetBrainsMono/JetBrainsMono-Italic[wght].ttf"
+        type="font/woff2"
+        href="/fonts/JetBrainsMono/JetBrainsMono-Italic[wght].woff2"
         crossorigin="anonymous"
     />
 </svelte:head>
@@ -23,8 +23,8 @@
         font-style: normal;
         font-display: swap;
         font-weight: 100 800;
-        src: url("/fonts/JetBrainsMono/JetBrainsMono[wght].ttf")
-            format("truetype-variations");
+        src: url("/fonts/JetBrainsMono/JetBrainsMono[wght].woff2")
+            format("woff2-variations");
     }
 
     @font-face {
@@ -32,8 +32,8 @@
         font-style: italic;
         font-display: swap;
         font-weight: 100 800;
-        src: url("/fonts/JetBrainsMono/JetBrainsMono-Italic[wght].ttf")
-            format("truetype-variations");
+        src: url("/fonts/JetBrainsMono/JetBrainsMono-Italic[wght].woff2")
+            format("woff2-variations");
     }
 
     :global(code, kbd, samp, pre) {
