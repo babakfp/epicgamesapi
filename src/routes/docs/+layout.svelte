@@ -44,7 +44,7 @@
         @apply bg-white/10;
     }
     :global(pre) {
-        @apply p-8 overflow-y-auto outline-none font-semibold;
+        @apply p-8 pt-16 pl-2 xs:pl-4 sm:pl-8 overflow-y-auto outline-none font-semibold;
     }
     :global(pre),
     :global(pre *) {
