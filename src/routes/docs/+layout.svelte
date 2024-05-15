@@ -18,28 +18,6 @@
 <slot />
 
 <style lang="postcss">
-    @font-face {
-        font-family: "JetBrainsMono";
-        font-style: normal;
-        font-display: swap;
-        font-weight: 100 800;
-        src: url("/fonts/JetBrainsMono/JetBrainsMono[wght].woff2")
-            format("woff2-variations");
-    }
-
-    @font-face {
-        font-family: "JetBrainsMono";
-        font-style: italic;
-        font-display: swap;
-        font-weight: 100 800;
-        src: url("/fonts/JetBrainsMono/JetBrainsMono-Italic[wght].woff2")
-            format("woff2-variations");
-    }
-
-    :global(code, kbd, samp, pre) {
-        @apply !font-["JetBrainsMono"];
-    }
-
     :global(::selection) {
         @apply bg-white/10;
     }

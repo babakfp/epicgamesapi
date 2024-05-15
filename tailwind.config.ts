@@ -18,6 +18,7 @@ export default {
             },
             fontFamily: {
                 sans: ["Recursive", ...defaultTheme.fontFamily.sans],
+                mono: ["JetBrainsMono", ...defaultTheme.fontFamily.mono],
             },
         },
         container: {
