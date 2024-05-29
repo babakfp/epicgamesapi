@@ -9,7 +9,7 @@
                 style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"
             />
         </div>
-        <div class="mx-auto py-14 max-w-2xl min-h-screen flex items-center">
+        <div class="mx-auto py-20 max-w-2xl min-h-screen flex items-center">
             <div class="text-center">
                 <h1
                     class="text-4xl font-bold tracking-tight text-white sm:text-6xl"
@@ -20,7 +20,9 @@
                     A simple and unofficial API for Epic Games. This is a
                     work-in-progress and only some endpoints are implemented.
                 </p>
-                <div class="mt-10 flex items-center justify-center gap-x-6">
+                <div
+                    class="mt-10 flex items-center justify-center gap-6 flex-wrap"
+                >
                     <a
                         href="/products"
                         class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
@@ -29,9 +31,16 @@
                     </a>
                     <a
                         href="/docs"
-                        class="px-3.5 py-2.5 text-sm font-semibold focus-visible:text-white hover:text-white rounded focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+                        class="px-3.5 py-2.5 text-sm font-semibold focus-visible:text-white hover:text-white rounded focus-visible:outline focus-visible:outline-2 bg-white/5 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
                     >
                         Documentation
+                    </a>
+                    <a
+                        href="https://github.com/babakfp/epicgamesapi"
+                        target="_blank"
+                        class="px-3.5 py-2.5 text-sm font-semibold focus-visible:text-white hover:text-white rounded focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+                    >
+                        GitHub
                     </a>
                 </div>
             </div>
