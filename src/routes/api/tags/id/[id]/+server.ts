@@ -1,7 +1,9 @@
 import * as v from "valibot"
-import tags from "@/lib/data/tags.json"
+import tags from "$lib/data/tags.json"
 
-const ParamsSchema = v.object({ id: v.coerce(v.number(), Number) }, v.never())
+const ParamsSchema = v.object({
+    id: v.pipe(v.unknown(), v.transform(Number), v.number()),
+})
 
 export const GET = async ({ params }) => {
     try {

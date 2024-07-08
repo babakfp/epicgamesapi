@@ -1,5 +1,5 @@
 import { bundledLanguages, bundledThemes, getHighlighter } from "shiki"
-import beardedThemeArcEolstorm from "@/lib/docs/bearded-theme-arc-eolstorm.json?raw"
+import beardedThemeArcEolstorm from "$lib/docs/bearded-theme-arc-eolstorm.json?raw"
 
 const highlighter = await getHighlighter({
     themes: [

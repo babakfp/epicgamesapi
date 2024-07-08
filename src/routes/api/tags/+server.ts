@@ -1,26 +1,24 @@
 import * as v from "valibot"
 import lunr from "lunr"
-import tags from "@/lib/data/tags.json"
+import tags from "$lib/data/tags.json"
 
 const stringOfCommaSeparatedLowercaseWordsRegex = /^([a-z]+,)*[a-z]+$/
 
-const SearchParamsSchema = v.object(
-    {
-        search: v.optional(v.string()),
-        groupNames: v.optional(
-            v.transform(
-                v.string([v.regex(stringOfCommaSeparatedLowercaseWordsRegex)]),
-                (input) => {
-                    const groupNames = input.split(",")
-                    const Schema = v.array(v.string())
-                    const parsedIds = v.parse(Schema, groupNames)
-                    return parsedIds
-                }
-            )
-        ),
-    },
-    v.never()
-)
+const SearchParamsSchema = v.object({
+    search: v.optional(v.string()),
+    groupNames: v.optional(
+        v.pipe(
+            v.string(),
+            v.regex(stringOfCommaSeparatedLowercaseWordsRegex),
+            v.transform((input) => {
+                const ids = input.split(",")
+                const Schema = v.array(v.string())
+                const parsedIds = v.parse(Schema, ids)
+                return parsedIds
+            })
+        )
+    ),
+})
 
 export const GET = async ({ url }) => {
     try {

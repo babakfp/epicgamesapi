@@ -1,7 +1,7 @@
 import * as v from "valibot"
-import products from "@/lib/data/products.json"
+import products from "$lib/data/products.json"
 
-const ParamsSchema = v.object({ slug: v.string() }, v.never())
+const ParamsSchema = v.object({ slug: v.string() })
 
 export const GET = async ({ params }) => {
     try {

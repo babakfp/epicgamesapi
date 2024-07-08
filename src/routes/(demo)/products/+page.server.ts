@@ -1,5 +1,5 @@
 import { error } from "@sveltejs/kit"
-import type Products from "@/lib/data/products.json"
+import type Products from "$lib/data/products.json"
 
 type Data = {
     data: typeof Products

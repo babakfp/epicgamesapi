@@ -1,8 +1,8 @@
 <script lang="ts">
     import { onNavigate } from "$app/navigation"
     import { LoadingBar } from "svelte-loading-bar"
-    import Nav from "@/lib/Nav.svelte"
-    import "../app.pcss"
+    import Nav from "$lib/Nav.svelte"
+    import "$lib/app.pcss"
 
     onNavigate((navigation) => {
         if (!(document as any).startViewTransition) return

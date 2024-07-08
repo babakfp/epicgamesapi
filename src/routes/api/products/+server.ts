@@ -1,51 +1,57 @@
 import * as v from "valibot"
 import lunr from "lunr"
-import products from "@/lib/data/products.json"
+import products from "$lib/data/products.json"
 
 const stringOfCommaSeparatedNumbersRegex = /^(\d+,)*\d+$/
 
-const SearchParamsSchema = v.object(
-    {
-        search: v.optional(v.string()),
-        minPrice: v.optional(
-            v.coerce(v.number([v.integer(), v.minValue(0)]), Number)
-        ),
-        maxPrice: v.optional(
-            v.coerce(v.number([v.integer(), v.minValue(0)]), Number)
-        ),
-        minDiscount: v.optional(
-            v.coerce(v.number([v.integer(), v.minValue(0)]), Number)
-        ),
-        maxDiscount: v.optional(
-            v.coerce(v.number([v.integer(), v.minValue(0)]), Number)
-        ),
-        tagIds: v.optional(
-            v.transform(
-                v.string([v.regex(stringOfCommaSeparatedNumbersRegex)]),
-                (input) => {
-                    const ids = input.split(",").map(Number)
-                    const Schema = v.array(
-                        v.number([v.integer(), v.minValue(1)])
+const SearchParamsSchema = v.object({
+    search: v.optional(v.string()),
+    minPrice: v.optional(
+        v.pipe(v.unknown(), v.transform(Number), v.integer(), v.minValue(0))
+    ),
+    maxPrice: v.optional(
+        v.pipe(v.unknown(), v.transform(Number), v.integer(), v.minValue(0))
+    ),
+    minDiscount: v.optional(
+        v.pipe(v.unknown(), v.transform(Number), v.integer(), v.minValue(0))
+    ),
+    maxDiscount: v.optional(
+        v.pipe(v.unknown(), v.transform(Number), v.integer(), v.minValue(0))
+    ),
+    tagIds: v.optional(
+        v.pipe(
+            v.string(),
+            v.regex(stringOfCommaSeparatedNumbersRegex),
+            v.transform((input) => {
+                const ids = input.split(",")
+                const Schema = v.array(
+                    v.pipe(
+                        v.unknown(),
+                        v.transform(Number),
+                        v.integer(),
+                        v.minValue(1)
                     )
-                    const parsedIds = v.parse(Schema, ids)
-                    return parsedIds
-                }
-            )
+                )
+                const parsedIds = v.parse(Schema, ids)
+                return parsedIds
+            })
+        )
+    ),
+    start: v.optional(
+        v.pipe(v.unknown(), v.transform(Number), v.integer(), v.minValue(0)),
+        0
+    ),
+    limit: v.optional(
+        v.pipe(
+            v.unknown(),
+            v.transform(Number),
+            v.integer(),
+            v.minValue(1),
+            v.maxValue(100)
         ),
-        start: v.optional(
-            v.coerce(v.number([v.integer(), v.minValue(0)]), Number),
-            0
-        ),
-        limit: v.optional(
-            v.coerce(
-                v.number([v.integer(), v.minValue(1), v.maxValue(100)]),
-                Number
-            ),
-            10
-        ),
-    },
-    v.never()
-)
+        10
+    ),
+})
 
 export const GET = async ({ url }) => {
     try {

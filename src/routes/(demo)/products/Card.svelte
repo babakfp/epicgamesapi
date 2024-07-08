@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type Products from "@/lib/data/products.json"
+    import type Products from "$lib/data/products.json"
     import CardImage from "./CardImage.svelte"
     import CardPrice from "./CardPrice.svelte"
 
@@ -15,7 +15,7 @@
         loading="lazy"
     />
 
-    <h3 class="text-sm font-semibold text-white">
+    <h3 class="text-sm font-semibold text-white truncate">
         {product.title}
     </h3>
 

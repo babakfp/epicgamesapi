@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss"
 import colors from "tailwindcss/colors"
 import daisyui from "daisyui"
-import tailwindcssAddons from "tailwindcss-addons"
+import { allAddons } from "tailwindcss-addons"
 import plugin from "tailwindcss/plugin"
 import defaultTheme from "tailwindcss/defaultTheme"
 
@@ -26,12 +26,6 @@ export default {
             padding: "1rem",
         },
     },
-    plugins: [
-        daisyui,
-        ...tailwindcssAddons(),
-        plugin(({ addVariant }) => {
-            addVariant("supports-hover", "@media (hover: hover)")
-        }),
-    ],
+    plugins: [daisyui, ...allAddons()],
     daisyui: { logs: false },
 } satisfies Config
