@@ -2,7 +2,7 @@
     import { onNavigate } from "$app/navigation"
     import { LoadingBar } from "svelte-loading-bar"
     import Nav from "$lib/Nav.svelte"
-    import "$lib/app.pcss"
+    import "$lib/app.css"
 
     onNavigate((navigation) => {
         if (!(document as any).startViewTransition) return
