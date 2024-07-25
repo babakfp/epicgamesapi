@@ -15,4 +15,11 @@
     .container {
         @apply max-w-screen-md;
     }
+    code,
+    kbd,
+    samp,
+    pre,
+    .font-mono {
+        font-variation-settings: "MONO" 1;
+    }
 }

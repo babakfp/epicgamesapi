@@ -1,20 +1,3 @@
-<svelte:head>
-    <link
-        rel="preload"
-        as="font"
-        type="font/woff2"
-        href="/fonts/JetBrainsMono/JetBrainsMono[wght].woff2"
-        crossorigin="anonymous"
-    />
-    <link
-        rel="preload"
-        as="font"
-        type="font/woff2"
-        href="/fonts/JetBrainsMono/JetBrainsMono-Italic[wght].woff2"
-        crossorigin="anonymous"
-    />
-</svelte:head>
-
 <slot />
 
 <style lang="postcss">
