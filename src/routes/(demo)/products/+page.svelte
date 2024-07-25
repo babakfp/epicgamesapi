@@ -12,6 +12,10 @@
         Math.ceil(data.pagination.start / data.pagination.limit) + 1
 </script>
 
+<svelte:head>
+    <title>Products</title>
+</svelte:head>
+
 <ul
     class="grid w-full grid-cols-[repeat(auto-fill,minmax(8rem,1fr))] gap-x-4 gap-y-6"
 >

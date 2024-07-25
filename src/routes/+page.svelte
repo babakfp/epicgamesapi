@@ -2,6 +2,10 @@
     import HeroSection from "$lib/home/HeroSection.svelte"
 </script>
 
+<svelte:head>
+    <title>Epic Games API (Unofficial)</title>
+</svelte:head>
+
 <HeroSection />
 
 <div class="border-t border-white/5 text-center py-4">

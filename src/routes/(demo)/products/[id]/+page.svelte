@@ -5,6 +5,10 @@
     export let data
 </script>
 
+<svelte:head>
+    <title>{data.product.title}</title>
+</svelte:head>
+
 <div class="grid gap-4 w-full">
     <CardImage
         className="xs:hidden"
