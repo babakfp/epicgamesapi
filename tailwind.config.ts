@@ -2,7 +2,6 @@ import type { Config } from "tailwindcss"
 import colors from "tailwindcss/colors"
 import daisyui from "daisyui"
 import { allAddons } from "tailwindcss-addons"
-import plugin from "tailwindcss/plugin"
 import defaultTheme from "tailwindcss/defaultTheme"
 
 /** @type {import("tailwindcss").Config} */
