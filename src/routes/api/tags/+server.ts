@@ -1,5 +1,5 @@
-import * as v from "valibot"
 import lunr from "lunr"
+import * as v from "valibot"
 import tags from "$lib/data/tags.json"
 
 const stringOfCommaSeparatedLowercaseWordsRegex = /^([a-z]+,)*[a-z]+$/
@@ -15,8 +15,8 @@ const SearchParamsSchema = v.object({
                 const Schema = v.array(v.string())
                 const parsedIds = v.parse(Schema, ids)
                 return parsedIds
-            })
-        )
+            }),
+        ),
     ),
 })
 
@@ -41,7 +41,7 @@ export const GET = async ({ url }) => {
 
             searchResult.forEach((result) => {
                 const foundTag = tags.find(
-                    (tag) => tag.id === Number(result.ref)
+                    (tag) => tag.id === Number(result.ref),
                 )!
                 results.push(foundTag)
             })
@@ -49,7 +49,7 @@ export const GET = async ({ url }) => {
 
         if (groupNames?.length) {
             results = results.filter((tag) =>
-                groupNames.includes(tag.groupName)
+                groupNames.includes(tag.groupName),
             )
         }
 

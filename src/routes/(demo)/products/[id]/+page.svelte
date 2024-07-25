@@ -9,7 +9,7 @@
     <title>{data.product.title}</title>
 </svelte:head>
 
-<div class="grid gap-4 w-full">
+<div class="grid w-full gap-4">
     <CardImage
         className="xs:hidden"
         aspectRatio="tall"
@@ -25,7 +25,7 @@
     />
 
     <div class="grid gap-4">
-        <h3 class="font-semibold text-3xl text-white">
+        <h3 class="text-3xl font-semibold text-white">
             {data.product.title}
         </h3>
 
@@ -34,18 +34,18 @@
             discount={data.product.discount}
         />
 
-        <h2 class="font-semibold text-xl mt-4 text-white">Description</h2>
+        <h2 class="mt-4 text-xl font-semibold text-white">Description</h2>
 
         <p class="text-sm leading-7">{data.product.description}</p>
 
         {#if data.tags.length}
-            <h2 class="font-semibold text-xl mt-4 text-white">Tags</h2>
+            <h2 class="mt-4 text-xl font-semibold text-white">Tags</h2>
 
             <ul class="flex flex-wrap gap-2">
                 {#each data.tags as tag}
                     <li>
                         <a
-                            class="badge badge-neutral text-xs link"
+                            class="badge link badge-neutral text-xs"
                             href="/products?tagIds={tag.id}"
                         >
                             {tag.name}

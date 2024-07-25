@@ -1,6 +1,6 @@
 <script lang="ts">
-    import { onNavigate } from "$app/navigation"
     import { LoadingBar } from "svelte-loading-bar"
+    import { onNavigate } from "$app/navigation"
     import Nav from "$lib/Nav.svelte"
     import "$lib/app.css"
 

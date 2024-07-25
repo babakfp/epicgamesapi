@@ -10,7 +10,7 @@
     let isFailedToLoad = false
 </script>
 
-<div class="relative rounded overflow-hidden will-change-transform {className}">
+<div class="relative overflow-hidden rounded will-change-transform {className}">
     <div
         class="bg-gray-700 {aspectRatio === 'tall'
             ? 'aspect-[3/4]'
@@ -21,7 +21,7 @@
 
     {#if !placeholder}
         {#if isFailedToLoad}
-            <div class="absolute inset-center text-center text-xs">Failed!</div>
+            <div class="absolute text-center text-xs inset-center">Failed!</div>
         {/if}
 
         <img

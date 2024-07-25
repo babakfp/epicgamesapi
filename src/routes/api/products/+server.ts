@@ -1,5 +1,5 @@
-import * as v from "valibot"
 import lunr from "lunr"
+import * as v from "valibot"
 import products from "$lib/data/products.json"
 
 const stringOfCommaSeparatedNumbersRegex = /^(\d+,)*\d+$/
@@ -7,16 +7,16 @@ const stringOfCommaSeparatedNumbersRegex = /^(\d+,)*\d+$/
 const SearchParamsSchema = v.object({
     search: v.optional(v.string()),
     minPrice: v.optional(
-        v.pipe(v.unknown(), v.transform(Number), v.integer(), v.minValue(0))
+        v.pipe(v.unknown(), v.transform(Number), v.integer(), v.minValue(0)),
     ),
     maxPrice: v.optional(
-        v.pipe(v.unknown(), v.transform(Number), v.integer(), v.minValue(0))
+        v.pipe(v.unknown(), v.transform(Number), v.integer(), v.minValue(0)),
     ),
     minDiscount: v.optional(
-        v.pipe(v.unknown(), v.transform(Number), v.integer(), v.minValue(0))
+        v.pipe(v.unknown(), v.transform(Number), v.integer(), v.minValue(0)),
     ),
     maxDiscount: v.optional(
-        v.pipe(v.unknown(), v.transform(Number), v.integer(), v.minValue(0))
+        v.pipe(v.unknown(), v.transform(Number), v.integer(), v.minValue(0)),
     ),
     tagIds: v.optional(
         v.pipe(
@@ -29,17 +29,17 @@ const SearchParamsSchema = v.object({
                         v.unknown(),
                         v.transform(Number),
                         v.integer(),
-                        v.minValue(1)
-                    )
+                        v.minValue(1),
+                    ),
                 )
                 const parsedIds = v.parse(Schema, ids)
                 return parsedIds
-            })
-        )
+            }),
+        ),
     ),
     start: v.optional(
         v.pipe(v.unknown(), v.transform(Number), v.integer(), v.minValue(0)),
-        0
+        0,
     ),
     limit: v.optional(
         v.pipe(
@@ -47,9 +47,9 @@ const SearchParamsSchema = v.object({
             v.transform(Number),
             v.integer(),
             v.minValue(1),
-            v.maxValue(100)
+            v.maxValue(100),
         ),
-        10
+        10,
     ),
 })
 
@@ -84,7 +84,7 @@ export const GET = async ({ url }) => {
 
             searchResult.forEach((result) => {
                 const foundTag = products.find(
-                    (tag) => tag.id === Number(result.ref)
+                    (tag) => tag.id === Number(result.ref),
                 )!
                 results.push(foundTag)
             })
@@ -106,7 +106,7 @@ export const GET = async ({ url }) => {
         }
         if (tagIds?.length) {
             results = results.filter((p) =>
-                tagIds.find((id) => p.tags.includes(id))
+                tagIds.find((id) => p.tags.includes(id)),
             )
         }
 

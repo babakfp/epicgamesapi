@@ -6,7 +6,7 @@
     <title>Error {$page.status}</title>
 </svelte:head>
 
-<h1 class="font-bold text-white text-6xl">
+<h1 class="text-6xl font-bold text-white">
     {$page.status}
 </h1>
 

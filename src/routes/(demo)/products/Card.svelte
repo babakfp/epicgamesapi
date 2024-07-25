@@ -15,7 +15,7 @@
         loading="lazy"
     />
 
-    <h3 class="text-sm font-semibold text-white truncate" title={product.title}>
+    <h3 class="truncate text-sm font-semibold text-white" title={product.title}>
         {product.title}
     </h3>
 

@@ -1,6 +1,6 @@
 import { error } from "@sveltejs/kit"
-import type Tags from "$lib/data/tags.json"
 import type Products from "$lib/data/products.json"
+import type Tags from "$lib/data/tags.json"
 
 export const load = async ({ fetch, params }) => {
     const productResponse = await fetch(`/api/products/id/${params.id}`)

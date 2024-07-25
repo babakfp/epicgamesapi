@@ -28,7 +28,7 @@
 
 <nav class="join sticky bottom-4 mt-8">
     <a
-        class="join-item no-animation btn text-xs btn-neutral w-24 {!canGoBack
+        class="btn join-item btn-neutral no-animation w-24 text-xs {!canGoBack
             ? 'btn-disabled'
             : ''}"
         href="/products?start={data.pagination.start - data.pagination.limit}"
@@ -36,12 +36,12 @@
         Previous
     </a>
     <div
-        class="join-item no-animation btn text-xs pointer-events-none btn-neutral"
+        class="btn join-item btn-neutral no-animation pointer-events-none text-xs"
     >
         {currentPageNumber}/{totalPages}
     </div>
     <a
-        class="join-item no-animation btn text-xs btn-neutral w-24 {!canGoForward
+        class="btn join-item btn-neutral no-animation w-24 text-xs {!canGoForward
             ? 'btn-disabled'
             : ''}"
         href="/products?start={data.pagination.start + data.pagination.limit}"
