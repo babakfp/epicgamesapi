@@ -6,6 +6,7 @@
     }
     :global(pre) {
         @apply overflow-y-auto p-8 pl-2 pt-16 font-semibold outline-none xs:pl-4 sm:pl-8;
+        scrollbar-width: none;
     }
     :global(pre),
     :global(pre *) {
