@@ -3,18 +3,18 @@ import type Products from "$lib/data/products.json"
 import type Tags from "$lib/data/tags.json"
 
 export const load = async ({ fetch, params }) => {
-    const productResponse = await fetch(`/api/products/id/${params.id}`)
+    const prdRes = await fetch(`/api/products/id/${params.id}`)
+    if (!prdRes.ok) {
+        return error(prdRes.status, prdRes.statusText)
+    }
+    const product: (typeof Products)[number] = await prdRes.json()
 
-    if (!productResponse.ok)
-        return error(productResponse.status, await productResponse.text())
+    const tagRes = await fetch("/api/tags")
+    if (!tagRes.ok) {
+        return error(tagRes.status, tagRes.statusText)
+    }
+    const tags: typeof Tags = await tagRes.json()
+    const prdTags = tags.filter((tag) => product.tags.includes(tag.id))
 
-    const product: (typeof Products)[number] = await productResponse.json()
-
-    const tagsResponse = await fetch("/api/tags")
-    if (!tagsResponse.ok)
-        return error(tagsResponse.status, await tagsResponse.text())
-    const tags: typeof Tags = await tagsResponse.json()
-    const productTags = tags.filter((tag) => product.tags.includes(tag.id))
-
-    return { product, tags: productTags }
+    return { product, tags: prdTags }
 }

@@ -1,5 +1,5 @@
 <script lang="ts">
-    import Card from "./Card.svelte"
+    import Card from "$lib/components/Card.svelte"
 
     export let data
 

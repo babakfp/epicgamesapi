@@ -1,7 +1,7 @@
 <script lang="ts">
+    import CardImage from "$lib/components/CardImage.svelte"
+    import CardPrice from "$lib/components/CardPrice.svelte"
     import type Products from "$lib/data/products.json"
-    import CardImage from "./CardImage.svelte"
-    import CardPrice from "./CardPrice.svelte"
 
     export let product: (typeof Products)[number]
 </script>

@@ -1,6 +1,6 @@
 <script lang="ts">
-    import CardImage from "../CardImage.svelte"
-    import CardPrice from "../CardPrice.svelte"
+    import CardImage from "$lib/components/CardImage.svelte"
+    import CardPrice from "$lib/components/CardPrice.svelte"
 
     export let data
 </script>

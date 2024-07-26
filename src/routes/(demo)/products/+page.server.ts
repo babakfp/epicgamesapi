@@ -10,9 +10,14 @@ type Data = {
     }
 }
 
-export const load = async ({ fetch, url }) => {
-    const res = await fetch(`/api/products${url.search}`)
-    if (!res.ok) return error(res.status, await res.text())
+export const load = async ({ fetch }) => {
+    const res = await fetch("/api/products")
+    if (!res.ok) {
+        return error(res.status, res.statusText)
+    }
     const data: Data = await res.json()
-    return { products: data.data, pagination: data.pagination }
+    return {
+        products: data.data,
+        pagination: data.pagination,
+    }
 }
