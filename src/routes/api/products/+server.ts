@@ -63,7 +63,7 @@ export const GET = async ({ url }) => {
             limit,
         } = v.parse(SearchParamsSchema, searchParams)
 
-        let results: typeof products = []
+        let results = products
 
         if (search) {
             const idx = lunr(function () {

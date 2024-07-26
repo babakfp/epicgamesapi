@@ -21,7 +21,7 @@ export const GET = async ({ url }) => {
         const searchParams = Object.fromEntries(Array.from(url.searchParams))
         const { search, groups } = v.parse(SearchParamsSchema, searchParams)
 
-        let results: typeof tags = []
+        let results = tags
 
         const idx = lunr(function () {
             this.ref("id")
