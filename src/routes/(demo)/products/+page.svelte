@@ -11,6 +11,9 @@
     $: totalPages = Math.ceil(data.pagination.total / data.pagination.limit)
     $: currentPageNumber =
         Math.ceil(data.pagination.start / data.pagination.limit) + 1
+
+    $: pagesLeftToGoBack = currentPageNumber - 1
+    $: pagesLeftToGoForward = totalPages - currentPageNumber
 </script>
 
 <svelte:head>
@@ -27,28 +30,23 @@
     {/each}
 </ul>
 
-<nav class="sticky bottom-4 mt-8 flex gap-2 rounded p-1 backdrop-blur">
+<nav
+    class="sticky bottom-4 mt-8 grid grid-cols-2 gap-2 rounded p-1 backdrop-blur"
+>
     <Button
         href="/products?start={data.pagination.start - data.pagination.limit}"
-        class="w-24 text-xs"
+        class="px-6 text-xs"
         variant="secondary"
         disabled={!canGoBack}
     >
-        Previous
+        Previous {pagesLeftToGoBack ? `(${pagesLeftToGoBack})` : ""}
     </Button>
-
-    <div
-        class="flex items-center rounded bg-gray-800 px-3.5 py-2.5 text-xs font-semibold"
-    >
-        {currentPageNumber}/{totalPages}
-    </div>
-
     <Button
         href="/products?start={data.pagination.start + data.pagination.limit}"
-        class="w-24 text-xs"
+        class="px-6 text-xs"
         variant="secondary"
         disabled={!canGoForward}
     >
-        Next
+        Next {pagesLeftToGoForward ? `(${pagesLeftToGoForward})` : ""}
     </Button>
 </nav>
