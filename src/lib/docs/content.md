@@ -2,9 +2,9 @@
 
 A simple and unofficial API for Epic Games. This is a work-in-progress and only some endpoints are implemented.
 
-> **Note:** This API is not affiliated with Epic Games.
-> **Note:** This API is not intended to be used for spamming or scraping.
-> **Note:** This API is not intended to be used for commercial purposes or real-world applications.
+-   **Note:** This API is not affiliated with Epic Games.
+-   **Note:** This API is not intended to be used for spamming or scraping.
+-   **Note:** This API is not intended to be used for commercial purposes or real-world applications.
 
 ## Rate Limiting
 
@@ -17,7 +17,7 @@ The `Retry-After` header will tell you (in seconds) how long you should wait bef
 -   Body: `"Rate Limited"`
 -   Status: `429`
 -   Status Text: `"Too Many Requests"`
--   Headers
+-   Headers:
     -   `"Retry-After"`
 
 ## Endpoints
@@ -38,7 +38,7 @@ Search products by using a search query to filter them by Title or Description.
 
 -   Optional: `true`
 -   Type: `string`
--   Example: `https://epicgamesapi.vercel.app/api/products?search=Gun`
+-   Example: `"https://epicgamesapi.vercel.app/api/products?search=Gun"`
 
 ##### 🔶 `minPrice`
 
@@ -47,7 +47,7 @@ Filter products by using a minimum price.
 -   Optional: `true`
 -   Type: `number`
 -   Minimum: `0`
--   Example: `https://epicgamesapi.vercel.app/api/products?minPrice=100`
+-   Example: `"https://epicgamesapi.vercel.app/api/products?minPrice=100"`
 
 ##### 🔶 `maxPrice`
 
@@ -56,7 +56,7 @@ Filter products by using a maximum price.
 -   Optional: `true`
 -   Type: `number`
 -   Minimum: `0`
--   Example: `https://epicgamesapi.vercel.app/api/products?maxPrice=100`
+-   Example: `"https://epicgamesapi.vercel.app/api/products?maxPrice=100"`
 
 ##### 🔶 `minDiscount`
 
@@ -65,7 +65,7 @@ Filter products by using a minimum discount.
 -   Optional: `true`
 -   Type: `number`
 -   Minimum: `0`
--   Example: `https://epicgamesapi.vercel.app/api/products?minDiscount=100`
+-   Example: `"https://epicgamesapi.vercel.app/api/products?minDiscount=100"`
 
 ##### 🔶 `maxDiscount`
 
@@ -74,7 +74,7 @@ Filter products by using a maximum discount.
 -   Optional: `true`
 -   Type: `number`
 -   Minimum: `0`
--   Example: `https://epicgamesapi.vercel.app/api/products?maxDiscount=100`
+-   Example: `"https://epicgamesapi.vercel.app/api/products?maxDiscount=100"`
 
 ##### 🔶 `tagIds`
 
@@ -82,7 +82,7 @@ Filter products by using a comma-separated list of Tag IDs.
 
 -   Optional: `true`
 -   Type: `string`. Comma-separated list of Tag IDs (IDs with minimum value of `1`).
--   Example: `https://epicgamesapi.vercel.app/api/products?tagIds=1,2,3`
+-   Example: `"https://epicgamesapi.vercel.app/api/products?tagIds=1,2,3"`
 
 ##### 🔶 `start`
 
@@ -92,7 +92,7 @@ Start the search at a specific index.
 -   Type: `number`
 -   Default: `0`
 -   Minimum: `0`
--   Example: `https://epicgamesapi.vercel.app/api/products?start=10`
+-   Example: `"https://epicgamesapi.vercel.app/api/products?start=10"`
 
 ##### 🔶 `limit`
 
@@ -103,7 +103,7 @@ Limit the number of results to be returned.
 -   Default: `10`
 -   Minimum: `1`
 -   Maximum: `100`
--   Example: `https://epicgamesapi.vercel.app/api/products?limit=10`
+-   Example: `"https://epicgamesapi.vercel.app/api/products?limit=10"`
 
 ##### Response
 
@@ -112,7 +112,7 @@ Limit the number of results to be returned.
 
 ###### Example
 
-🔷 GET `https://epicgamesapi.vercel.app/api/products`
+🔷 GET `"https://epicgamesapi.vercel.app/api/products"`
 
 ```json
 [
@@ -153,7 +153,7 @@ Get a single Product by ID.
 
 ###### Example
 
-🔷 GET `https://epicgamesapi.vercel.app/api/products/id/1`
+🔷 GET `"https://epicgamesapi.vercel.app/api/products/id/1"`
 
 ```json
 {
@@ -198,7 +198,7 @@ Get a single Product by Slug.
 
 ###### Example
 
-🔷 GET `https://epicgamesapi.vercel.app/api/products/slug/blasphemous-2`
+🔷 GET `"https://epicgamesapi.vercel.app/api/products/slug/blasphemous-2"`
 
 ```json
 {
@@ -244,7 +244,7 @@ Search tags by using a search query to filter them by Name.
 
 -   Optional: `true`
 -   Type: `string`
--   Example: `https://epicgamesapi.vercel.app/api/tags?search=Action`
+-   Example: `"https://epicgamesapi.vercel.app/api/tags?search=Action"`
 
 ##### 🔶 `groups`
 
@@ -252,7 +252,7 @@ Search for Tags by a spesific group name. Example: `"genre"`, `"platform"`.
 
 -   Optional: `true`
 -   Type: `string`
--   Example: `https://epicgamesapi.vercel.app/api/tags?groups=genre,feature,platform`
+-   Example: `"https://epicgamesapi.vercel.app/api/tags?groups=genre,feature,platform"`
 
 ##### Response
 
@@ -261,7 +261,7 @@ Search for Tags by a spesific group name. Example: `"genre"`, `"platform"`.
 
 ###### Example
 
-🔷 GET `https://epicgamesapi.vercel.app/api/tags`
+🔷 GET `"https://epicgamesapi.vercel.app/api/tags"`
 
 ```json
 [
@@ -307,7 +307,7 @@ Get a single Tag by ID.
 
 ###### Example
 
-🔷 GET `https://epicgamesapi.vercel.app/api/tags/id/1`
+🔷 GET `"https://epicgamesapi.vercel.app/api/tags/id/1"`
 
 ```json
 {
@@ -345,7 +345,7 @@ Get a single Tag by Slug.
 
 ###### Example
 
-🔷 GET `https://epicgamesapi.vercel.app/api/tags/slug/action`
+🔷 GET `"https://epicgamesapi.vercel.app/api/tags/slug/action"`
 
 ```json
 {
