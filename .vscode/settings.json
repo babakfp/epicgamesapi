@@ -1,9 +1,0 @@
-{
-    "search.exclude": {
-        "**/bearded-theme-arc-eolstorm.json": true
-    },
-    "files.readonlyInclude": {
-        "data/*": true,
-        "**/bearded-theme-arc-eolstorm.json": true
-    }
-}

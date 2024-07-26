@@ -1,18 +1,14 @@
 import { bundledLanguages, bundledThemes, createHighlighter } from "shiki"
-import beardedThemeArcEolstorm from "$lib/docs/bearded-theme-arc-eolstorm.json?raw"
 
 const highlighter = await createHighlighter({
-    themes: [
-        ...Object.keys(bundledThemes),
-        JSON.parse(beardedThemeArcEolstorm),
-    ],
+    themes: [...Object.keys(bundledThemes)],
     langs: Object.keys(bundledLanguages),
 })
 
 export const codeToHtml = (code: string) => {
     const html = highlighter.codeToHtml(code, {
         lang: "md",
-        theme: "BeardedTheme Arc-eolstorm",
+        theme: "vitesse-dark",
     })
 
     return html
