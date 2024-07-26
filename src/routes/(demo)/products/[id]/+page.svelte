@@ -45,7 +45,7 @@
                 {#each data.tags as tag}
                     <li>
                         <a
-                            class="badge link badge-neutral text-xs"
+                            class="link rounded-full bg-gray-800 px-2 py-1 text-xs"
                             href="/products?tagIds={tag.id}"
                         >
                             {tag.name}
