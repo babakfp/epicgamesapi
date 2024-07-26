@@ -9,6 +9,9 @@
     * {
         @apply select-none drag-none;
     }
+    html {
+        scrollbar-width: thin;
+    }
 }
 
 @layer utilities {
