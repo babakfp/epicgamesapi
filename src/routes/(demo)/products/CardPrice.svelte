@@ -6,7 +6,7 @@
     const finalPrice = (price - discount) / 100
 </script>
 
-<div class={className}>
+<div class="{className} font-mono">
     {#if price !== 0}
         <span class={discount ? "line-through" : ""}>
             ${price / 100}
