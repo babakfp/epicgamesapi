@@ -25,4 +25,7 @@
     .font-mono {
         font-variation-settings: "MONO" 1;
     }
+    .link {
+        @apply hocus:text-white;
+    }
 }
