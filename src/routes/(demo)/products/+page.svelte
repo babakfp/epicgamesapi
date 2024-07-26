@@ -27,26 +27,28 @@
     {/each}
 </ul>
 
-<nav class="sticky bottom-4 mt-8 flex gap-2 rounded p-2 backdrop-blur">
+<nav class="sticky bottom-4 mt-8 flex gap-2 rounded p-1 backdrop-blur">
     <Button
         href="/products?start={data.pagination.start - data.pagination.limit}"
-        class="w-24"
+        class="w-24 text-xs"
         variant="secondary"
         disabled={!canGoBack}
     >
         Previous
     </Button>
 
-    <div class="rounded bg-gray-800 px-3.5 py-2.5 text-sm font-semibold">
+    <div
+        class="flex items-center rounded bg-gray-800 px-3.5 py-2.5 text-xs font-semibold"
+    >
         {currentPageNumber}/{totalPages}
     </div>
 
     <Button
         href="/products?start={data.pagination.start + data.pagination.limit}"
-        class="w-24"
+        class="w-24 text-xs"
         variant="secondary"
         disabled={!canGoForward}
     >
-        Previous
+        Next
     </Button>
 </nav>
