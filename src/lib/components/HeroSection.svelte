@@ -1,3 +1,7 @@
+<script lang="ts">
+    import Button from "$lib/components/Button.svelte"
+</script>
+
 <div class="overflow-hidden">
     <div class="relative isolate overflow-hidden px-6 lg:px-8">
         <div
@@ -23,25 +27,19 @@
                 <div
                     class="mt-10 flex flex-wrap items-center justify-center gap-6"
                 >
-                    <a
-                        href="/products"
-                        class="rounded-md bg-emerald-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600"
-                    >
+                    <Button href="/products" variant="primary">
                         Explore the Demo
-                    </a>
-                    <a
-                        href="/docs"
-                        class="rounded bg-white/5 px-3.5 py-2.5 text-sm font-semibold hover:bg-white/10 hover:text-white focus-visible:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
-                    >
+                    </Button>
+                    <Button href="/docs" variant="secondary">
                         Documentation
-                    </a>
-                    <a
+                    </Button>
+                    <Button
                         href="https://github.com/babakfp/epicgamesapi"
                         target="_blank"
-                        class="rounded px-3.5 py-2.5 text-sm font-semibold hover:text-white focus-visible:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-600"
+                        variant="ghost"
                     >
                         GitHub
-                    </a>
+                    </Button>
                 </div>
             </div>
         </div>

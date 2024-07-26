@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Button from "$lib/components/Button.svelte"
     import Card from "$lib/components/Card.svelte"
 
     export let data
@@ -26,26 +27,26 @@
     {/each}
 </ul>
 
-<nav class="join sticky bottom-4 mt-8">
-    <a
-        class="btn join-item btn-neutral no-animation w-24 text-xs {!canGoBack
-            ? 'btn-disabled !bg-base-100'
-            : ''}"
+<nav class="sticky bottom-4 mt-8 flex gap-2 rounded p-2 backdrop-blur">
+    <Button
         href="/products?start={data.pagination.start - data.pagination.limit}"
+        class="w-24"
+        variant="secondary"
+        disabled={!canGoBack}
     >
         Previous
-    </a>
-    <div
-        class="btn join-item btn-neutral no-animation pointer-events-none text-xs"
-    >
+    </Button>
+
+    <div class="rounded bg-gray-800 px-3.5 py-2.5 text-sm font-semibold">
         {currentPageNumber}/{totalPages}
     </div>
-    <a
-        class="btn join-item btn-neutral no-animation w-24 text-xs {!canGoForward
-            ? 'btn-disabled !bg-base-100'
-            : ''}"
+
+    <Button
         href="/products?start={data.pagination.start + data.pagination.limit}"
+        class="w-24"
+        variant="secondary"
+        disabled={!canGoForward}
     >
-        Next
-    </a>
+        Previous
+    </Button>
 </nav>
