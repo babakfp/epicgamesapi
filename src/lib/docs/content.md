@@ -246,13 +246,13 @@ Search tags by using a search query to filter them by Name.
 -   Type: `string`
 -   Example: `https://epicgamesapi.vercel.app/api/tags?search=Action`
 
-##### 🔶 `groupNames`
+##### 🔶 `groups`
 
 Search for Tags by a spesific group name. Example: `"genre"`, `"platform"`.
 
 -   Optional: `true`
 -   Type: `string`
--   Example: `https://epicgamesapi.vercel.app/api/tags?groupNames=genre,feature,platform`
+-   Example: `https://epicgamesapi.vercel.app/api/tags?groups=genre,feature,platform`
 
 ##### Response
 
@@ -269,19 +269,19 @@ Search for Tags by a spesific group name. Example: `"genre"`, `"platform"`.
         "id": 1,
         "name": "Action",
         "slug": "action",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 28,
         "name": "Multiplayer",
         "slug": "multiplayer",
-        "groupName": "feature"
+        "group": "feature"
     },
     {
         "id": 56,
         "name": "Windows",
         "slug": "windows",
-        "groupName": "platform"
+        "group": "platform"
     }
 ]
 ```
@@ -314,7 +314,7 @@ Get a single Tag by ID.
     "id": 1,
     "name": "Action",
     "slug": "action",
-    "groupName": "genre"
+    "group": "genre"
 }
 ```
 
@@ -352,7 +352,7 @@ Get a single Tag by Slug.
     "id": 1,
     "name": "Action",
     "slug": "action",
-    "groupName": "genre"
+    "group": "genre"
 }
 ```
 
@@ -397,6 +397,6 @@ Get a single Tag by Slug.
     id: number
     name: string
     slug: string
-    groupName: string
+    group: string
 }
 ```

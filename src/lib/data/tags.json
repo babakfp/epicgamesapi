@@ -3,336 +3,336 @@
         "id": 1,
         "name": "Action",
         "slug": "action",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 2,
         "name": "Action-Adventure",
         "slug": "action-adventure",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 3,
         "name": "Adventure",
         "slug": "adventure",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 4,
         "name": "Alexa Game Control",
         "slug": "alexa-game-control",
-        "groupName": "feature"
+        "group": "feature"
     },
     {
         "id": 5,
         "name": "Card Game",
         "slug": "card-game",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 6,
         "name": "Casual",
         "slug": "casual",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 7,
         "name": "Cat",
         "slug": "cat",
-        "groupName": "subscription"
+        "group": "subscription"
     },
     {
         "id": 8,
         "name": "City Builder",
         "slug": "city-builder",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 9,
         "name": "Co-op",
         "slug": "co-op",
-        "groupName": "feature"
+        "group": "feature"
     },
     {
         "id": 10,
         "name": "Comedy",
         "slug": "comedy",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 11,
         "name": "Competitive",
         "slug": "competitive",
-        "groupName": "feature"
+        "group": "feature"
     },
     {
         "id": 12,
         "name": "Controller Support",
         "slug": "controller-support",
-        "groupName": "feature"
+        "group": "feature"
     },
     {
         "id": 13,
         "name": "Cross Platform",
         "slug": "cross-platform",
-        "groupName": "feature"
+        "group": "feature"
     },
     {
         "id": 14,
         "name": "Deals of the Week",
         "slug": "deals-of-the-week",
-        "groupName": "event"
+        "group": "event"
     },
     {
         "id": 15,
         "name": "Dungeon Crawler",
         "slug": "dungeon-crawler",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 16,
         "name": "EA Classic Games on Epic",
         "slug": "ea-classic-games-on-epic",
-        "groupName": "event"
+        "group": "event"
     },
     {
         "id": 17,
         "name": "Exploration",
         "slug": "exploration",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 18,
         "name": "Fantasy",
         "slug": "fantasy",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 19,
         "name": "Fighting",
         "slug": "fighting",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 20,
         "name": "First Person",
         "slug": "first-person",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 21,
         "name": "First Run",
         "slug": "first-run",
-        "groupName": "event"
+        "group": "event"
     },
     {
         "id": 22,
         "name": "Horror",
         "slug": "horror",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 23,
         "name": "Indie",
         "slug": "indie",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 24,
         "name": "Local Multiplayer",
         "slug": "local-multiplayer",
-        "groupName": "feature"
+        "group": "feature"
     },
     {
         "id": 25,
         "name": "MMO",
         "slug": "mmo",
-        "groupName": "feature"
+        "group": "feature"
     },
     {
         "id": 26,
         "name": "MOBA",
         "slug": "moba",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 27,
         "name": "Mac",
         "slug": "mac",
-        "groupName": "platform"
+        "group": "platform"
     },
     {
         "id": 28,
         "name": "Multiplayer",
         "slug": "multiplayer",
-        "groupName": "feature"
+        "group": "feature"
     },
     {
         "id": 29,
         "name": "Music",
         "slug": "music",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 30,
         "name": "NIS America Golden Week Sale",
         "slug": "nis-america-golden-week-sale",
-        "groupName": "event"
+        "group": "event"
     },
     {
         "id": 31,
         "name": "Narration",
         "slug": "narration",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 32,
         "name": "Online Multiplayer",
         "slug": "online-multiplayer",
-        "groupName": "feature"
+        "group": "feature"
     },
     {
         "id": 33,
         "name": "Open World",
         "slug": "open-world",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 34,
         "name": "Party",
         "slug": "party",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 35,
         "name": "Platformer",
         "slug": "platformer",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 36,
         "name": "Puzzle",
         "slug": "puzzle",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 37,
         "name": "RPG",
         "slug": "rpg",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 38,
         "name": "RTS",
         "slug": "rts",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 39,
         "name": "Racing",
         "slug": "racing",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 40,
         "name": "Retro",
         "slug": "retro",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 41,
         "name": "Rogue-Lite",
         "slug": "rogue-lite",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 42,
         "name": "STAR WARS May The 4th",
         "slug": "star-wars-may-the-4th",
-        "groupName": "event"
+        "group": "event"
     },
     {
         "id": 43,
         "name": "Shooter",
         "slug": "shooter",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 44,
         "name": "Simulation",
         "slug": "simulation",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 45,
         "name": "Single Player",
         "slug": "single-player",
-        "groupName": "feature"
+        "group": "feature"
     },
     {
         "id": 46,
         "name": "Space",
         "slug": "space",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 47,
         "name": "Sports",
         "slug": "sports",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 48,
         "name": "Stealth",
         "slug": "stealth",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 49,
         "name": "Strategy",
         "slug": "strategy",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 50,
         "name": "Survival",
         "slug": "survival",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 51,
         "name": "Tower Defense",
         "slug": "tower-defense",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 52,
         "name": "Trivia",
         "slug": "trivia",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 53,
         "name": "Turn-Based",
         "slug": "turn-based",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 54,
         "name": "Turn-Based Strategy",
         "slug": "turn-based-strategy",
-        "groupName": "genre"
+        "group": "genre"
     },
     {
         "id": 55,
         "name": "VR",
         "slug": "vr",
-        "groupName": "feature"
+        "group": "feature"
     },
     {
         "id": 56,
         "name": "Windows",
         "slug": "windows",
-        "groupName": "platform"
+        "group": "platform"
     }
 ]

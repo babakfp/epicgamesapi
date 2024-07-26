@@ -2,8 +2,6 @@ import lunr from "lunr"
 import * as v from "valibot"
 import products from "$lib/data/products.json"
 
-const stringOfCommaSeparatedNumbersRegex = /^(\d+,)*\d+$/
-
 const SearchParamsSchema = v.object({
     search: v.optional(v.string()),
     minPrice: v.optional(
@@ -21,10 +19,9 @@ const SearchParamsSchema = v.object({
     tagIds: v.optional(
         v.pipe(
             v.string(),
-            v.regex(stringOfCommaSeparatedNumbersRegex),
+            v.regex(/^(\d+,)*\d+$/),
             v.transform((input) => {
-                const ids = input.split(",")
-                const Schema = v.array(
+                const IdsSchema = v.array(
                     v.pipe(
                         v.unknown(),
                         v.transform(Number),
@@ -32,8 +29,7 @@ const SearchParamsSchema = v.object({
                         v.minValue(1),
                     ),
                 )
-                const parsedIds = v.parse(Schema, ids)
-                return parsedIds
+                return v.parse(IdsSchema, input.split(","))
             }),
         ),
     ),

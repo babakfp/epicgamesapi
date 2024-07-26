@@ -2,19 +2,15 @@ import lunr from "lunr"
 import * as v from "valibot"
 import tags from "$lib/data/tags.json"
 
-const stringOfCommaSeparatedLowercaseWordsRegex = /^([a-z]+,)*[a-z]+$/
-
 const SearchParamsSchema = v.object({
     search: v.optional(v.string()),
-    groupNames: v.optional(
+    groups: v.optional(
         v.pipe(
             v.string(),
-            v.regex(stringOfCommaSeparatedLowercaseWordsRegex),
+            v.regex(/^([a-z]+,)*[a-z]+$/),
             v.transform((input) => {
-                const ids = input.split(",")
-                const Schema = v.array(v.string())
-                const parsedIds = v.parse(Schema, ids)
-                return parsedIds
+                const GroupsSchema = v.array(v.pipe(v.string(), v.minLength(1)))
+                return v.parse(GroupsSchema, input.split(","))
             }),
         ),
     ),
@@ -23,7 +19,7 @@ const SearchParamsSchema = v.object({
 export const GET = async ({ url }) => {
     try {
         const searchParams = Object.fromEntries(Array.from(url.searchParams))
-        const { search, groupNames } = v.parse(SearchParamsSchema, searchParams)
+        const { search, groups } = v.parse(SearchParamsSchema, searchParams)
 
         let results: typeof tags = []
 
@@ -47,10 +43,8 @@ export const GET = async ({ url }) => {
             })
         }
 
-        if (groupNames?.length) {
-            results = results.filter((tag) =>
-                groupNames.includes(tag.groupName),
-            )
+        if (groups?.length) {
+            results = results.filter((tag) => groups.includes(tag.group))
         }
 
         return new Response(JSON.stringify(results))
