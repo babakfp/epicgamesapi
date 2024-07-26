@@ -3,7 +3,6 @@ import { allAddons } from "tailwindcss-addons"
 import colors from "tailwindcss/colors"
 import defaultTheme from "tailwindcss/defaultTheme"
 
-/** @type {import("tailwindcss").Config} */
 export default {
     content: ["./src/**/*.{html,svelte}"],
     theme: {
