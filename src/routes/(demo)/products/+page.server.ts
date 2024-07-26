@@ -10,8 +10,8 @@ type Data = {
     }
 }
 
-export const load = async ({ fetch }) => {
-    const res = await fetch("/api/products")
+export const load = async ({ fetch, url }) => {
+    const res = await fetch(`/api/products${url.search}`)
     if (!res.ok) {
         return error(res.status, res.statusText)
     }
