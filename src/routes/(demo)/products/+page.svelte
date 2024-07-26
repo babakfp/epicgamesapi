@@ -29,7 +29,7 @@
 <nav class="join sticky bottom-4 mt-8">
     <a
         class="btn join-item btn-neutral no-animation w-24 text-xs {!canGoBack
-            ? 'btn-disabled'
+            ? 'btn-disabled !bg-base-100'
             : ''}"
         href="/products?start={data.pagination.start - data.pagination.limit}"
     >
@@ -42,7 +42,7 @@
     </div>
     <a
         class="btn join-item btn-neutral no-animation w-24 text-xs {!canGoForward
-            ? 'btn-disabled'
+            ? 'btn-disabled !bg-base-100'
             : ''}"
         href="/products?start={data.pagination.start + data.pagination.limit}"
     >
