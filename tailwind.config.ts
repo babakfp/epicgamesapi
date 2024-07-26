@@ -1,4 +1,3 @@
-import daisyui from "daisyui"
 import type { Config } from "tailwindcss"
 import { allAddons } from "tailwindcss-addons"
 import colors from "tailwindcss/colors"
@@ -25,6 +24,5 @@ export default {
             padding: "1rem",
         },
     },
-    plugins: [daisyui, ...allAddons()],
-    daisyui: { logs: false },
+    plugins: [...allAddons()],
 } satisfies Config

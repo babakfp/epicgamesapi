@@ -13,7 +13,6 @@
         "@types/lunr": "2.3.7",
         "@types/node": "20.14.12",
         "autoprefixer": "10.4.19",
-        "daisyui": "4.12.10",
         "lunr": "2.3.9",
         "postcss": "8.4.40",
         "prettier-plugin-svelte": "3.2.6",
