@@ -1,36 +1,66 @@
 <script lang="ts">
-    export let src: string
-    export let alt: string
-    export let loading: HTMLImageElement["loading"] = "eager"
-    export let className = ""
-    export let placeholder = false
-    export let aspectRatio: "tall" | "wide"
+    import { untrack } from "svelte"
 
-    let isLoaded = false
-    let isFailedToLoad = false
+    interface Props {
+        src: string
+        alt: string
+        loading?: HTMLImageElement["loading"]
+        className?: string
+        placeholder?: boolean
+        aspectRatio: "tall" | "wide"
+    }
+
+    let {
+        src,
+        alt,
+        loading = "eager",
+        className = "",
+        placeholder = false,
+        aspectRatio,
+    }: Props = $props()
+
+    let isLoaded = $state(false)
+    let isFailedToLoad = $state(false)
+
+    // reset loading state whenever the src changes
+    $effect(() => {
+        src // dependency
+        untrack(() => {
+            isLoaded = false
+            isFailedToLoad = false
+        })
+    })
 </script>
 
-<div class="relative overflow-hidden rounded will-change-transform {className}">
+<div
+    class={[
+        "relative overflow-hidden rounded will-change-transform",
+        className,
+    ]}
+>
     <div
-        class="bg-gray-700 {aspectRatio === 'tall'
-            ? 'aspect-[3/4]'
-            : 'aspect-video'} {!placeholder && !isLoaded && !isFailedToLoad
-            ? 'animate-pulse'
-            : ''}"
-    />
+        class={[
+            "bg-gray-700",
+            aspectRatio === "tall" ? "aspect-3/4" : "aspect-video",
+            !placeholder && !isLoaded && !isFailedToLoad && "animate-pulse",
+        ]}
+    ></div>
 
     {#if !placeholder}
         {#if isFailedToLoad}
-            <div class="absolute text-center text-xs inset-center">Failed!</div>
+            <div class="inset-center absolute text-center text-xs">Failed!</div>
+        {:else}
+            <img
+                class={[
+                    "absolute inset-0 transition-opacity duration-200",
+                    isLoaded ? "opacity-100" : "opacity-0",
+                ]}
+                {src}
+                {alt}
+                {loading}
+                onload={() => (isLoaded = true)}
+                onerror={() => (isFailedToLoad = true)}
+            />
         {/if}
-
-        <img
-            class="absolute inset-0"
-            {src}
-            {alt}
-            {loading}
-            on:load={() => (isLoaded = true)}
-            on:error={() => (isFailedToLoad = true)}
-        />
     {/if}
 </div>

@@ -2,18 +2,22 @@
     import Button from "$lib/components/Button.svelte"
     import Card from "$lib/components/Card.svelte"
 
-    export let data
+    let { data } = $props()
 
-    $: canGoBack = data.pagination.start > 0
-    $: canGoForward =
-        data.pagination.start + data.pagination.limit < data.pagination.total
+    const canGoBack = $derived(data.pagination.start > 0)
+    const canGoForward = $derived(
+        data.pagination.start + data.pagination.limit < data.pagination.total,
+    )
 
-    $: totalPages = Math.ceil(data.pagination.total / data.pagination.limit)
-    $: currentPageNumber =
-        Math.ceil(data.pagination.start / data.pagination.limit) + 1
+    const totalPages = $derived(
+        Math.ceil(data.pagination.total / data.pagination.limit),
+    )
+    const currentPageNumber = $derived(
+        Math.ceil(data.pagination.start / data.pagination.limit) + 1,
+    )
 
-    $: pagesLeftToGoBack = currentPageNumber - 1
-    $: pagesLeftToGoForward = totalPages - currentPageNumber
+    const pagesLeftToGoBack = $derived(currentPageNumber - 1)
+    const pagesLeftToGoForward = $derived(totalPages - currentPageNumber)
 </script>
 
 <svelte:head>
@@ -30,12 +34,10 @@
     {/each}
 </ul>
 
-<nav
-    class="sticky bottom-4 mt-8 grid grid-cols-2 gap-2 rounded p-1 backdrop-blur"
->
+<nav class="sticky bottom-4 mt-8 grid grid-cols-2 gap-2">
     <Button
         href="/products?start={data.pagination.start - data.pagination.limit}"
-        class="px-6 text-xs"
+        class="border-background! border! px-6 text-xs"
         variant="secondary"
         disabled={!canGoBack}
     >
@@ -43,7 +45,7 @@
     </Button>
     <Button
         href="/products?start={data.pagination.start + data.pagination.limit}"
-        class="px-6 text-xs"
+        class="border-background! border! px-6 text-xs"
         variant="secondary"
         disabled={!canGoForward}
     >

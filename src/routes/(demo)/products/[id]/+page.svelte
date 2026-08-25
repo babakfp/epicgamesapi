@@ -2,7 +2,7 @@
     import CardImage from "$lib/components/CardImage.svelte"
     import CardPrice from "$lib/components/CardPrice.svelte"
 
-    export let data
+    let { data } = $props()
 </script>
 
 <svelte:head>

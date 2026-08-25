@@ -1,12 +1,16 @@
 <script lang="ts">
-    export let price: number
-    export let discount: number
-    export let className = ""
+    interface Props {
+        price: number
+        discount: number
+        className?: string
+    }
 
-    const finalPrice = (price - discount) / 100
+    let { price, discount, className = "" }: Props = $props()
+
+    const finalPrice = $derived((price - discount) / 100)
 </script>
 
-<div class="{className} font-mono">
+<div class={[className, "font-mono"]}>
     {#if price !== 0}
         <span class={discount ? "line-through" : ""}>
             ${price / 100}

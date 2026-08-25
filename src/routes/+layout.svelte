@@ -1,8 +1,15 @@
 <script lang="ts">
+    import "$lib/app.css"
+    import type { Snippet } from "svelte"
     import { LoadingBar } from "svelte-loading-bar"
     import { onNavigate } from "$app/navigation"
-    import Nav from "$lib/components/Nav.svelte"
-    import "$lib/app.css"
+    import Header from "$lib/components/Header.svelte"
+
+    interface Props {
+        children: Snippet
+    }
+
+    let { children }: Props = $props()
 
     onNavigate((navigation) => {
         if (!(document as any).startViewTransition) return
@@ -17,6 +24,6 @@
 
 <LoadingBar />
 
-<Nav />
+<Header />
 
-<slot />
+{@render children()}

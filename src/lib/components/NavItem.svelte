@@ -1,11 +1,19 @@
 <script lang="ts">
-    export let href: string
-    export let className = ""
-    export { className as class }
+    import type { Snippet } from "svelte"
+
+    interface Props {
+        href: string
+        children: Snippet
+    }
+
+    let { href, children }: Props = $props()
 </script>
 
-<li>
-    <a {href} class="{className} flex h-8 items-center px-2 hover:text-white">
-        <slot />
+<li class="group">
+    <a
+        {href}
+        class="flex h-(--header-height) items-center px-2 group-first:pl-4 group-last:pr-4 hover:text-white"
+    >
+        {@render children()}
     </a>
 </li>

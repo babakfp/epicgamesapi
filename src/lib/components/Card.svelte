@@ -3,7 +3,11 @@
     import CardPrice from "$lib/components/CardPrice.svelte"
     import type Products from "$lib/data/products.json"
 
-    export let product: (typeof Products)[number]
+    interface Props {
+        product: (typeof Products)[number]
+    }
+
+    let { product }: Props = $props()
 </script>
 
 <a class="group grid gap-2" href="/products/{product.id}">
